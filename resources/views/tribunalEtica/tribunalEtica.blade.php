@@ -1,6 +1,6 @@
 @extends('layouts.layouts')
 
-@section('title', 'CDA-TRIBUNAL')
+@section('title', 'CDA-TRIBUNALETICA')
 
 @section('content')
 <section class="hero-section inner-page">
