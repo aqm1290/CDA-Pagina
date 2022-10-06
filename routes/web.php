@@ -26,4 +26,5 @@ Route::get('/directorioEjecutivo', [App\Http\Controllers\directorioController::c
 Route::get('/requisitosInscripcion', [App\Http\Controllers\RequisitosInscripcionController::class, 'index'])->name('inscripcion');
 Route::get('/cursos', [App\Http\Controllers\CursosController::class, 'index'])->name('cursos');
 Route::get('/tribunalEtica', [App\Http\Controllers\TribunalEticaController::class, 'index'])->name('tribunal');
+Route::get('/consejoTecnico', [App\Http\Controllers\ConsejoTecnicoController::class, 'index'])->name('consejo');
 

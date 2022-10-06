@@ -1237,8 +1237,8 @@ section {
 # Pricing Section
 --------------------------------------------------------------*/
 .pricing {
-  margin-top: 20px;
-  background: #ffffff .5  ;
+  margin-bottom: 30px;
+  background: #ffffff   ;
   
 }
 
@@ -1246,12 +1246,12 @@ section {
   border-bottom: 1px dashed #171b1f;
   width: 100%;
   height: 100%;
-  padding: 0 0 15px 0;
+  padding: 0 0 5px 0;
   
 }
 
 .pricing .pricing-item h3 {
-  margin: 0;
+  margin: 0px;
   font-size: 18px;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.6);
@@ -1541,3 +1541,180 @@ section {
   padding: 0;
 }
 
+/*--------------------------------------------------------------
+# Call To Action Section
+--------------------------------------------------------------*/
+.cta1 {
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.cta1 .container {
+  padding: 50px;
+  background: #0016531f;
+  border-radius: 25px;
+}
+
+@media (max-width: 992px) {
+  .cta1 .container {
+    padding: 60px;
+  }
+}
+
+.cta1 .content h3 {
+  color: #1c2225;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.cta1 .content h3 em {
+  font-style: normal;
+  position: relative;
+}
+
+.cta1 .content h3 em:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  height: 10px;
+  background: #003e7765 ;
+  z-index: -1;
+}
+
+.cta1 .content p {
+  color: #485664;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.cta1 .content .cta1-btn {
+  color:  #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 15px;
+  transition: 0.5s;
+  margin-top: 10px;
+  background: #004e61;
+}
+
+.cta1 .content .cta1-btn:hover {
+  background: #00b1cc;
+}
+
+.cta1 .img {
+  position: relative;
+}
+
+.cta1 .img:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:rgb(182, 182, 182);
+  border-radius: 15px;
+  transform: rotate(12deg);
+}
+
+.cta1 .img:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #646464;
+  border-radius: 15px;
+  transform: rotate(6deg);
+}
+
+.cta1 .img img {
+  position: relative;
+  z-index: 3;
+  border-radius: 15px;
+}
+
+
+
+
+
+
+.pricing1 {
+  padding: 50px;
+  background: linear-gradient(-45deg, #1391a5, #274685);
+  color: #fff;
+  padding-bottom: 12rem !important;
+  position: relative;
+  border-radius: 4px;
+  color: #000000;
+  background: #fff;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+}
+
+.pricing1 h3 {
+  color: #2d71a1;
+}
+
+.pricing1 .price-cta {
+  text-decoration: none;
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  text-align: center;
+  left: 0;
+}
+
+.pricing1 .price-cta .price {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.pricing1 .popularity {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.2rem;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.pricing1 ul {
+  margin-bottom: 50px;
+}
+
+.pricing1 ul li {
+  margin-bottom: 10px;
+}
+
+.pricing1 .btn-white {
+  background: #fff;
+  border: 2px solid rgb(241, 241, 241);
+  border-radius: 4px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing1 .btn-white:hover {
+  color: #2d71a1;
+}
+
+.pricing1.popular {
+  background: #fff;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+  color: #000000;
+  background: linear-gradient(-45deg, #1391a5, #274685);
+  color: #fff;
+  box-shadow: none;
+}
+
+.pricing1.popular .popularity {
+  color: #b3b3b3;
+}
+
+.pricing1.popular h3 {
+  color: #fff;
+  background: none;
+}
+
+.pricing1.popular .btn-white {
+  border: 2px solid #2d71a1;
+}

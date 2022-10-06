@@ -1,6 +1,6 @@
 @extends('layouts.layouts')
 
-@section('title', 'CDA-TRIBUNALETICA')
+@section('title', 'CDA-CBBA')
 
 @section('content')
 <section class="hero-section inner-page">
@@ -21,7 +21,7 @@
             <div class="col-12">
                 <div class="row justify-content-center">
                     <div class="col-md-9 text-center hero-text">
-                        <h1 data-aos="fade-up" data-aos-delay="100">TRIBUNAL Y ETICA
+                        <h1 data-aos="fade-up" data-aos-delay="100">TRIBUNAL DE ETICA
                         </h1>
                         
                     </div>
@@ -31,7 +31,88 @@
     </div>
 </section>
 <main id="main">
+    <!-- Our Values Section -->
+    <section id="our-values" class="our-values">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 d-flex align-items-stretch">
+                    <div class="card">
+                        <div class="card-body">  
+                            <section id="faq" data-aos="flip-left" class="faq section-bg">
+                                <div class="container" >
+                                    <div class="section-title">
+                                        <h2 class="card-title">Tribunal de Ética Profesional</h2>
+                                        <p class="card-text parrafo">
+                                            En fecha 16 de octubre de 2021, dados los resultados de la elección por voto directo en segunda vuelta de fecha 09 de octubre de 2021, tomó posesión el actual Directorio del Tribunal de Ética Profesional  por la Gestión 2021 – 2023 en su calidad de frente ganador bajo la sigla  CPA de acuerdo al siguiente detalle de carteras:                                        
+                                        </p>
+                                        <p class="card-text parrafo">
+                                            Para conocimiento general, ponemos en conocimiento el reglamento del Tribunal de Ética Profesión actualmente en vigencia
+                                        el presente documento usted podrá encontrar el "Código de Ética y el Reglamento del Tribunal de Ética Profesional"
+                                        </p>
+                                        <section id="cta" class="cta">
+                                                
+                                            <div class="text-center">
+                                                <a class="cta-btn" href="https://www.auditores.org.bo/static/ftp/files/estatutos/reglamento%20Etica.pdf" target="_blank">Para descargar el reglamento clic aqui!!
 
+                                                </a>
+                                            </div>
+                                        
+                                        </section><!-- End Cta Section -->
+                                        <br>
+                                            <!-- ======= Pricing Section ======= -->
+                                        <section id="pricing" class="pricing">
+                                            <div class="container">
+                                                <div class="section-header">
+                                                    <img src="{{asset('img/Y30I1TlY.jpg')}}" alt="" class="img-fluid">
+                                                    <br>
+                                                </div>
+                                                <div class="row gy-4 gx-lg-5">
+                                                    <div class="col-lg-12">
+                                                        <div class="pricing-item d-flex justify-content-between">
+                                                            
+                                                            <h3>PRESIDENTE </h3>
+                                                            <h4>Lic. Aud. Marco Antonio Soto Velásquez</h4>
+                                                        </div>
+                                                    </div><!-- End Pricing Item -->
+                                                    <div class="col-lg-12">
+                                                        <div class="pricing-item d-flex justify-content-between">
+                                                            <h3>SECRETARIO GENERAL</h3>
+                                                            <h4>Lic. Aud. Carlos Cesar Herbas Velasquez</h4>
+                                                        </div>
+                                                    </div><!-- End Pricing Item -->
+                                                    <div class="col-lg-12">
+                                                        <div class="pricing-item d-flex justify-content-between">
+                                                            <h3>SECRETARIA DE ACTAS</h3>
+                                                            <h4>Lic. Aud. Mery Magdalena Mamani Quispe</h4>
+                                                        </div>
+                                                    </div><!-- End Pricing Item -->
+                                                    <div class="col-lg-12">
+                                                        <div class="pricing-item d-flex justify-content-between">
+                                                            <h3>VOCAL</h3>
+                                                            <h4>Lic. Aud. Maria E. Peñafiel Calizaya</h4>
+                                                        </div>
+                                                    </div><!-- End Pricing Item -->
+                                                    <div class="col-lg-12">
+                                                        <div class="pricing-item d-flex justify-content-between">
+                                                            <h3>VOCAL </h3>
+                                                            <h4>Lic. Aud. Maria Virginia Montero Lara</h4>
+                                                        </div>
+                                                    </div><!-- End Pricing Item -->
+                                                    
+                                                </div>
+                                            </div>
+                                        </section><!-- End Pricing Section -->
+                                    </div>
+                                </div>
+                            </section>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Our Values Section -->
 </main>
 
 @endsection

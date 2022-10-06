@@ -8,6 +8,6 @@ class TribunalEticaController extends Controller
 {
     public function index()
     {
-        return view('inscripcion.requisitosInscripcion');
+        return view('tribunalEtica.tribunalEtica');
     }
 }
