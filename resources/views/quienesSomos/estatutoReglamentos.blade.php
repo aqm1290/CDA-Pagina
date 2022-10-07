@@ -40,7 +40,7 @@
                     <div class="card"{{--  style='background-image: url("assets/img/our-values-1.jpg");' --}}>
                         <div class="card-body">  
                             <section id="faq" data-aos="flip-left" class="faq section-bg">
-                                <div class="container" >
+                                <div class="container" data-aos="fade-up">
                                 <div class="section-title">
                                     <h2 class="card-title">Proyecto de Estatuto</h2>
                                 <p class="card-text parrafo">
@@ -48,22 +48,20 @@
                                 </p>
                                 </div>
                                 <div class="faq-list">
-                                    <ul>
+                                    <ul data-aos="fade-up">
                                         <li data-aos="zoom-in-down" data-aos-delay="300">
-                                            <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">PROYECTO DE ESTATUTO  <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                                            <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                                            <a data-bs-toggle="collapse" data-bs-target="#faq-list-1" class="collapsed">PROYECTO DE ESTATUTO  <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                                            <div id="faq-list-1" class="collapse" data-bs-parent=".faq-list">
                                             <p class="parrafo">
                                                 Después de haber sido revisado el Proyecto de Estatuto Orgánico por la comisión designada en Asamblea de fecha 04 de octubre del 2014 y consultado sobre aspectos legales de forma, hacemos conocer a ustedes el Proyecto de Estatuto Orgánico, para su pronunciamiento en aspectos de forma, además se aclara que se incorporó en el Art.º 7,  las disposiciones referentes a la ley contra el racismo y toda forma de discriminación producto de una exigencia de nuestro ente regulador (Gobernación). El mencionado PROYECTO DE ESTATUTO y aprobado y revisado mediante asamblea, se encuentra actualmente en revisión a aprobación por la Gobernación de Cochabamba                                            </p>
                                             </div>
                                         </li> 
                                     
                                     <section id="cta" class="cta">
-                                                
                                         <div class="text-center" data-aos="zoom-in-down"  data-aos-delay="300">
                                             <a class="cta-btn"   href="https://www.auditores.org.bo/static/ftp/files/estatutos/PROYECTO_DE_ESTATUTO_FINAL_02122014.pdf" target="_blank">DESCARGAR PROYECTO DE ESTATUTO</a>
                                         </div>
-                                    
-                                </section><!-- End Cta Section -->
+                                    </section><!-- End Cta Section -->
                                     </ul>
                                     
                                 </div>
@@ -78,7 +76,7 @@
                 <div class="col-md-12 d-flex align-items-stretch">
                     <div class="card"{{--  style='background-image: url("assets/img/our-values-1.jpg");' --}}>
                         <div class="card-body">  
-                            <section id="faq" class="faq section-bg" data-aos="flip-right">
+                            <section id="faq" class="faq section-bg" >
                                 <div class="container">
                                 <div class="section-title">
                                     <h2 class="card-title">ESTATUTO ORGANICO</h2>
@@ -87,11 +85,11 @@
                                 
                                 </div>
                                 <div class="faq-list">
-                                    <ul>
-                                        <li data-aos="fade-up" data-aos-delay="300">
+                                    <ul data-aos="fade-up">
+                                        <li data-aos="fade-up" data-aos-delay="200">
                                             <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">ESTATUTO ORGANICO <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                                             <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-                                            <p class="parrafo">
+                                                <p class="parrafo">
                                                 De la Constitución, Naturaleza y Fines <br>
 
                                                 <b>Art. N° 1.-</b> El Colegio de Auditores (Contadores Públicos) del departamento de Cochabamba, de conformidad al Decreto Supremo N° 23396 de fecha 3 de febrero de 1993, agrupa, representa y regula el

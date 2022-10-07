@@ -16,6 +16,9 @@
 
     
     
+    <link href="{!! asset('vendor/fontawesome-free/css/all.min.css')!!}" rel="stylesheet">
+    <link href="{!! asset('vendor/animate.css/animate.min.css')!!}" rel="stylesheet">
+ 
     <link href="{!! asset('vendor/aos/aos.css')!!}" rel="stylesheet">
     <link href="{!! asset('vendor/bootstrap/css/bootstrap.min.css')!!}" rel="stylesheet"> 
     <link href="{!! asset('vendor/bootstrap-icons/bootstrap-icons.css')!!}" rel="stylesheet">
@@ -25,6 +28,7 @@
     <link href="{!! asset('vendor/swiper/swiper-bundle.min.css')!!}" rel="stylesheet"> 
 {{-- css --}}
     <link href="{!! asset('css/style.css') !!}" rel="stylesheet"/>
+    <link rel="stylesheet" href="{!!asset('css/portofolio.css')!!}">
     <link href="{!! asset('css/footer.css') !!}" rel="stylesheet"/>
     {{-- js --}}
 
@@ -38,7 +42,7 @@
         <div class="container d-flex justify-content-between align-items-center">
 
         <div class="logo">
-            <h1><a href="personeriaJuridica"><img src="{{asset('img/Logo HD.fw.png')}}" alt="" class="img-fluid">  CDA</a></h1>
+            <h1><a href="/"><img src="{{asset('img/Logo HD.fw.png')}}" alt="" class="img-fluid">  CDA</a></h1>
         </div>
 
         <nav id="navbar" class="navbar">
@@ -48,7 +52,7 @@
                 <ul>
                 <li><a href="personeriaJuridica">Personería Juridica</a></li>
                 <li><a href="estatutoReglamentos">Estatuto y Reglamento</a></li>
-                <li><a href="">Estructura Organica</a></li>
+                <li><a href="/">Estructura Organica</a></li>
                 <li><a href="directorioEjecutivo">Directorio Ejecutivo</a></li>
                 </ul>
             </li>
@@ -88,8 +92,8 @@
                 
                 </ul>
             </li>
-            <li><a href="#departments" class="nav-link scrollto">Tribunal de Ética</a></li>
-            <li><a href="#departments" class="nav-link scrollto">Consejo Tecnico</a></li>
+            <li><a href="tribunalEtica" class="nav-link scrollto">Tribunal de Ética</a></li>
+            <li><a href="consejoTecnico" class="nav-link scrollto">Consejo Tecnico</a></li>
 
             <li><a href="requisitosInscripcion">Requisitos de Inscripcion</a></li>
             
@@ -109,6 +113,7 @@
     <footer class="footer" role="contentinfo">
         <div class="container">
         <div class="row">
+            
             <div class="col-md-6 mb-4 mb-md-0">
                 <h3><img src="{{asset('img/Logo HD.fw.png')}}" alt="" class="" style="height: 50px;"> COLEGIO DEPARTAMENTAL DE AUDITORES </h3>
                 

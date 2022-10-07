@@ -91,7 +91,7 @@
             <div class="container">
         
                 <div class="row justify-content-center text-center mb-5">
-                <div class="col-md-5" data-aos="fade-up">
+                <div class="col-md-9" data-aos="fade-up">
                     <h2 class="section-heading">NUESTROS AFILIADOS</h2>
                 </div>
                 </div>
@@ -127,150 +127,73 @@
                 </div>
             </div>
             </section>
-<!-- ======= Portfolio Section ======= -->
-            <section id="portfolio" class="portfolio">
-                <div class="container" data-aos="fade-up">
-                    <div class="row justify-content-center text-center mb-5">
-                        <div class="col-md-9" data-aos="fade-up">
-                            <h2 class="section-heading">CURSOS Y TALLERES </h2>
-                        </div>
-                    </div>
-                <div class="row" data-aos="fade-up" data-aos-delay="100">
-                    <div class="col-lg-12 d-flex justify-content-center">
-                    <ul id="portfolio-flters">
-                        <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-app">App</li>
-                        <li data-filter=".filter-card">Card</li>
-                        <li data-filter=".filter-web">Web</li>
-                    </ul>
-                    </div>
-                </div>
-                <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <img src="{{asset('img/Logo HD.fw.png')}}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                        <h4>App 1</h4>
-                        <p>App</p>
-                        <div class="portfolio-links">
-                            <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-wrap">
-                        <img src="{{asset('img/Logo HD.fw.png')}}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                        <h4>Web 3</h4>
-                        <p>Web</p>
-                        <div class="portfolio-links">
-                            <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <img src="{{asset('img/Logo HD.fw.png')}}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                        <h4>App 2</h4>
-                        <p>App</p>
-                        <div class="portfolio-links">
-                            <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <div class="portfolio-wrap">
-                        <img src="{{asset('img/Logo HD.fw.png')}}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                        <h4>Card 2</h4>
-                        <p>Card</p>
-                        <div class="portfolio-links">
-                            <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-wrap">
-                        <img src="{{asset('img/Logo HD.fw.png')}}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                        <h4>Web 2</h4>
-                        <p>Web</p>
-                        <div class="portfolio-links">
-                            <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
+  <!-- ======= Portfolio Section ======= -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <img src="{{asset('img/Logo HD.fw.png')}}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                        <h4>App 3</h4>
-                        <p>App</p>
-                        <div class="portfolio-links">
-                            <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
+        <div class="col-md-9" data-aos="fade-up">
+            <h2 class="section-heading">NUESTROS CURSOS Y TALLERES</h2>
+        </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <div class="portfolio-wrap">
-                        <img src="{{asset('img/Logo HD.fw.png')}}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                        <h4>Card 1</h4>
-                        <p>Card</p>
-                        <div class="portfolio-links">
-                            <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
+        <div class="row" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-12 d-flex justify-content-center">
+                <ul id="portfolio-flters">
+                    <li data-filter="*" class="filter-active">CURSOS</li>
+                    <li data-filter=".filter-app">TALLERES</li>
+                    <li data-filter=".filter-card">SEMINARIOS</li>
+                    <li data-filter=".filter-web">NOTICIAS</li>
+                </ul>
+            </div>
+        </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <div class="portfolio-wrap">
-                        <img src="{{asset('img/Logo HD.fw.png')}}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                        
-                        <div class="portfolio-links">
-                            <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
+      <div class="row portfolio-container">
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <div class="portfolio-wrap">
-                            <img src="{{asset('img/face.jpg')}}" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <p>Web</p>
-                                <div class="portfolio-links">
-                                    <a href="{{asset('img/face.jpg')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
-                                    <a href="cursos" title="More Details"><i class="bx bx-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos="fade-up" data-aos-delay="250">
+          <div class="portfolio-wrap">
+            <img src="{{asset('img/face.jpg')}}"  class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 1</h4>
+              <p>App</p>
+              <div class="portfolio-links">
+                <a href="{{asset('img/Logo HD.fw.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
 
-                </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-aos="fade-up" data-aos-delay="260">
+          <div class="portfolio-wrap">
+            <img src="{{asset('img/face.jpg')}}"  class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <div class="portfolio-links">
+                <a href="{{asset('img/Logo HD.fw.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
 
-                </div>
-            </section><!-- End Portfolio Section -->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos="fade-up" data-aos-delay="270">
+          <div class="portfolio-wrap">
+            <img src="{{asset('img/face.jpg')}}" class="img-fluid" alt="" >
+            <div class="portfolio-info">
+              <h4>App 2</h4>
+              <p>App</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
 
+      </div>
+
+    </div>
+  </section><!-- End Portfolio Section -->
 
 
 
@@ -450,33 +373,26 @@
             <section class="section">
                 <div class="container">
                     <div class="row justify-content-center text-center mb-5" data-aos="fade">
-                        <div class="col-md-6 mb-5">
-                            <h2>COMPLEJO FOTOS</h2>
-                            {{-- <img src="{{asset('img/Logo HD.fw.png')}}" alt="Image" class="img-fluid"> --}}
+                        <div class="col-md-8">
+                            <h2 class="section-heading">COMPLEJO FOTOS</h2>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <div class="step">
                                 <span class="number">01</span>
                                 <h3>QUE ES EL COMPLEJO DONDE ESTA Y UBICACION CONOCE EL COMPLEJO</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <div class="step">
                             <span class="number">02</span>
                             <h3>QUE TENEMOS EN EL COMPLEJO</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="step">
-                            <span class="number">03</span>
-                            <h3></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
-                            </div>
-                    </div>
+                    
                     </div>
                 </div>
         
@@ -576,8 +492,8 @@
                 </div>
             </section><!-- End Testimonials Section -->
         
-            <!-- ======= CTA Section ======= -->
-            <section class="section cta-section">
+            <!-- ======= CTA2 Section ======= -->
+            <section class="section cta2-section">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-12 me-auto text-center text-md-start mb-3 mb-md-0">

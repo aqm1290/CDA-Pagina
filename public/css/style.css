@@ -315,22 +315,6 @@ section {
   color: #2d71a1;
 }
 
-.pricing .price-cta {
-  text-decoration: none;
-  position: absolute;
-  bottom: 50px;
-  width: 100%;
-  text-align: center;
-  left: 0;
-}
-
-.pricing .price-cta .price {
-  display: block;
-  margin-bottom: 20px;
-  font-size: 2rem;
-  font-weight: 300;
-}
-
 .pricing .popularity {
   text-transform: uppercase;
   font-size: 12px;
@@ -380,125 +364,37 @@ section {
   border: 2px solid #2d71a1;
 }
 
-/* CTA Section */
-.cta-section {
+/* CTA2 Section */
+.cta2-section {
   background: linear-gradient(to right, rgb(39, 70, 133) 0%, rgb(61, 179, 197) 100%);
   color: #fff;
 }
 
-.cta-section h2 {
+.cta2-section h2 {
   color: #fff;
   font-size: 3rem;
   font-weight: 700;
 }
 
 @media screen and (max-width: 768px) {
-  .cta-section h2 {
+  .cta2-section h2 {
     font-size: 2rem;
   }
 }
 
-.cta-section .btn {
+.cta2-section .btn {
   background: #000000;
   color: #fff;
 }
 
-.cta-section .btn i {
+.cta2-section .btn i {
   margin-right: 5px;
   font-size: 24px;
   line-height: 0;
 }
 
-/* Contact Form */
-.form-control {
-  height: 48px;
-  border-radius: 0;
-  border: 1px solid #dae0e5;
-}
-
-.form-control:active,
-.form-control:focus {
-  outline: none;
-  box-shadow: none;
-  border: 1px solid #2d71a1;
-}
-
-.php-email-form .validate {
-  display: none;
-  color: red;
-  margin: 0 0 15px 0;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-.php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.php-email-form .error-message br+br {
-  margin-top: 25px;
-}
-
-.php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-
-.php-email-form textarea {
-  min-height: 160px;
-}
-
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
 /* Blog */
-.post-entry {
+/* .post-entry {
   margin-bottom: 60px;
 }
 
@@ -668,7 +564,7 @@ section {
   right: 20px;
   transform: translateY(-50%);
 }
-
+ */
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -1353,9 +1249,9 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
+/* /*--------------------------------------------------------------
 # Portfolio
---------------------------------------------------------------*/
+--------------------------------------------------------------
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -1476,9 +1372,9 @@ section {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
+--------------------------------------------------------------
 # Portfolio Details
---------------------------------------------------------------*/
+--------------------------------------------------------------
 .portfolio-details {
   padding-top: 20px;
 }
@@ -1539,19 +1435,19 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
-}
+} */
 
 /*--------------------------------------------------------------
 # Call To Action Section
 --------------------------------------------------------------*/
 .cta1 {
   padding: 0;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .cta1 .container {
   padding: 50px;
-  background: #0016531f;
+  background: #00299b1f;
   border-radius: 25px;
 }
 
@@ -1717,4 +1613,136 @@ section {
 
 .pricing1.popular .btn-white {
   border: 2px solid #2d71a1;
+}
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# services1 Section
+--------------------------------------------------------------*/
+.services1 .img {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.services1 .img img {
+  transition: 0.6s;
+}
+
+.services1 .details {
+  padding: 50px 30px;
+  margin: -100px 30px 0 30px;
+  transition: all ease-in-out 0.3s;
+  background: #0a1441;
+  position: relative;
+  background: #003a69;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 0 25px #0000004b;
+}
+
+.services1 .details .icon {
+  margin: 0;
+  width: 72px;
+  height: 72px;
+  background: #003e77;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: var(--color-white);
+  font-size: 28px;
+  transition: ease-in-out 0.3s;
+  position: absolute;
+  top: -36px;
+  left: calc(50% - 36px);
+  border: 6px solid #32ffee;
+}
+
+.services1 .details h3 {
+  color: #101c36;
+  font-weight: 700;
+  margin: 10px 0 15px 0;
+  font-size: 22px;
+  transition: ease-in-out 0.3s;
+}
+
+.services1 .details p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.services1 .service-item:hover .details h3 {
+  color: #001653;
+}
+
+.services1 .service-item:hover .details .icon {
+  background: #ffffff;
+  border: 2px solid #00111f;
+}
+
+.services1 .service-item:hover .details .icon i {
+  color: #001973;
+}
+
+.services1 .service-item:hover .img img {
+  transform: scale(1.2);
+}
+
+
+
+
+
+
+.services .card1 {
+  border: 1px solid rgba(0, 46, 116, 0.15);
+  background: rgb(238, 238, 238);
+  position: relative;
+  border-radius: 0;
+  height: 100%;
+  margin-bottom: 50px;
+}
+
+.services .card1 .card1-img {
+  overflow: hidden;
+  margin-bottom: 15px;
+  border-radius: 0;
+}
+
+.services .card1 .card1-img img {
+  transition: 0.3s ease-in-out;
+}
+
+.services .card1 h3 {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 5px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+}
+
+.services .card1 a {
+  color: #0023a0;
+  transition: 0.3;
+}
+
+.services .card1 a:hover {
+  color: #008bad;
+}
+
+.services .card1 p {
+  padding: 0 30px;
+  margin-bottom: 30px;
+  color: #252525;
+  font-size: 15px;
+}
+
+.services .card1:hover .card1-img img {
+  transform: scale(1.1);
 }

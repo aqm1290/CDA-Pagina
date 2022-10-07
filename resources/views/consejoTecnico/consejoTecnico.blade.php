@@ -55,7 +55,6 @@
                 </li>
             </ul>
             <div class="tab-content">
-                
                 <div class="tab-pane active show" id="tab-1">
                     <div class="row">
                         <div class="tab-content">
@@ -94,17 +93,85 @@
 
 
 
-                <div class="tab-pane active show" id="tab-2">
+                <div class="tab-pane" id="tab-2">
                     <div class="row">
-                        <div class="tab-content">
-                            
-                        </div>
+                        <section id="services" class="services pt-0">
+                            <div class="container" data-aos="fade-up">
+
+                              <div class="row gy-4">
+                      
+                                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                                  <div class="card1">
+                                    <div class="card1-img">
+                                      <img src="assets/img/storage-service.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <h3><a href="service-details.html" class="stretched-link">Sistema SnapQuick
+                                    </a></h3>
+                                    <p>Cumque eos in qui numquam. Aut aspernatur perferendis sed atque quia voluptas quisquam repellendus temporibus itaqueofficiis odit</p>
+                                  </div>
+                                </div><!-- End card1 Item -->
+                      
+                                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                                  <div class="card1">
+                                    <div class="card1-img">
+                                      <img src="assets/img/logistics-service.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <h3><a href="service-details.html" class="stretched-link">Software de Auditoría Caseware IDEA</a></h3>
+                                    <p>Asperiores provident dolor accusamus pariatur dolore nam id audantium ut et iure incidunt molestiae dolor ipsam ducimus occaecati nisi</p>
+                                  </div>
+                                </div><!-- End card1 Item -->
+                      
+                                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                                  <div class="card1">
+                                    <div class="card1-img">
+                                      <img src="assets/img/cargo-service.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <h3><a href="service-details.html" class="stretched-link">Sistema Contable Integrado Mercury</a></h3>
+                                    <p>Dicta quam similique quia architecto eos nisi aut ratione aut ipsum reiciendis sit doloremque oluptatem aut et molestiae ut et nihil</p>
+                                  </div>
+                                </div><!-- End card1 Item -->
+                      
+                                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                                  <div class="card1">
+                                    <div class="card1-img">
+                                      <img src="assets/img/trucking-service.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <h3><a href="service-details.html" class="stretched-link">Sistema Contable Inteligente iContab</a></h3>
+                                    <p>Dicta quam similique quia architecto eos nisi aut ratione aut ipsum reiciendis sit doloremque oluptatem aut et molestiae ut et nihil</p>
+                                  </div>
+                                </div><!-- End card1 Item -->
+                      
+                                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                                  <div class="card1">
+                                    <div class="card1-img">
+                                      <img src="assets/img/packaging-service.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <h3><a href="service-details.html" class="stretched-link">Oficina Virtual Privada - TI Software SRL</a></h3>
+                                    <p>Illo consequuntur quisquam delectus praesentium modi dignissimos facere vel cum onsequuntur maiores beatae consequatur magni voluptates</p>
+                                  </div>
+                                </div><!-- End card Item -->
+                      
+                                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                                  <div class="card1">
+                                    <div class="card1-img">
+                                      <img src="assets/img/warehousing-service.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <h3><a href="service-details.html" class="stretched-link">Warehousing</a></h3>
+                                    <p>Quas assumenda non occaecati molestiae. In aut earum sed natus eatae in vero. Ab modi quisquam aut nostrum unde et qui est non quo nulla</p>
+                                  </div>
+                                </div><!-- End card1 Item -->
+                      
+                              </div>
+                      
+                            </div>
+                          </section><!-- End Services Section -->
+                      
                     </div>
                 </div>
             </div>
         </div>
-    </section><!-- End Tabs Section -->
-
+    </section>
+    <!-- End Tabs Section -->
 </main>
 
 @endsection
