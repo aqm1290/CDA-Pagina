@@ -167,7 +167,9 @@
 
     
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
+<div class="btn-flotante" data-aos="fade-up" data-aos-delay="100">    
+    <a href="#"> <img src="{{asset('img/pngwing.com.png')}}" class="wpp" alt="">WHATSAPP</a>
+</div>
 
     <script src="{!! asset('vendor/purecounter/purecounter_vanilla.js')!!}"></script>
 

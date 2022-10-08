@@ -212,7 +212,7 @@
                         <div class="col-lg-3">
                             <ul class="nav nav-tabs flex-column">
                             <li class="nav-item">
-                                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">DEPORTES A.D.A.</a>
+                                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">HISTORIA A.D.A.</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" data-bs-toggle="tab" href="#tab-2">ACTIVOS</a>
@@ -249,7 +249,12 @@
                                 <div class="row gy-4">
                                     <div class="col-lg-8 details order-2 order-lg-1">
                                         <h3>DEPORTES A.D.A.</h3>
-                                            <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+                                            <p class="fst-italic">El 13 de noviembre del 2001, se conformo la Asociación deportiva de Auditores (A.D.A.) y del cual el primer directorio del A.D.A. estaba conformado por: <br>
+                                            <b>PRESIDENTE</b>.............Lic. Aud. Eloy V. Iporre <br>
+                                            <b>SECRETARIO DE ACTAS Y MATRICULA</b>............Lic. Aud. Pablo Quispe F.<br>
+                                            <b>SECRETARIO DE HACIENDA</b>..........Lic. Aud. Carola Guzmán L
+                                            <br>
+                                            Reconocemos la labor de nuestros colegas, que dejaron los pilares de lo que hoy en día es la ASOCIACIÓN DEPORTIVA DE AUDITORES</p>
                                             <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
                                     </div>
                                     <div class="col-lg-4 text-center order-1 order-lg-2">
@@ -405,7 +410,7 @@
                 <div class="container">
                     <div class="row justify-content-center text-center mb-5">
                     <div class="col-md-4">
-                        <h2 class="section-heading">Review From Our Users</h2>
+                        <h2 class="section-heading">SERVICIOS</h2>
                     </div>
                     </div>
                     <div class="row justify-content-center text-center">
@@ -414,14 +419,14 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                             <div class="review text-center">
-                                <p class="stars">
+                                {{-- <p class="stars">
                                 <span class="bi bi-star-fill"></span>
                                 <span class="bi bi-star-fill"></span>
                                 <span class="bi bi-star-fill"></span>
                                 <span class="bi bi-star-fill"></span>
                                 <span class="bi bi-star-fill muted"></span>
-                                </p>
-                                <h3>Excellent App!</h3>
+                                </p> --}}
+                                <h3>BOLETINES</h3>
                                 <blockquote>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam
                                     aperiam dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi,
@@ -437,14 +442,8 @@
                             </div><!-- End testimonial item -->
                             <div class="swiper-slide">
                             <div class="review text-center">
-                                <p class="stars">
-                                <span class="bi bi-star-fill"></span>
-                                <span class="bi bi-star-fill"></span>
-                                <span class="bi bi-star-fill"></span>
-                                <span class="bi bi-star-fill"></span>
-                                <span class="bi bi-star-fill muted"></span>
-                                </p>
-                                <h3>This App is easy to use!</h3>
+                                
+                                <h3>BIBLIOTECA</h3>
                                 <blockquote>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam
                                     aperiam dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi,
@@ -460,14 +459,8 @@
                             </div><!-- End testimonial item -->
                             <div class="swiper-slide">
                             <div class="review text-center">
-                                <p class="stars">
-                                <span class="bi bi-star-fill"></span>
-                                <span class="bi bi-star-fill"></span>
-                                <span class="bi bi-star-fill"></span>
-                                <span class="bi bi-star-fill"></span>
-                                <span class="bi bi-star-fill muted"></span>
-                                </p>
-                                <h3>Awesome functionality!</h3>
+                                
+                                <h3>SERVICIO CDA</h3>
                                 <blockquote>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam
                                     aperiam dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi,
@@ -497,7 +490,10 @@
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-12 me-auto text-center text-md-start mb-3 mb-md-0">
-                            <h2>Starts Publishing Your Apps</h2>
+                            <h2>NUESTRAS OFICINAS ESTA EN:</h2>
+                            <div>
+                                <iframe style="border:0; border-radius:30px; width: 100%; height: 300px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4527.699618477289!2d-66.1568455866919!3d-17.396125345463233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93e37315d112e6b5%3A0x3f2147ff52f3ba79!2sEdificio%20Abugoch!5e0!3m2!1ses!2sbo!4v1665159476949!5m2!1ses!2sbo" frameborder="0" allowfullscreen></iframe>
+                            </div>
                         </div>
                     
                     </div>
