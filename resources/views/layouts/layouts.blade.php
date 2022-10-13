@@ -76,20 +76,7 @@
                 <li><a href="#">DIRECTORIO</a></li>
                 <li><a href="#">FIXTURE</a></li>
                 <li><a href="#">INSCRIPCIONES</a></li>
-                <li class="dropdown"><a href="#"><span>CLUBES</span> <i class="bi bi-chevron-right"></i></a>
-                    <ul>
-                    <li><a href="#">ACTIVOS</a></li>
-                    <li><a href="#">AUDIMILENIUM</a></li>
-                    <li><a href="#">BIMONETARIOS </a></li>
-                    <li><a href="#">C.G.R.</a></li>
-                    <li><a href="#">EFECTIVOS</a></li>
-                    <li><a href="#">MASTER</a></li>
-                    <li><a href="#">SENIOR CLUB</a></li>
-                    <li><a href="#">EXIGIBLES</a></li>
-                    <li><a href="#">VALOR FUTURO</a></li>
-                    </ul>
-                </li>
-                
+                <li><a href="#">Clubes </i></a></li>
                 </ul>
             </li>
             <li><a href="tribunalEtica" class="nav-link scrollto">Tribunal de Ética</a></li>
@@ -168,7 +155,7 @@
     
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 <div class="btn-flotante" data-aos="fade-up" data-aos-delay="100">    
-    <a href="#"> <img src="{{asset('img/pngwing.com.png')}}" class="wpp" alt="">WHATSAPP</a>
+    <a href="https://api.whatsapp.com/send?phone=59179797679" target="_blank"> <img src="{{asset('img/pngwing.com.png')}}" class="wpp" alt="">WHATSAPP</a>
 </div>
 
     <script src="{!! asset('vendor/purecounter/purecounter_vanilla.js')!!}"></script>

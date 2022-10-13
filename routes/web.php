@@ -27,4 +27,6 @@ Route::get('/requisitosInscripcion', [App\Http\Controllers\RequisitosInscripcion
 Route::get('/cursos', [App\Http\Controllers\CursosController::class, 'index'])->name('cursos');
 Route::get('/tribunalEtica', [App\Http\Controllers\TribunalEticaController::class, 'index'])->name('tribunal');
 Route::get('/consejoTecnico', [App\Http\Controllers\ConsejoTecnicoController::class, 'index'])->name('consejo');
+Route::get('/historia', [App\Http\Controllers\HistoriaController::class, 'index'])->name('historia');
+
 
