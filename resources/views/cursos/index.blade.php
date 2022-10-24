@@ -36,11 +36,14 @@
         <div class="row justify-content-center text-center mb-5">
             <div class="col-md-9" data-aos="fade-up">
                 <h2 class="section-heading">CURSOS Y TALLERES </h2>
+                <a href="{{route('cursos.create')}}">Crear Curso</a>
+
             </div>
         </div>
     </section><!-- End Breadcrumbs -->
     <!-- ======= Portfolio Details Section ======= -->
     <section id="portfolio-details" class="portfolio-details">
+        @foreach ($cursos as $curso)
         <div class="container">
             <div class="row gy-4">
                 <div class="col-lg-6">
@@ -48,7 +51,7 @@
                         <div class="swiper-wrapper align-items-center">
                             <div class="swiper">
                                 <img src="{{asset('img/face.jpg')}}"  alt="">
-                                
+                                <br> <br>
                             </div>
                             
                         </div>
@@ -58,68 +61,30 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="portfolio-info">
-                        <h3>INFORMACION DEL CURSO</h3>
+
+                        <h3>{{$curso->Nombre}}</h3>
                         <ul>
-                            <li><strong>Inversión</strong>: Gratuito para asociados </li>
-                            <li><strong>Expositor</strong>: Abel Peña </li>
-                            <li><strong>lugar</strong>: Via ZOOM</li>
+                            <li><strong>Inversión</strong>: {{$curso->Precio}} </li>
+                            <li><strong>Expositor</strong>: {{$curso->Expositor}} </li>
+                            <li><strong>lugar</strong>: {{$curso->Lugar}}</li>
                             <li><strong>Informaciones</strong>: 79797679</li>
                         </ul>
                     </div>
                     <div class="portfolio-description">
                         <h2>Detalles del curso</h2>
                         <p>
-                            Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                            {{$curso->Descipcion}}
                         </p>
                     </div>
                 </div>
             </div>
         </div>
+        @endforeach
+
     </section><!-- End Portfolio Details Section -->
 
     <hr>
-    <section id="portfolio-details" class="portfolio-details">
-        <div class="container">
-            <div class="row gy-4">
-                <div class="col-lg-7">
-                    <div class="portfolio-details-slider swiper">
-                        <div class="swiper-wrapper align-items-center">
-                            <div class="swiper">
-                                <img src="{{asset('img/face.jpg')}}"  alt="">
-                            </div>
-
-                           {{--  <div class="swiper-slide">
-                                <img src="{{asset('img/face.jpg')}}" alt="">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="{{asset('img/face.jpg')}}"  alt="">
-                            </div> --}}
-                        </div>
-                        <div class="swiper-pagination">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5">
-                    <div class="portfolio-info">
-                        <h3>INFORMACION DEL CURSO</h3>
-                        <ul>
-                            <li><strong>Inversión</strong>: Gratuito para asociados </li>
-                            <li><strong>Expositor</strong>: Abel Peña </li>
-                            <li><strong>lugar</strong>: Via ZOOM</li>
-                            <li><strong>Informaciones</strong>: 79797679</li>
-                        </ul>
-                    </div>
-                    <div class="portfolio-description">
-                        <h2>Detalles del curso</h2>
-                        <p>
-                            Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr>
-    </section><!-- End Portfolio Details Section -->
+    
 </main>
 
 @endsection

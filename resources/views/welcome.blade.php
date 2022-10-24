@@ -28,8 +28,8 @@
                     <p data-aos="fade-right" data-aos-delay="200" data-aos-offset="-500"><a href="#" class="btn btn-outline-white">Comenzemos</a></p>
                     </div>
                     <div class="col-lg-4 iphone-wrap">
-                    <img {{-- src="assets/img/audit-g565481ea8_1920.jpg" --}} alt="Image" class="phone-1" data-aos="fade-right">
-                    <img {{-- src="assets/img/audit-g726a8f5e8_1280.jpg" --}} alt="Image" class="phone-2" data-aos="fade-right" data-aos-delay="200">
+                    <img src="{{asset('img/colegio.png')}}" alt="Image" class="phone-1" data-aos="fade-right">
+                    <img src="{{asset('img/colegio.png')}}" alt="Image" class="phone-2" data-aos="fade-right" data-aos-delay="200">
                     </div>
                 </div>
                 </div>
@@ -62,7 +62,7 @@
                     <p><a href="#" class="btn btn-primary">Download Now</a></p>
                     </div>
                     <div class="col-md-5" data-aos="fade-left">
-                    {{-- <img src="assets/img/undraw_svg_2.svg" alt="Image" class="img-fluid"> --}}
+                    <img src="{{asset('img/historiaGeneral.png')}}" alt="Image" class="img-fluid">
                     </div>
                 </div>
                 </div>
@@ -75,14 +75,16 @@
                     <h2 class="mb-2">MISION</h2>
                     <p class="mb-2">Promover la superación y promoción profesional de los auditores y/o contadores Públicos de Cochabamba velando por el prestigio y dignidad profesional, brindando a la sociedad una orientación en las actividades económicas, 
                         financieras y administrativas, logrando de esa manera que en sus asociados exista un alto compromiso en pro del interés público y con el desarrollo de la sociedad.</p>
-                    <p><a href="#" class="btn btn-primary">Download Now</a></p>
-                    <h2 class="mb-2">VISION</h2>
+                    <br><br><br><h2 class="mb-2">VISION</h2>
                     <p class="mb-4">Promover la superación y promoción profesional de los auditores y/o contadores Públicos de Cochabamba velando por el prestigio y dignidad profesional, brindando a la sociedad una orientación en las actividades económicas, 
                         financieras y administrativas, logrando de esa manera que en sus asociados exista un alto compromiso en pro del interés público y con el desarrollo de la sociedad.</p>
                     <p><a href="#" class="btn btn-primary">Download Now</a></p>
                     </div>
                     <div class="col-md-6" data-aos="fade-right">
-                    {{-- <img src="assets/img/undraw_svg_3.svg" alt="Image" class="img-fluid"> --}}
+                    <img src="{{asset('img/MisionCDA.png')}}" alt="Image" class="img-fluid"> 
+
+                    <br>
+                    <img src="{{asset('img/VisionCDA.png')}}" alt="Image" class="img-fluid"> 
                     </div>
                 </div>
                 </div>
@@ -139,61 +141,33 @@
             <div class="col-lg-12 d-flex justify-content-center">
                 <ul id="portfolio-flters">
                     <li data-filter="*" class="filter-active">CURSOS</li>
-                    <li data-filter=".filter-app">TALLERES</li>
-                    <li data-filter=".filter-card">SEMINARIOS</li>
+                    
                     <li data-filter=".filter-web">NOTICIAS</li>
                 </ul>
             </div>
         </div>
+        
+        <div class="row portfolio-container">
+            @foreach ($cursos as $curso)
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos="fade-up" data-aos-delay="250">
+                    <div class="portfolio-wrap">
+                        <img src="{{asset('img/face.jpg')}}" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>{{$curso->Nombre}}</h4>
+                            <p>{{$curso->Precio}}</p>
+                            <div class="portfolio-links">
+                                <a href="{{asset('img/Logo HD.fw.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="{{$curso->Nombre}}"><i class="bx bx-plus"></i></a>
+                                <a href="{{route('cursos.index')}}" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="{{$curso->Nombre}}"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @endforeach 
 
-      <div class="row portfolio-container">
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos="fade-up" data-aos-delay="250">
-          <div class="portfolio-wrap">
-            <img src="{{asset('img/face.jpg')}}"  class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <div class="portfolio-links">
-                <a href="{{asset('img/Logo HD.fw.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
+            {{$cursos->links()}}
         </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-aos="fade-up" data-aos-delay="260">
-          <div class="portfolio-wrap">
-            <img src="{{asset('img/face.jpg')}}"  class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <div class="portfolio-links">
-                <a href="{{asset('img/Logo HD.fw.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos="fade-up" data-aos-delay="270">
-          <div class="portfolio-wrap">
-            <img src="{{asset('img/face.jpg')}}" class="img-fluid" alt="" >
-            <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
     </div>
-  </section><!-- End Portfolio Section -->
+    </section><!-- End Portfolio Section -->
 
 
 
@@ -500,6 +474,9 @@
                 </div>
             </section><!-- End CTA Section -->
         </section>
+        <div class="btn-flotante1" data-aos="fade-up" data-aos-delay="100">    
+            <img src="{{asset('img/Logo HD.fw.png')}}" class="wpp1" alt="">
+        </div>
     </main><!-- End #main -->
 
 

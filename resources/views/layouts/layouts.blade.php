@@ -18,7 +18,6 @@
     
     <link href="{!! asset('vendor/fontawesome-free/css/all.min.css')!!}" rel="stylesheet">
     <link href="{!! asset('vendor/animate.css/animate.min.css')!!}" rel="stylesheet">
- 
     <link href="{!! asset('vendor/aos/aos.css')!!}" rel="stylesheet">
     <link href="{!! asset('vendor/bootstrap/css/bootstrap.min.css')!!}" rel="stylesheet"> 
     <link href="{!! asset('vendor/bootstrap-icons/bootstrap-icons.css')!!}" rel="stylesheet">
@@ -154,9 +153,12 @@
 
     
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-<div class="btn-flotante" data-aos="fade-up" data-aos-delay="100">    
-    <a href="https://api.whatsapp.com/send?phone=59179797679" target="_blank"> <img src="{{asset('img/pngwing.com.png')}}" class="wpp" alt="">WHATSAPP</a>
-</div>
+    <div class="btn-flotante" data-aos="fade-up" data-aos-delay="100">    
+        <a href="https://api.whatsapp.com/send?phone=59179797679" target="_blank"> <img src="{{asset('img/pngwing.com.png')}}" class="wpp" alt="">WHATSAPP</a>
+    </div>
+    {{-- <div class="btn-flotante1" data-aos="fade-up" data-aos-delay="100">    
+        <img src="{{asset('img/Logo HD.fw.png')}}" class="wpp1" alt="">
+    </div> --}}
 
     <script src="{!! asset('vendor/purecounter/purecounter_vanilla.js')!!}"></script>
 
