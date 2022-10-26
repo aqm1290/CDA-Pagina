@@ -41,50 +41,58 @@
             </div>
         </div>
     </section><!-- End Breadcrumbs -->
-    <!-- ======= Portfolio Details Section ======= -->
-    <section id="portfolio-details" class="portfolio-details">
-        @foreach ($cursos as $curso)
+
+
+
+    {{-- <section id="cursos" class="cursos">
         <div class="container">
-            <div class="row gy-4">
-                <div class="col-lg-6">
-                    <div class="portfolio-details-slider swiper">
-                        <div class="swiper-wrapper align-items-center">
-                            <div class="swiper">
-                                <img src="{{asset('img/face.jpg')}}"  alt="">
-                                <br> <br>
-                            </div>
+            <div class="row">
+                @foreach ($cursos as $curso)
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="member" data-aos="fade-up" data-aos-delay="100">
+                        <div class="member-img">
+                            <img src="{{asset('img/acta1.jpg')}}" class="img-fluid" alt="">
                             
                         </div>
-                        <div class="swiper-pagination">
+                        <div class="member-info">
+                            <a href="{{route('cursos.show',$curso->id)}}"><h4 class="">{{$curso->Nombre}}</h4></a>
+                            <span> LUGAR: {{$curso->Lugar}}</span>
+                            <span>EXPOSITOR: {{$curso->Expositor}}</span>
+                            <span>PRECIO: {{$curso->Precio}}</span>
+                            <p>DESCRIPCIÓN: {{$curso->Descipcion}}</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="portfolio-info">
-
-                        <h3>{{$curso->Nombre}}</h3>
-                        <ul>
-                            <li><strong>Inversión</strong>: {{$curso->Precio}} </li>
-                            <li><strong>Expositor</strong>: {{$curso->Expositor}} </li>
-                            <li><strong>lugar</strong>: {{$curso->Lugar}}</li>
-                            <li><strong>Informaciones</strong>: 79797679</li>
-                        </ul>
-                    </div>
-                    <div class="portfolio-description">
-                        <h2>Detalles del curso</h2>
-                        <p>
-                            {{$curso->Descipcion}}
-                        </p>
-                    </div>
-                </div>
+                @endforeach
             </div>
         </div>
-        @endforeach
+    </section> --}}<!-- End cursos Section -->
 
-    </section><!-- End Portfolio Details Section -->
 
-    <hr>
     
+    <!-- ======= Services Section ======= -->
+        <section id="cursos1" class="cursos1 pt-0">
+            <div class="container" data-aos="fade-up">
+                <div class="row gy-4">
+                @foreach ($cursos as $curso)
+
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="course">
+                            <div class="course-img">
+                                <img src="{{asset('img/acta1.jpg')}}" alt="" class="img-fluid">
+                            </div>
+                            <h3><a href="{{route('cursos.show',$curso->id)}}" class="stretched-link">{{$curso->Nombre}}</a></h3>
+                            <h6> LUGAR: {{$curso->Lugar}}</h6>
+                            <h6>EXPOSITOR: {{$curso->Expositor}}</h6>
+                            <h6>PRECIO: {{$curso->Precio}}</h6>
+                            <p>DESCRIPCIÓN: {{$curso->Descipcion}}</p>
+                        </div>
+                    </div>
+                    @endforeach
+                </div>
+            </div>
+    </section><!-- End Services Section -->
+
 </main>
 
 @endsection

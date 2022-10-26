@@ -16,10 +16,14 @@ return new class extends Migration
         Schema::create('cursos', function (Blueprint $table) {
             $table->id();
             $table->string('Nombre')->nullable();
+            $table->integer('Imagen')->nullable()->unsigned();
+            $table->string('Lugar')->nullable();
+            $table->string('Fecha')->nullable();
+            $table->string('Hora')->nullable();
             $table->string('Categoria')->nullable();
             $table->string('Precio')->nullable();
             $table->string('Expositor')->nullable();
-            $table->string('Lugar')->nullable();
+            $table->string('TextoAdicional')->nullable();
             $table->text('Descipcion')->nullable();
             $table->timestamps();
         });

@@ -1683,3 +1683,119 @@ section {
 .services .card1:hover .card1-img img {
   transform: scale(1.1);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# cursos1 Section
+--------------------------------------------------------------*/
+.cursos1 .course {
+  border: 1px solid rgba(14, 29, 52, 0.15);
+  background: #fff;
+  position: relative;
+  border-radius: 0;
+  height: 100%;
+}
+
+.cursos1 .course .course-img {
+  overflow: hidden;
+  margin-bottom: 15px;
+  border-radius: 0;
+}
+
+.cursos1 .course .course-img img {
+  transition: 0.3s ease-in-out;
+}
+
+.cursos1 .course h3 {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 5px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+}
+.cursos1 .course h6 {
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0px 30px;
+  text-transform: uppercase;
+  color: #8d8d8d;
+}
+
+.cursos1 .course a {
+  color: #001973;
+  transition: 0.3;
+}
+
+.cursos1 .course a:hover {
+  color:#001973;
+}
+
+.cursos1 .course p {
+  padding: 0 30px;
+  margin-bottom: 30px;
+  color:#4c5658;
+  font-size: 15px;
+}
+
+.cursos1 .course:hover .course-img img {
+  transform: scale(1.1);
+}
+
+
+
+/*--------------------------------------------------------------
+# curso1 Details Section
+--------------------------------------------------------------*/
+
+.curso1-details .cursos1-img {
+  margin-bottom: 30px;
+  width: 90%;
+  height: 40%;
+}
+.curso1-details h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color:#001973;  
+}
+
+.curso1-details h4 {
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 700;
+  color:#0023a0;
+}
+
+.curso1-details p {
+  font-size: 15px;
+}
+
+.curso1-details ul {
+  list-style: none;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.curso1-details ul li {
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.curso1-details ul i {
+  font-size: 20px;
+  margin-right: 8px;
+  color:#00add8 ;
+}

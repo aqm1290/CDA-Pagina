@@ -25,6 +25,9 @@ Route::get('/requisitosInscripcion', [App\Http\Controllers\RequisitosInscripcion
 
 Route::get('/cursos', [App\Http\Controllers\CursosController::class, 'index'])->name('cursos.index');
 Route::get('/cursos/create', [App\Http\Controllers\CursosController::class, 'create'])->name('cursos.create');
+Route::post('/cursos', [App\Http\Controllers\CursosController::class, 'store'])->name('cursos.store');
+Route::get('/cursos/{curso}', [App\Http\Controllers\CursosController::class, 'show'])->name('cursos.show');
+
 
 Route::get('/tribunalEtica', [App\Http\Controllers\TribunalEticaController::class, 'index'])->name('tribunal');
 Route::get('/consejoTecnico', [App\Http\Controllers\ConsejoTecnicoController::class, 'index'])->name('consejo');

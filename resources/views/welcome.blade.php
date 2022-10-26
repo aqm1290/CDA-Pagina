@@ -81,10 +81,10 @@
                     <p><a href="#" class="btn btn-primary">Download Now</a></p>
                     </div>
                     <div class="col-md-6" data-aos="fade-right">
-                    <img src="{{asset('img/MisionCDA.png')}}" alt="Image" class="img-fluid"> 
+                    <img src="{{asset('img/MisionCDA.png')}}" alt="Image" class="img-fluid"data-aos-delay="300"> 
 
                     <br>
-                    <img src="{{asset('img/VisionCDA.png')}}" alt="Image" class="img-fluid"> 
+                    <img src="{{asset('img/VisionCDA.png')}}" alt="Image" class="img-fluid" data-aos-delay="200"> 
                     </div>
                 </div>
                 </div>
@@ -140,9 +140,7 @@
         <div class="row" data-aos="fade-up" data-aos-delay="200">
             <div class="col-lg-12 d-flex justify-content-center">
                 <ul id="portfolio-flters">
-                    <li data-filter="*" class="filter-active">CURSOS</li>
-                    
-                    <li data-filter=".filter-web">NOTICIAS</li>
+                    <li data-filter="*" class="filter-active">CURSOS</li>           
                 </ul>
             </div>
         </div>
@@ -164,8 +162,9 @@
                 </div>
             @endforeach 
 
-            {{$cursos->links()}}
+            
         </div>
+        {{$cursos->links()}}
     </div>
     </section><!-- End Portfolio Section -->
 
