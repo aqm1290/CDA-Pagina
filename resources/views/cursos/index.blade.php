@@ -79,7 +79,7 @@
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                         <div class="course">
                             <div class="course-img">
-                                <img src="{{asset('img/acta1.jpg')}}" alt="" class="img-fluid">
+                                <img src="Imagen/{{$curso->Imagen}}" alt="" class="img-fluid">
                             </div>
                             <h3><a href="{{route('cursos.show',$curso->id)}}" class="stretched-link">{{$curso->Nombre}}</a></h3>
                             <h6> LUGAR: {{$curso->Lugar}}</h6>

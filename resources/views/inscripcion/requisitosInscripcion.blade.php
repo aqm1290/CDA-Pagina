@@ -76,25 +76,39 @@
                 </div>
                 <div class="tab-pane" id="tab-4">
                     <div class="row">
-                        <div class="col-lg-8 order-2 order-lg-1 mt-3 mt-lg-0">
-                            <h3>Omnis fugiat ea explicabo sunt dolorum asperiores sequi inventore rerum</h3>
-                            <p>
-                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                culpa qui officia deserunt mollit anim id est laborum
+                        <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                            <h3>BENEFICIOS DE PERTENECER A NUESTRA INSTITUCIÓN</h3>
+                            <p class="parrafoafiliares">1.- Por su afiliación al Colegio de Auditores de Cochabamba, el profesional recibe su matrícula de socio, que lo acredita como profesional registrado; además después de un corto tiempo, se le entrega la credencial de afiliación al Colegio de Auditores de Bolivia (Una vez que se realice al trámite correspondiente).
+                                <br>2.- Nuestros asociados, pueden solicitar en secretaría del colegio, el Certificados de Registro, extendido por el Colegio de Auditores de Cochabamba, el mismo que certifica que el profesional se halla inscrito y habilitado para el ejercicio de la profesión; el certificado de registro lo puede usar en trámites administrativos, legales, tributarios y otros.
+                                <br>3.- Todo asociado de nuestra institución tendrá el respaldo institucional en el ejercicio de la profesión.
+                                <br>4.- Nuestra institución realiza la capacitación y actualización permanente de los asociados mediante cursos, seminarios, congresos, talleres y conferencias, tanto virtuales como presenciales; todos los cursos con descuentos especiales para los asociados a nuestra institución.
+                                <br>5.- Nuestros asociados tienen derecho a adquirir el Certificado de Solvencia Profesional, tanto para balances y/o auditorias, el mismo que certifica que ese trabajo fue realizado por un profesional debidamente registrado.
+                                <br>6.- Como asociados de nuestra institución, tiene derecho de estar informado de las actividades del Colegio de Auditores, la misma que se realiza a través de:
+                                <ul>
+                                    <li><i class="bi bi-circle-fill"></i> Página Web.</li>
+                                    <li><i class="bi bi-circle-fill"></i> Correo Electrónico.</li>
+                                    <li><i class="bi bi-circle-fill"></i> Página Facebook</li>
+                                    <li><i class="bi bi-circle-fill"></i>Grupos de WhatsApp</li>
+                                </ul>
+                                <p class="parrafoafiliares"> 7.- Para una mejor atención para el pago de sus aportes mensuales, nuestros asociados puede hacerlo mediante transferencia bancaria, depósito en el banco, pago a los cobradores o realizar el pago en caja de nuestra institución.Nuestra cuenta es: </p>
+                                <ul>
+                                    <li><i class="bi bi-dash"></i><b>	Nº cuenta:</b>	 4010499038</li>
+                                    <li><i class="bi bi-dash"></i><b>Banco:</b> 	         Mercantil Santa Cruz</li>
+                                    <li><i class="bi bi-dash"></i><b>Nombre:</b> 	 Colegio Departamental de Auditores </li>
+                                    <li><i class="bi bi-dash"></i><b>Tipo cuenta:</b>	 Cuenta corriente</li>
+                                    <li> <i class="bi bi-dash"></i><b>Nit:</b>     		 1022051025</li>
+
+                                </ul>
+                                
+                                <p class="parrafoafiliares"> 8.- Cada determinado tiempo, revisamos y renovamos los convenios con Universidades Públicas y Privadas con las cuales se establece descuentos para la realización de Diplomados y Maestrías.</p>
+                                <p class="parrafoafiliares"> 9.- Nuestros asociados cuentan con el Seguro de Vida por muerte natural o accidente, prima que se cancela a los familiares, previa presentación de los requisitos solicitados a los herederos legales.</p>
+                                <p class="parrafoafiliares"> 10.- Todos nuestros asociados, tienen derecho a participar de las actividades del colegio que se realizan durante doto el año, como ser: capacitaciones, campeonatos deportivos, olimpiadas, festejos, agasajos y otros.</p>
+                                <p class="parrafoafiliares"> 11.- Cada año, se entregan reconocimientos a nuestros asociados sobresalientes y además a todos los asociados que cumplen 20 años de antigüedad en nuestra institución.</p>
+
                             </p>
-                            <p class="fst-italic">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                magna aliqua.
-                            </p>
-                            <ul>
-                                <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                                <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                                <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-                            </ul>
                         </div>
                         <div class="col-lg-6 order-1 order-lg-2 text-center">
-                            <img src="assets/img/tabs-4.jpg" alt="" class="img-fluid">
+                            <img src="{{asset('img/BENEFICIOS.png')}}"  alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>

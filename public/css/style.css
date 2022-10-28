@@ -175,8 +175,8 @@ section {
 
 /* Step */
 .step {
-  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.3);
-  background: rgb(247, 247, 247);
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.486);
+  background: rgb(255, 255, 255);
   padding: 40px;
 }
 
@@ -862,7 +862,7 @@ section {
 }
 @media screen and (max-width: 992px) {
   .hero-section {
-    background: linear-gradient(to right, rgba(0, 35, 104, 0.9) 0%, rgba(0, 80, 69, 0.61) 100%), url(../img/Logo\ HD.fw.png) 40% 30%/60% no-repeat,url(../img/Sin\ título-1.png)40% 20%/300% no-repeat ;
+    background: linear-gradient(to right, rgba(0, 35, 104, 0.9) 0%, rgba(0, 80, 69, 0.61) 100%), url(../img/Logo\ HD.fw.png) 40% 30%/60% no-repeat ;
 
   }
 }
@@ -1236,17 +1236,23 @@ section {
 }
 
 .tabs .tab-pane ul li {
-  padding-bottom: 10px;
+  padding-bottom: 4px;
+  align-items: center;
+  margin-left: 20%;
 }
 
 .tabs .tab-pane ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #00111f;
+  color: #0c1216;
 }
 
 .tabs .tab-pane p:last-child {
   margin-bottom: 0;
+}
+.parrafoafiliares{
+  text-align: justify;
+  color: #0c0c0c;
 }
 
 /* /*--------------------------------------------------------------

@@ -33,18 +33,28 @@
 <main id="main">
     <div class="container">
     <h2>CREAR NUEVO CURSO O NOTICIA</h2>
-    <form action="{{route('cursos.store')}}" method="POST">
+    <form action="{{route('cursos.store')}}" method="POST" enctype="multipart/form-data">
         @csrf
         <label for="">
             Nombre <br>
             <input type="text" name="Nombre">
         </label>
         <br>
-        <label for="">
-            Imagen <br>
-            <input type="text" name="Imagen">
-        </label>
-        <br>
+        <div class="grid grid-cols-1 mt-5 mx-7">
+            <img id="imagenSeleccionada" style="max-height: 300px;">           
+        </div>
+
+        <div>
+            <label>Subir Imagen</label>
+                <div >
+                    <label>
+                        <div>
+                        <p>Seleccione la imagen</p>
+                        </div>
+                    <input name="Imagen" id="Imagen" type='file' class="hidden" />
+                    </label>
+                </div>
+        </div>
         
         <label for="">
             Lugar <br>
@@ -94,5 +104,17 @@
 
 </div>
 </main>
-
+<!-- Script para ver la imagen antes de CREAR UN NUEVO PRODUCTO -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
+<script>   
+    $(document).ready(function (e) {   
+        $('#Imagen').change(function(){            
+            let reader = new FileReader();
+            reader.onload = (e) => { 
+                $('#imagenSeleccionada').attr('src', e.target.result); 
+            }
+            reader.readAsDataURL(this.files[0]); 
+        });
+    });
+</script>
 @endsection

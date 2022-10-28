@@ -43,7 +43,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-4 me-auto" data-aos="fade-right">
-                        {{-- <img src="assets/img/undraw_svg_3.svg" alt="Image" class="img-fluid"> --}}
+                        <img src="{{asset('img/personeriaJuridica.png')}}"  alt="Image" class="img-fluid">
                         <p class="social">
                             <a href="#"><span class="bi bi-twitter"></span></a>
                             <a href="#"><span class="bi bi-facebook"></span></a>

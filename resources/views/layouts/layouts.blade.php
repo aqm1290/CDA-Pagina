@@ -71,11 +71,11 @@
             
             <li class="dropdown nav-link scrollto"><a href="#departments"><span>Deportes A.D.A.</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
-                <li><a href="#">HISTORIA</a></li>
-                <li><a href="#">DIRECTORIO</a></li>
+                <li><a href="historia">HISTORIA</a></li>
+                <li><a href="historia">DIRECTORIO</a></li>
                 <li><a href="#">FIXTURE</a></li>
                 <li><a href="#">INSCRIPCIONES</a></li>
-                <li><a href="#">Clubes </i></a></li>
+                <li><a href="historia">Clubes </i></a></li>
                 </ul>
             </li>
             <li><a href="tribunalEtica" class="nav-link scrollto">Tribunal de Ética</a></li>
@@ -111,39 +111,30 @@
 
                 <p class="social">
                     <a href="#"><span class="bi bi-twitter"></span></a>
-                    <a href="#"><span class="bi bi-facebook"></span></a>
-                    <a href="#"><span class="bi bi-instagram"></span></a>
-                    <a href="#"><span class="bi bi-linkedin"></span></a>
+                    <a href="https://www.facebook.com/cdauditores" target="_blank"><span class="bi bi-facebook"></span></a>
+                    <a href="#"><span class="bi bi-instagram" target="_blank"></span></a>
+                    <a href="https://www.youtube.com/channel/UCG2YAbiSJqm2aVHcEagUITg/featured"><span class="bi bi-youtube" target="_blank"></span></a>
                 </p>
             </div>
             <div class="col-md-6 ms-auto">
                 <div class="row site-section pt-0">
-                    <div class="col-md-6  mb-md-0">
+                    <div class="col-md-8  mb-md-0">
                         <h3>PAGINAS DE INTERES</h3>
                         <ul class="list-unstyled">
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="https://www.impuestos.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i>SERVICIO DE IMPUESTOS NACIONALES</a></li>
+                            <li><a href="https://fundempresa.org.bo/" target="_blank"><i class="bi bi-chevron-right"></i>FUNDEMPRESA</a></li>
+                            <li><a href="https://auditorescontadoresbolivia.org/" target="_blank"><i class="bi bi-chevron-right"></i>COLEGIO DEPARTAMENTAL DE BOLIVIA</a></li>
+                            <li><a href="https://www.ait.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i>AUTORIDAD DE IMPUGNACION TRIBUTARIA</a></li>
                         </ul>
-                    </div>
-                    <div class="col-md mb-6 mb-md-0">
-                        <h3>Services</h3>
-                        <ul class="list-unstyled">
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">Collaboration</a></li>
-                            <li><a href="#">Todos</a></li>
-                            <li><a href="#">Events</a></li>
-                        </ul>
-                    </div>
-                    
+                    </div>  
                 </div>
             </div>
         </div>
 
         <div class="row justify-content-center text-center">
             <div class="col-md-7">
-            <p class="copyright">&copy; CDA-CBBA</p>
+            <p class="copyright">Copyright &copy;<script>document.write(new Date().getFullYear())</script><b> CDA-CBBA</b></p>
+            <p class="copyright"><b>COLEGIO DEPARTAMENTAL DE AUDITORES </b></p>
             
             </div>
         </div>

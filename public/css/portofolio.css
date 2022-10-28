@@ -22,7 +22,7 @@
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
   background: rgba(255, 255, 255, 0.281);
   margin: 0 3px 10px 3px;
   transition: all 0.3s ease-in-out;
@@ -31,7 +31,7 @@
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  background: #001149;
+  background: #131249;
 }
 
 .portfolio #portfolio-flters li:last-child {

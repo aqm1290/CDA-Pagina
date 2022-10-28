@@ -59,7 +59,7 @@
                         legal de la organización. 
                         Este hecho es logrado por el reconocimiento de la personalidad Jurídica del colegio departamental de auditores efectuada en el gobierno de la nación, 
                         para lo cual emite la resolución suprema Nro. 213689 en fecha 15 de marzo de 1994</p> 
-                    <p><a href="#" class="btn btn-primary">Download Now</a></p>
+                    {{-- <p><a href="#" class="btn btn-primary">Download Now</a></p> --}}
                     </div>
                     <div class="col-md-5" data-aos="fade-left">
                     <img src="{{asset('img/historiaGeneral.png')}}" alt="Image" class="img-fluid">
@@ -78,7 +78,7 @@
                     <br><br><br><h2 class="mb-2">VISION</h2>
                     <p class="mb-4">Promover la superación y promoción profesional de los auditores y/o contadores Públicos de Cochabamba velando por el prestigio y dignidad profesional, brindando a la sociedad una orientación en las actividades económicas, 
                         financieras y administrativas, logrando de esa manera que en sus asociados exista un alto compromiso en pro del interés público y con el desarrollo de la sociedad.</p>
-                    <p><a href="#" class="btn btn-primary">Download Now</a></p>
+                    {{-- <p><a href="#" class="btn btn-primary">Download Now</a></p> --}}
                     </div>
                     <div class="col-md-6" data-aos="fade-right">
                     <img src="{{asset('img/MisionCDA.png')}}" alt="Image" class="img-fluid"data-aos-delay="300"> 
@@ -149,12 +149,12 @@
             @foreach ($cursos as $curso)
                 <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos="fade-up" data-aos-delay="250">
                     <div class="portfolio-wrap">
-                        <img src="{{asset('img/face.jpg')}}" class="img-fluid" alt="">
+                        <img src="/Imagen/{{$curso->Imagen}}"  class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>{{$curso->Nombre}}</h4>
                             <p>{{$curso->Precio}}</p>
                             <div class="portfolio-links">
-                                <a href="{{asset('img/Logo HD.fw.png')}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="{{$curso->Nombre}}"><i class="bx bx-plus"></i></a>
+                                <a href="/Imagen/{{$curso->Imagen}}"data-gallery="portfolioGallery" class="portfolio-lightbox" title="{{$curso->Nombre}}"><i class="bx bx-plus"></i></a>
                                 <a href="{{route('cursos.index')}}" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="{{$curso->Nombre}}"><i class="bx bx-link"></i></a>
                             </div>
                         </div>
@@ -228,7 +228,6 @@
                                             <b>SECRETARIO DE HACIENDA</b>..........Lic. Aud. Carola Guzmán L
                                             <br>
                                             Reconocemos la labor de nuestros colegas, que dejaron los pilares de lo que hoy en día es la ASOCIACIÓN DEPORTIVA DE AUDITORES</p>
-                                            <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
                                     </div>
                                     <div class="col-lg-4 text-center order-1 order-lg-2">
                                         <img src="{{asset('img/Logo HD.fw.png')}}"alt="" class="img-fluid">
@@ -303,7 +302,7 @@
                             <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
                         </div>
                         <div class="col-lg-4 text-center order-1 order-lg-2">
-                            <img src="{{asset('img/logosAda/MASTER.jpg')}}" alt="" class="img-fluid">
+                            <img src="{{asset('img/logosAda/MASTERFINAL.png')}}" alt="" class="img-fluid">
                         </div>
                         </div>
                     </div>
@@ -348,116 +347,137 @@
                 </div>
             </div>
             </section><!-- End Departments Section -->
+            
             <section class="section">
                 <div class="container">
                     <div class="row justify-content-center text-center mb-5" data-aos="fade">
                         <div class="col-md-8">
-                            <h2 class="section-heading">COMPLEJO FOTOS</h2>
+                            <h2 class="section-heading">NUESTRO COMPLEJO </h2>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="step">
-                                <span class="number">01</span>
-                                <h3>QUE ES EL COMPLEJO DONDE ESTA Y UBICACION CONOCE EL COMPLEJO</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
+                                <h3>COMPLEJO CDA</h3>
+                                <div class="row justify-content-center text-center">
+                                    <div class="col-md-7">
+                                        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="300">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <div class="review text-center">
+                                                        <h3>IMAGENES</h3>
+                                                        <img src="{{asset('img/Logo HD.fw.png')}}" alt="Image" class="img-fluid rounded-circle mb-3">
+                                                        
+                                                    </div>
+                                                </div><!-- End testimonial item -->
+                                                <div class="swiper-slide">
+                                                    <div class="review text-center">
+                                                        <h3>MAS IMAGENES</h3>
+                                                        <img src="{{asset('img/Logo HD.fw.png')}}" alt="Image" class="img-fluid rounded-circle mb-3">
+                                                        
+                                                    </div>
+                                                </div><!-- End testimonial item -->
+                                                <div class="swiper-slide">
+                                                    <div class="review text-center">
+                                                        <h3>COMPLEJO CDA </h3>
+                                                        <img src="{{asset('img/Logo HD.fw.png')}}" alt="Image" class="img-fluid rounded-circle mb-3">
+                                                    </div>
+                                                </div><!-- End testimonial item -->
+                                            </div>
+                                            <div class="swiper-pagination"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
                             </div>
                         </div>
+
+
                         <div class="col-md-6">
                             <div class="step">
-                            <span class="number">02</span>
-                            <h3>QUE TENEMOS EN EL COMPLEJO</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
+                                <div class="col-md-12 me-auto text-center text-md-start mb-3 mb-md-0">
+                                    <h2>DIRECCION DEL COMPLEJO CDA.</h2>
+                                    <div>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15228.737079710781!2d-66.21922507271724!3d-17.40294228932365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93e37366e21f1041%3A0x36954263d87bb9!2sComplejo%20del%20Colegio%20de%20auditores%20-%20Cochabamba!5e0!3m2!1ses!2sbo!4v1666969113649!5m2!1ses!2sbo" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+                                </div>
+                            
+                            </div>
                         </div>
                     </div>
-                    
-                    </div>
                 </div>
-        
             </section>
-        
             
         
             <!-- ======= Testimonials Section ======= -->
             <section class="section border-top border-bottom">
                 <div class="container">
                     <div class="row justify-content-center text-center mb-5">
-                    <div class="col-md-4">
-                        <h2 class="section-heading">SERVICIOS</h2>
-                    </div>
+                        <div class="col-md-4">
+                            <h2 class="section-heading">SERVICIOS</h2>
+                        </div>
                     </div>
                     <div class="row justify-content-center text-center">
-                    <div class="col-md-7">
-                        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                            <div class="review text-center">
-                                {{-- <p class="stars">
-                                <span class="bi bi-star-fill"></span>
-                                <span class="bi bi-star-fill"></span>
-                                <span class="bi bi-star-fill"></span>
-                                <span class="bi bi-star-fill"></span>
-                                <span class="bi bi-star-fill muted"></span>
-                                </p> --}}
-                                <h3>BOLETINES</h3>
-                                <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam
-                                    aperiam dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi,
-                                    provident voluptates consectetur maiores quos.</p>
-                                </blockquote>
-                                <p class="review-user">
-                                <img src="{{asset('img/Logo HD.fw.png')}}"alt="Image" class="img-fluid rounded-circle mb-3">
-                                <span class="d-block">
-                                    <span class="text-black">Jean Doe</span>, &mdash; App User
-                                </span>
-                                </p>
+                        <div class="col-md-7">
+                            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="review text-center">
+                                            <h3>BOLETINES</h3>
+                                            <blockquote>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam
+                                                aperiam dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi,
+                                                provident voluptates consectetur maiores quos.</p>
+                                            </blockquote>
+                                            <p class="review-user">
+                                            <img src="{{asset('img/Logo HD.fw.png')}}"alt="Image" class="img-fluid rounded-circle mb-3">
+                                            <span class="d-block">
+                                                <span class="text-black">Jean Doe</span>, &mdash; App User
+                                            </span>
+                                            </p>
+                                        </div>
+                                    </div><!-- End testimonial item -->
+                                    <div class="swiper-slide">
+                                        <div class="review text-center">
+                                            <h3>BIBLIOTECA</h3>
+                                            <blockquote>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam
+                                                aperiam dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi,
+                                                provident voluptates consectetur maiores quos.</p>
+                                            </blockquote>
+                                            <p class="review-user">
+                                            <img src="{{asset('img/Logo HD.fw.png')}}" alt="Image" class="img-fluid rounded-circle mb-3">
+                                            <span class="d-block">
+                                                <span class="text-black">Johan Smith</span>, &mdash; App User
+                                            </span>
+                                            </p>
+                                        </div>
+                                    </div><!-- End testimonial item -->
+                                    <div class="swiper-slide">
+                                        <div class="review text-center">
+                                            <h3>SERVICIO CDA</h3>
+                                            <blockquote>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam
+                                                aperiam dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi,
+                                                provident voluptates consectetur maiores quos.</p>
+                                            </blockquote>
+                                            <p class="review-user">
+                                                <img src="{{asset('img/Logo HD.fw.png')}}" alt="Image" class="img-fluid rounded-circle mb-3">
+                                                <span class="d-block">
+                                                    <span class="text-black">Jean Thunberg</span>, &mdash; App User
+                                                </span>
+                                            </p>
+                                        </div>
+                                    </div><!-- End testimonial item -->
+                                </div>
+                                <div class="swiper-pagination"></div>
                             </div>
-                            </div><!-- End testimonial item -->
-                            <div class="swiper-slide">
-                            <div class="review text-center">
-                                
-                                <h3>BIBLIOTECA</h3>
-                                <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam
-                                    aperiam dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi,
-                                    provident voluptates consectetur maiores quos.</p>
-                                </blockquote>
-                                <p class="review-user">
-                                <img src="{{asset('img/Logo HD.fw.png')}}" alt="Image" class="img-fluid rounded-circle mb-3">
-                                <span class="d-block">
-                                    <span class="text-black">Johan Smith</span>, &mdash; App User
-                                </span>
-                                </p>
-                            </div>
-                            </div><!-- End testimonial item -->
-                            <div class="swiper-slide">
-                            <div class="review text-center">
-                                
-                                <h3>SERVICIO CDA</h3>
-                                <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam
-                                    aperiam dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi,
-                                    provident voluptates consectetur maiores quos.</p>
-                                </blockquote>
-            
-                                <p class="review-user">
-                                <img src="{{asset('img/Logo HD.fw.png')}}" alt="Image" class="img-fluid rounded-circle mb-3">
-                                <span class="d-block">
-                                    <span class="text-black">Jean Thunberg</span>, &mdash; App User
-                                </span>
-                                </p>
-            
-                            </div>
-                            </div><!-- End testimonial item -->
-            
                         </div>
-                        <div class="swiper-pagination"></div>
-                        </div>
-                    </div>
                     </div>
                 </div>
             </section><!-- End Testimonials Section -->
-        
+
+            
             <!-- ======= CTA2 Section ======= -->
             <section class="section cta2-section">
                 <div class="container">

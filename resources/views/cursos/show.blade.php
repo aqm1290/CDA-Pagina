@@ -1,6 +1,6 @@
 @extends('layouts.layouts')
 
-@section('title', 'CDA-CBBA'.$cursos->Nombre)
+@section('title', 'CDA-CBBA')
 
 @section('content')
 <section class="hero-section inner-page">
@@ -41,7 +41,7 @@
                     <p>{{$cursos->Lugar}}</p>
                 </div>
                 <div class="col-lg-8">
-                    <img {{-- src="{{asset('img/acta1.jpg')}}" --}} alt="" class="img-fluid cursos1-img">
+                    <img src="/Imagen/{{$cursos->Imagen}}"   alt="" class="img-fluid cursos1-img">
                     <h3>{{$cursos->Nombre}}</h3>
                     <p>
                         {{$cursos->Descipcion}}

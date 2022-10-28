@@ -23,20 +23,29 @@ class CursosController extends Controller
 
     public function store(Request $request)
     {
-        $curso = new Cursos();
-        $curso->Nombre = $request->Nombre;
-        $curso->Imagen = $request->Imagen;
-        $curso->Lugar = $request->Lugar;
-        $curso->Fecha = $request->Fecha;
-        $curso->Hora = $request->Hora;
-        $curso->Categoria = $request->Categoria;
-        $curso->Precio = $request->Precio;
-        $curso->Expositor = $request->Expositor;
-        $curso->TextoAdicional = $request->TextoAdicional;
-        $curso->Descipcion = $request->Descipcion;
+        $request->validate([
+            'Nombre' => 'required', 
+            'Descipcion' => 'required',
+            'Lugar' => 'required', 
+            'Fecha' => 'required', 
+            'Hora' => 'required', 
+            'Categoria' => 'required',
+            'Precio' => 'required', 
+            'Expositor' => 'required', 
+            'TextoAdicional' => 'required', 
+            'Imagen' => 'required|image|mimes:jpeg,png,svg|max:1024',
 
-        $curso->save();
-        return redirect()->route('cursos.show',$curso->id);
+        ]);
+
+        $curso = $request->all();
+        if($Imagen = $request->file('Imagen')){
+            $rutaGuardarImg = 'Imagen/';
+            $imagenCurso = date('YmdHis'). "." . $Imagen->getClientOriginalExtension();
+            $Imagen->move($rutaGuardarImg, $imagenCurso);
+            $curso['Imagen'] = "$imagenCurso";
+        }
+        Cursos::create($curso);
+        return redirect()->route('cursos.index');
     }
 
     public function show($id)
