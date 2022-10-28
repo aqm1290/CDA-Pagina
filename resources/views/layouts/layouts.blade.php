@@ -57,15 +57,10 @@
             </li>
             <li class="dropdown nav-link scrollto"><a href="#"><span>Normativa Legal</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
-                <li><a href="#">CPE</a></li>
-                <li><a href="#">Leyes Tributarias</a></li>
-                <li><a href="#">Leyes Laborales</a></li>
-                <li><a href="#">Leyes Comerciales</a></li>
-                <li><a href="#">Decretos Tributarios</a></li>
-                <li><a href="#">Decretos Laborales</a></li>
-                <li><a href="#">Decretos Comerciales</a></li>
-                <li><a href="#">Normas Contabilidad</a></li>
-                <li><a href="#">Normas Auditoria</a></li>
+                    <li><a href="#">CPE</a></li>
+                    <li><a href="#">LEYES </a></li>
+                    <li><a href="#">DECRETOS </a></li>
+                    <li><a href="#">NORMAS </a></li>
                 </ul>
             </li>
             
@@ -73,9 +68,8 @@
                 <ul>
                 <li><a href="historia">HISTORIA</a></li>
                 <li><a href="historia">DIRECTORIO</a></li>
-                <li><a href="#">FIXTURE</a></li>
-                <li><a href="#">INSCRIPCIONES</a></li>
-                <li><a href="historia">Clubes </i></a></li>
+                <li><a href="historia">INSCRIPCIONES</a></li>
+                <li><a href="historia">CLUBES </i></a></li>
                 </ul>
             </li>
             <li><a href="tribunalEtica" class="nav-link scrollto">Tribunal de Ética</a></li>
@@ -108,6 +102,7 @@
                 <p><i class="bi bi-envelope"></i> Correo: info@auditores.org.bo</p>
                 <p><i class="bi bi-telephone-fill"></i> Teléfono: (+591) 4509208</p>
                 <p><i class="bi bi-newspaper"></i> Fax: (+591) 4256331</p>
+                <p><i class="bi bi-phone"></i> Celular: (+591) 79797679</p>
 
                 <p class="social">
                     <a href="#"><span class="bi bi-twitter"></span></a>
@@ -121,10 +116,10 @@
                     <div class="col-md-8  mb-md-0">
                         <h3>PAGINAS DE INTERES</h3>
                         <ul class="list-unstyled">
-                            <li><a href="https://www.impuestos.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i>SERVICIO DE IMPUESTOS NACIONALES</a></li>
-                            <li><a href="https://fundempresa.org.bo/" target="_blank"><i class="bi bi-chevron-right"></i>FUNDEMPRESA</a></li>
-                            <li><a href="https://auditorescontadoresbolivia.org/" target="_blank"><i class="bi bi-chevron-right"></i>COLEGIO DEPARTAMENTAL DE BOLIVIA</a></li>
-                            <li><a href="https://www.ait.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i>AUTORIDAD DE IMPUGNACION TRIBUTARIA</a></li>
+                            <li><a href="https://www.impuestos.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i> SERVICIO DE IMPUESTOS NACIONALES</a></li>
+                            <li><a href="https://fundempresa.org.bo/" target="_blank"><i class="bi bi-chevron-right"></i> FUNDEMPRESA</a></li>
+                            <li><a href="https://auditorescontadoresbolivia.org/" target="_blank"><i class="bi bi-chevron-right"></i> COLEGIO DEPARTAMENTAL DE BOLIVIA</a></li>
+                            <li><a href="https://www.ait.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i> AUTORIDAD DE IMPUGNACION TRIBUTARIA</a></li>
                         </ul>
                     </div>  
                 </div>

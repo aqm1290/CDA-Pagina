@@ -25,8 +25,8 @@
                     <h1 data-aos="fade-right">Descubre Quienes Somos...</h1>
                     <!-- <p class="mb-5" data-aos="fade-right" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur
                         adipisicing elit.</p> -->
-                    <p data-aos="fade-right" data-aos-delay="200" data-aos-offset="-500"><a href="#" class="btn btn-outline-white">Comenzemos</a></p>
-                    </div>
+{{--                     <p data-aos="fade-right" data-aos-delay="200" data-aos-offset="-500"><a href="#section" class="btn btn-outline-white">Comenzemos</a></p>
+ --}}                    </div>
                     <div class="col-lg-4 iphone-wrap">
                     <img src="{{asset('img/colegio.png')}}" alt="Image" class="phone-1" data-aos="fade-right">
                     <img src="{{asset('img/colegio.png')}}" alt="Image" class="phone-2" data-aos="fade-right" data-aos-delay="200">
@@ -90,7 +90,7 @@
                 </div>
             </section>
         
-            <div class="container">
+            {{-- <div class="container">
         
                 <div class="row justify-content-center text-center mb-5">
                 <div class="col-md-9" data-aos="fade-up">
@@ -127,21 +127,23 @@
                     </div>
                 </div>
                 </div>
-            </div>
+            </div> --}}
             </section>
   <!-- ======= Portfolio Section ======= -->
   <section id="portfolio" class="portfolio">
     <div class="container">
 
-        <div class="col-md-9" data-aos="fade-up">
+        <div class="col-md-12" data-aos="fade-up">
             <h2 class="section-heading">NUESTROS CURSOS Y TALLERES</h2>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="200">
             <div class="col-lg-12 d-flex justify-content-center">
-                <ul id="portfolio-flters">
-                    <li data-filter="*" class="filter-active">CURSOS</li>           
-                </ul>
+                <div class="">
+                    <button class="btn btn-primary" type="button"><a href="cursos" style="margin-bottom: 18px;"> CURSOS</a></button>
+                    <br>
+                </div>           
+                
             </div>
         </div>
         
@@ -223,14 +225,15 @@
                                     <div class="col-lg-8 details order-2 order-lg-1">
                                         <h3>DEPORTES A.D.A.</h3>
                                             <p class="fst-italic">El 13 de noviembre del 2001, se conformo la Asociación deportiva de Auditores (A.D.A.) y del cual el primer directorio del A.D.A. estaba conformado por: <br>
-                                            <b>PRESIDENTE</b>.............Lic. Aud. Eloy V. Iporre <br>
+                                            <b>PRESIDENTE</b>.............Lic. Aud. Eloy V. Iporre. <br>
                                             <b>SECRETARIO DE ACTAS Y MATRICULA</b>............Lic. Aud. Pablo Quispe F.<br>
-                                            <b>SECRETARIO DE HACIENDA</b>..........Lic. Aud. Carola Guzmán L
+                                            <b>SECRETARIO DE HACIENDA</b>..........Lic. Aud. Carola Guzmán L.
+                                            <br>
                                             <br>
                                             Reconocemos la labor de nuestros colegas, que dejaron los pilares de lo que hoy en día es la ASOCIACIÓN DEPORTIVA DE AUDITORES</p>
                                     </div>
                                     <div class="col-lg-4 text-center order-1 order-lg-2">
-                                        <img src="{{asset('img/Logo HD.fw.png')}}"alt="" class="img-fluid">
+                                        <img src="{{asset('img/Logo HD.fw.png')}}" alt="" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
@@ -395,7 +398,7 @@
 
                         <div class="col-md-6">
                             <div class="step">
-                                <div class="col-md-12 me-auto text-center text-md-start mb-3 mb-md-0">
+                                <div class="col-md-12 me-auto text-center text-md-start mb-3 mb-md-0" data-aos="fade-up" data-aos-delay="300">
                                     <h2>DIRECCION DEL COMPLEJO CDA.</h2>
                                     <div>
                                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15228.737079710781!2d-66.21922507271724!3d-17.40294228932365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93e37366e21f1041%3A0x36954263d87bb9!2sComplejo%20del%20Colegio%20de%20auditores%20-%20Cochabamba!5e0!3m2!1ses!2sbo!4v1666969113649!5m2!1ses!2sbo" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -423,7 +426,7 @@
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
                                         <div class="review text-center">
-                                            <h3>BOLETINES</h3>
+                                            <h3>SERVICIOS</h3>
                                             <blockquote>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam
                                                 aperiam dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi,
@@ -441,30 +444,28 @@
                                         <div class="review text-center">
                                             <h3>BIBLIOTECA</h3>
                                             <blockquote>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam
-                                                aperiam dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi,
-                                                provident voluptates consectetur maiores quos.</p>
+                                            <p>Adjunto a la presente, ponemos a su disposición las diapositivas de los cursos virtuales, que se llevaron a cabo desde el 07 de abril al 09 de mayo
+                                                <br>
+                                                Adjunto a la presente, ponemos a su disposición las diapositivas de los cursos virtuales, que se llevaron a cabo desde el 10 de mayo
+                                            </p>
                                             </blockquote>
                                             <p class="review-user">
-                                            <img src="{{asset('img/Logo HD.fw.png')}}" alt="Image" class="img-fluid rounded-circle mb-3">
-                                            <span class="d-block">
-                                                <span class="text-black">Johan Smith</span>, &mdash; App User
-                                            </span>
+                                                <a href="#">Material Digital cursos virtuales I CDA</a><br>
+                                                <a href="#">Material Digital cursos virtuales II CDA</a>
                                             </p>
                                         </div>
                                     </div><!-- End testimonial item -->
                                     <div class="swiper-slide">
                                         <div class="review text-center">
-                                            <h3>SERVICIO CDA</h3>
+                                            <h3>BOLETINES CDA</h3>
                                             <blockquote>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam
-                                                aperiam dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi,
-                                                provident voluptates consectetur maiores quos.</p>
+                                            <p>Boletines Informativos</p>
+                                            
                                             </blockquote>
                                             <p class="review-user">
-                                                <img src="{{asset('img/Logo HD.fw.png')}}" alt="Image" class="img-fluid rounded-circle mb-3">
+                                                <img src="{{asset('img/Logo HD.fw.png')}}"alt="Image" class="img-fluid rounded-circle mb-3">
                                                 <span class="d-block">
-                                                    <span class="text-black">Jean Thunberg</span>, &mdash; App User
+                                                    <a href="#">BOLETINES INFORMATIVOS</a>
                                                 </span>
                                             </p>
                                         </div>

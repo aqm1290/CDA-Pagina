@@ -24,15 +24,15 @@ class CursosController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'Nombre' => 'required', 
-            'Descipcion' => 'required',
-            'Lugar' => 'required', 
-            'Fecha' => 'required', 
-            'Hora' => 'required', 
-            'Categoria' => 'required',
-            'Precio' => 'required', 
-            'Expositor' => 'required', 
-            'TextoAdicional' => 'required', 
+            'Nombre' => 'required|max:1000000', 
+            'Descipcion' => 'required|max:1000000',
+            'Lugar' => 'required|max:1000000', 
+            'Fecha' => 'required|max:1000000', 
+            'Hora' => 'required|max:1000000', 
+            'Categoria' => 'required|max:1000000',
+            'Precio' => 'required|max:1000000', 
+            'Expositor' => 'required|max:1000000', 
+            'TextoAdicional' => 'required|max:1000000', 
             'Imagen' => 'required|image|mimes:jpeg,png,svg|max:1024',
 
         ]);

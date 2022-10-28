@@ -39,18 +39,28 @@
                 <div class="col-lg-4">
                     <h4>{{$cursos->Nombre}}</h4>
                     <p>{{$cursos->Lugar}}</p>
+                    <p>{{$cursos->Fecha}}</p>
+                    <p>{{$cursos->Hora}}</p>
+                    <p>{{$cursos->Categoria}}</p>
+                    <p>{{$cursos->Precio}}</p>
+                    <p>{{$cursos->Expositor}}</p>
+                    <p>{{$cursos->TextoAdicional}}</p>
+
                 </div>
                 <div class="col-lg-8">
                     <img src="/Imagen/{{$cursos->Imagen}}"   alt="" class="img-fluid cursos1-img">
                     <h3>{{$cursos->Nombre}}</h3>
+                    <p>{{$cursos->Lugar}}</p>
+                    <p>{{$cursos->Fecha}}</p>
+                    <p>{{$cursos->Hora}}</p>
                     <p>
                         {{$cursos->Descipcion}}
                     </p>
-                    <ul>
+                    {{-- <ul>
                         <li><i class="bi bi-check-circle"></i> <span>Aut eum totam accusantium voluptatem.</span></li>
                         <li><i class="bi bi-check-circle"></i> <span>Assumenda et porro nisi nihil nesciunt voluptatibus.</span></li>
                         <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
-                    </ul>
+                    </ul> --}}
                     
                 </div>
             </div>

@@ -822,7 +822,7 @@ section {
 # Hero Section
 --------------------------------------------------------------*/
 .hero-section {
-  background: linear-gradient(to right, rgba(0, 35, 104, 0.8) 0%, rgba(0, 119, 199, 0.9) 100%), url(../img/Logo\ HD.fw.png) 10% 30%/44% no-repeat/*, url(../img/Sin\ título-1.png)10% 50%/110% no-repeat */;
+  background: linear-gradient(to right, rgba(0, 35, 104, 0.8) 0%, rgba(0, 153, 255, 0.589) 100%), url(../img/Logo\ HD.fw.png) 10% 30%/44% no-repeat/*, url(../img/Sin\ título-1.png)10% 50%/110% no-repeat */;
   position: relative;
 }
 
@@ -862,7 +862,7 @@ section {
 }
 @media screen and (max-width: 992px) {
   .hero-section {
-    background: linear-gradient(to right, rgba(0, 35, 104, 0.9) 0%, rgba(0, 80, 69, 0.61) 100%), url(../img/Logo\ HD.fw.png) 40% 30%/60% no-repeat ;
+    background: linear-gradient(to right, rgba(0, 35, 104, 0.9) 0%, rgba(0, 196, 170, 0.61) 100%), url(../img/Logo\ HD.fw.png) 40% 30%/60% no-repeat ;
 
   }
 }
@@ -913,7 +913,7 @@ section {
 .hero-section .iphone-wrap .phone-2,
 .hero-section .iphone-wrap .phone-1 {
   position: absolute;
-  top: -50%;
+  top: -80%;
   overflow: hidden;
   left: 0;
   box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.541);
@@ -1653,6 +1653,8 @@ section {
 }
 
 .services .card1 .card1-img {
+  padding-left: 60px;
+  width: 70%;
   overflow: hidden;
   margin-bottom: 15px;
   border-radius: 0;

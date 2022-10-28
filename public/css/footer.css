@@ -100,8 +100,8 @@
 
 .btn-flotante1 {
 	position: fixed;
-	bottom: -4%;
-	left: 5%;
+	bottom: -4.9%;
+	left: 5.3%;
 	z-index: 1;
 }
 @media only screen and (max-width: 600px) {

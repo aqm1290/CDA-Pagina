@@ -29,9 +29,10 @@
   border-radius: 4px;
 }
 
+
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  background: #131249;
+  background: #88f1ff;
 }
 
 .portfolio #portfolio-flters li:last-child {

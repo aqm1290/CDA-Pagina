@@ -118,9 +118,6 @@
                 </div>
 
 
-
-
-
                 <div class="tab-pane" id="tab-3">
                     <div class="row">
                         <section id="services" class="services pt-0">
@@ -129,7 +126,7 @@
                                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                                         <div class="card1">
                                             <div class="card1-img">
-                                                <img src="assets/img/storage-service.jpg" alt="" class="img-fluid">
+                                                <img src="{{asset('img/LogosAda/ACTIVOS.png')}}" alt="" class="img-fluid">
                                             </div>
                                             <h3><a href="service-details.html" class="stretched-link">ACTIVOS
                                             </a></h3>
@@ -141,27 +138,29 @@
                                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                                         <div class="card1">
                                             <div class="card1-img">
-                                                <img src="assets/img/logistics-service.jpg" alt="" class="img-fluid">
+                                                <img src="{{asset('img/LogosAda/AUDIMILENIUM.png')}}" alt="" class="img-fluid">
                                             </div>
                                             <h3><a href="service-details.html" class="stretched-link">AUDIMILENIUM</a></h3>
                                             <p>Lic. Fredy Lopez	</p>
                                             <p>72210305</p>
-                                            <p>frelo65@hotmail.com</p>                                        </div>
+                                            <p>frelo65@hotmail.com</p>                                        
+                                        </div>
                                     </div><!-- End card1 Item -->
                                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                                         <div class="card1">
                                             <div class="card1-img">
-                                                <img src="assets/img/cargo-service.jpg" alt="" class="img-fluid">
+                                                <img src="{{asset('img/LogosAda/BIMONETARIOS.png')}}" alt="" class="img-fluid">
                                             </div>
                                                 <h3><a href="service-details.html" class="stretched-link">BIMONETARIOS</a></h3>
                                                 <p>Lic. Walter Lijeron	</p>
                                                 <p>71734369</p>
-                                                <p>	walter.lijeron@hotmail.com</p>                                        </div>
+                                                <p>	walter.lijeron@hotmail.com</p>                                        
+                                        </div>
                                     </div><!-- End card1 Item -->
                                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
                                         <div class="card1">
                                             <div class="card1-img">
-                                                <img src="assets/img/trucking-service.jpg" alt="" class="img-fluid">
+                                                <img src="{{asset('img/LogosAda/CGR.jpg')}}" alt="" class="img-fluid">
                                             </div>
                                                 <h3><a href="service-details.html" class="stretched-link">C.G.R.</a></h3>
                                                 <p>Lic. Luis Vargas</p>
@@ -171,7 +170,7 @@
                                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
                                         <div class="card1">
                                             <div class="card1-img">
-                                                <img src="assets/img/packaging-service.jpg" alt="" class="img-fluid">
+                                                <img src="{{asset('img/LogosAda/EFECTIVOS.jpg')}}" alt="" class="img-fluid">
                                             </div>
                                             <h3><a href="service-details.html" class="stretched-link">EFECTIVOS</a></h3>
                                             <p>Lic. Juan C. Terrazas</p>
@@ -181,17 +180,18 @@
                                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                                         <div class="card1">
                                             <div class="card1-img">
-                                                <img src="assets/img/warehousing-service.jpg" alt="" class="img-fluid">
+                                                <img src="{{asset('img/LogosAda/MASTERFINAL.png')}}" alt="" class="img-fluid">
                                             </div>
                                                 <h3><a href="service-details.html" class="stretched-link">MASTER</a></h3>
                                                 <p>Lic. Marco Gutierrez</p>
                                                 <p>72217027</p>
-                                                <p>	marcguty@hotmail.com</p>                                        </div>
+                                                <p>	marcguty@hotmail.com</p>                
+                                        </div>                        
                                     </div><!-- End card1 Item -->
                                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                                         <div class="card1">
                                             <div class="card1-img">
-                                                <img src="assets/img/warehousing-service.jpg" alt="" class="img-fluid">
+                                                <img src="{{asset('img/LogosAda/SENIOR CLUB.png')}}" alt="" class="img-fluid">
                                             </div>
                                                 <h3><a href="service-details.html" class="stretched-link">SENIOR CLUB	</a></h3>
                                                 <p>	Lic. Pedro Claros</p>
@@ -201,7 +201,7 @@
                                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                                         <div class="card1">
                                             <div class="card1-img">
-                                                <img src="assets/img/warehousing-service.jpg" alt="" class="img-fluid">
+                                                <img src="{{asset('img/LogosAda/EXIGIELES.png')}}" alt="" class="img-fluid">
                                             </div>
                                                 <h3><a href="service-details.html" class="stretched-link">EXIGIBLES</a></h3>
                                                 <p>Lic. Alejandro Taboada	</p>
@@ -211,7 +211,7 @@
                                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                                         <div class="card1">
                                             <div class="card1-img">
-                                                <img src="assets/img/warehousing-service.jpg" alt="" class="img-fluid">
+                                                <img src="{{asset('img/LogosAda/VALOR FUTURO.png')}}" alt="" class="img-fluid">
                                             </div>
                                                 <h3><a href="service-details.html" class="stretched-link">VALOR FUTURO	</a></h3>
                                                 <p>Lic. Juvenal Jamachi	</p>
