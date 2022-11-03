@@ -61,11 +61,51 @@
                         <li><i class="bi bi-check-circle"></i> <span>Assumenda et porro nisi nihil nesciunt voluptatibus.</span></li>
                         <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
                     </ul> --}}
-                    
+                    <div class="flex justify-center rounded-lg text-lg" role="group">
+                        <!-- botón editar -->
+                        <a href="{{route('cursos.edit',$cursos->id)}}" class="">Editar</a>
+
+                        <!-- botón borrar -->
+                        <form action="{{route('cursos.destroy', $cursos->id)}}" method="POST" class="formEliminar">
+                            @csrf
+                            @method('DELETE')
+                            <button type="submit" class="">Borrar</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </section><!-- End Service Details Section -->
+    
 </main>
+
+<script>
+    (function () {
+'use strict'
+  //debemos crear la clase formEliminar dentro del form del boton borrar
+  //recordar que cada registro a eliminar esta contenido en un form  
+var forms = document.querySelectorAll('.formEliminar')
+Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+        form.addEventListener('submit', function (event) {        
+        event.preventDefault()
+        event.stopPropagation()        
+        Swal.fire({
+                title: '¿Confirma la eliminación del registro?',        
+                icon: 'info',
+                showCancelButton: true,
+                confirmButtonColor: '#20c997',
+                cancelButtonColor: '#6c757d',
+                confirmButtonText: 'Confirmar'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    this.submit();
+                    Swal.fire('¡Eliminado!', 'El registro ha sido eliminado exitosamente.','success');
+                }
+            })                      
+        }, false)
+    })
+})()
+</script>
 
 @endsection

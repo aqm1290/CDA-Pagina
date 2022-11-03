@@ -1,0 +1,139 @@
+
+/*--------------------------------------------------------------
+# INICIO PORTADA Section
+--------------------------------------------------------------*/
+.hero-section {
+    background: linear-gradient(to right, rgba(0, 35, 104, 0.8) 0%, rgba(0, 153, 255, 0.589) 100%), url(../img/Logo\ HD.fw.png) 10% 30%/44% no-repeat;
+    position: relative;
+  }
+  
+  .hero-section .wave {
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    bottom: -150px;
+  }
+  
+  
+  @media screen and (max-width: 992px) {
+    .hero-section .wave {
+      bottom: -100px;
+    }
+  }
+  
+  .hero-section .wave svg {
+    width: 100%;
+  }
+  
+  .hero-section,
+  .hero-section>.container>.row {
+    height: 100vh;
+    min-height: 880px;
+  }
+  
+  .hero-section.inner-page {
+    height: 60vh;
+    min-height: 0;
+  }
+  
+  .hero-section.inner-page .hero-text {
+    transform: translateY(-150px);
+    margin-top: -120px;
+  }
+  @media screen and (max-width: 992px) {
+    .hero-section {
+      background: linear-gradient(to right, rgba(0, 35, 104, 0.9) 0%, rgba(0, 196, 170, 0.61) 100%), url(../img/Logo\ HD.fw.png) 40% 30%/60% no-repeat ;
+  
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .hero-section.inner-page .hero-text {
+      margin-top: -80px;
+    }
+  }
+  
+  .hero-section h1 {
+    font-size: 3.5rem;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .hero-section h1 {
+      font-size: 2.5rem;
+      text-align: center;
+      margin-top: 80px;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .hero-section .hero-text-image {
+      margin-top: 2.5rem;
+    }
+  }
+  
+  .hero-section p {
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .hero-section .iphone-wrap {
+  
+    position: relative;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .hero-section .iphone-wrap {
+      text-align: center;
+    }
+  }
+  
+  .hero-section .iphone-wrap .phone-2,
+  .hero-section .iphone-wrap .phone-1 {
+    position: absolute;
+    top: -80%;
+    overflow: hidden;
+    left: 0;
+    box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.541);
+    border-radius: 20px;
+  }
+  
+  @media screen and (max-width: 992px) {
+  
+    .hero-section .iphone-wrap .phone-2,
+    .hero-section .iphone-wrap .phone-1 {
+      position: relative;
+      top: 0;
+      max-width: 100%;
+    }
+  }
+  
+  .hero-section .iphone-wrap .phone-2,
+  .hero-section .iphone-wrap .phone-1 {
+    width: 400px;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .hero-section .iphone-wrap .phone-1 {
+      margin-left: -25px;
+    }
+  }
+  
+  .hero-section .iphone-wrap .phone-2 {
+    margin-top: 80px;
+    margin-left: 80px;
+    width: 400px;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .hero-section .iphone-wrap .phone-2 {
+      width: 250px;
+      position: absolute;
+      margin-top: 0px;
+      margin-left: 100px;
+    }
+  }
+  

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CursosController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,10 +24,17 @@ Route::get('/estatutoReglamentos', [App\Http\Controllers\EstatutoController::cla
 Route::get('/directorioEjecutivo', [App\Http\Controllers\directorioController::class, 'index'])->name('directorio');
 Route::get('/requisitosInscripcion', [App\Http\Controllers\RequisitosInscripcionController::class, 'index'])->name('inscripcion');
 
-Route::get('/cursos', [App\Http\Controllers\CursosController::class, 'index'])->name('cursos.index');
+
+Route::resource('/cursos', CursosController::class);
+/* Route::get('/cursos', [App\Http\Controllers\CursosController::class, 'index'])->name('cursos.index');
 Route::get('/cursos/create', [App\Http\Controllers\CursosController::class, 'create'])->name('cursos.create');
 Route::post('/cursos', [App\Http\Controllers\CursosController::class, 'store'])->name('cursos.store');
 Route::get('/cursos/{curso}', [App\Http\Controllers\CursosController::class, 'show'])->name('cursos.show');
+Route::get('/cursos/{curso}/edit', [App\Http\Controllers\CursosController::class, 'edit'])->name('cursos.edit');
+Route::put('/cursos/{curso}', [App\Http\Controllers\CursosController::class, 'update'])->name('cursos.update');
+Route::delete('/cursos/{curso}', [App\Http\Controllers\CursosController::class, 'destroy'])->name('cursos.destroy');
+
+ */
 
 
 Route::get('/tribunalEtica', [App\Http\Controllers\TribunalEticaController::class, 'index'])->name('tribunal');
