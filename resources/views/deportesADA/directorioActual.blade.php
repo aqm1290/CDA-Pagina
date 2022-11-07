@@ -21,7 +21,7 @@
             <div class="col-12">
                 <div class="row justify-content-center">
                     <div class="col-md-9 text-center hero-text">
-                        <h1 data-aos="fade-up" data-aos-delay="100">TRIBUNAL DE ETICA
+                        <h1 data-aos="fade-up" data-aos-delay="100">DIRECTORIO A.D.A.
                         </h1>
                         
                     </div>
@@ -40,61 +40,53 @@
                             <section id="faq" data-aos="flip-left" class="faq section-bg">
                                 <div class="container" >
                                     <div class="section-title">
-                                        <h2 class="card-title">Tribunal de Ética Profesional</h2>
+                                        <h2 class="card-title">Actual directorio a.d.a.</h2>
                                         <p class="card-text parrafo">
-                                            En fecha 16 de octubre de 2021, dados los resultados de la elección por voto directo en segunda vuelta de fecha 09 de octubre de 2021, tomó posesión el actual Directorio del Tribunal de Ética Profesional  por la Gestión 2021 – 2023 en su calidad de frente ganador bajo la sigla  CPA de acuerdo al siguiente detalle de carteras:                                        
+                                            El actual Directorio de la Asociación Deportiva de Auditores - A.D.A. esta compuesto por:
                                         </p>
-                                        <p class="card-text parrafo">
-                                            Para conocimiento general, ponemos en conocimiento el reglamento del Tribunal de Ética Profesión actualmente en vigencia
-                                        el presente documento usted podrá encontrar el "Código de Ética y el Reglamento del Tribunal de Ética Profesional"
-                                        </p>
-                                        <section id="cta" class="cta">
-                                                
-                                            <div class="text-center">
-                                                <a class="cta-btn" href="https://www.auditores.org.bo/static/ftp/files/estatutos/reglamento%20Etica.pdf" target="_blank">Para descargar el reglamento clic aqui!!
-
-                                                </a>
-                                            </div>
-                                        
-                                        </section><!-- End Cta Section -->
-                                        <br>
                                             <!-- ======= Pricing Section ======= -->
                                         <section id="pricing" class="pricing">
                                             <div class="container">
                                                 <div class="section-header">
-                                                    <img src="{{asset('img/Y30I1TlY.jpg')}}" alt="" class="imgCT img-fluid">
+                                                    <img src="{{asset('img/direcotrioADA.png')}}" alt="" class="imgCT img-fluid">
                                                     <br>
                                                 </div>
                                                 <div class="row gy-4 gx-lg-5">
                                                     <div class="col-lg-12">
                                                         <div class="pricing-item">
                                                             
-                                                            <h3>PRESIDENTE </h3>
-                                                            <h4>Lic. Aud. Marco Antonio Soto Velásquez</h4>
+                                                            <h3>PRESIDENTE</h3>
+                                                            <h4>Lic. Aud. Ramiro A. Escobar Antezana</h4>
                                                         </div>
                                                     </div><!-- End Pricing Item -->
                                                     <div class="col-lg-12">
                                                         <div class="pricing-item">
-                                                            <h3>SECRETARIO GENERAL</h3>
-                                                            <h4>Lic. Aud. Carlos Cesar Herbas Velasquez</h4>
+                                                            <h3>VICEPRESIDENTE</h3>
+                                                            <h4>Lic. Aud. Teresa S. Mercado Rocha</h4>
                                                         </div>
                                                     </div><!-- End Pricing Item -->
                                                     <div class="col-lg-12">
                                                         <div class="pricing-item">
-                                                            <h3>SECRETARIA DE ACTAS</h3>
-                                                            <h4>Lic. Aud. Mery Magdalena Mamani Quispe</h4>
+                                                            <h3>  SECRETARÍA DE ACTAS</h3>
+                                                            <h4>Lic. Aud. Palmira Nogales Espinoza</h4>
                                                         </div>
                                                     </div><!-- End Pricing Item -->
                                                     <div class="col-lg-12">
                                                         <div class="pricing-item">
-                                                            <h3>VOCAL</h3>
-                                                            <h4>Lic. Aud. Maria E. Peñafiel Calizaya</h4>
+                                                            <h3>SECRETARÍA DE FINANZAS</h3>
+                                                            <h4>Lic. Aud. Marcelo Jaldín Echalar</h4>
                                                         </div>
                                                     </div><!-- End Pricing Item -->
                                                     <div class="col-lg-12">
                                                         <div class="pricing-item">
-                                                            <h3>VOCAL </h3>
-                                                            <h4>Lic. Aud. Maria Virginia Montero Lara</h4>
+                                                            <h3>SECRETARÍA DE HABILITACIONES</h3>
+                                                            <h4>Lic. Aud. Neiva K. Camacho Arze</h4>
+                                                        </div>
+                                                    </div><!-- End Pricing Item -->
+                                                    <div class="col-lg-12">
+                                                        <div class="pricing-item">
+                                                            <h3>SECRETARÍA DE HACIENDA</h3>
+                                                            <h4>Lic. Aud. Marcelo A. Jaldin Echalar</h4>
                                                         </div>
                                                     </div><!-- End Pricing Item -->
                                                     

@@ -40,5 +40,8 @@ Route::delete('/cursos/{curso}', [App\Http\Controllers\CursosController::class, 
 Route::get('/tribunalEtica', [App\Http\Controllers\TribunalEticaController::class, 'index'])->name('tribunal');
 Route::get('/consejoTecnico', [App\Http\Controllers\ConsejoTecnicoController::class, 'index'])->name('consejo');
 Route::get('/historia', [App\Http\Controllers\HistoriaController::class, 'index'])->name('historia');
+Route::get('/directoriaADA', [App\Http\Controllers\DirectorioAdaController::class, 'index'])->name('directoriaADA');
+
+
 
 

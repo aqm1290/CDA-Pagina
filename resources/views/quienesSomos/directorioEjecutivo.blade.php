@@ -54,74 +54,74 @@
                                                 </div>
                                                 <div class="row gy-4 gx-lg-5">
                                                     <div class="col-lg-12">
-                                                        <div class="pricing-item d-flex justify-content-between">
+                                                        <div class="pricing-item">
                                                             
                                                             <h3>PRESIDENTA</h3>
                                                             <h4>Lic. Aud. Mercedes López Lara</h4>
                                                         </div>
                                                     </div><!-- End Pricing Item -->
                                                     <div class="col-lg-12">
-                                                        <div class="pricing-item d-flex justify-content-between">
+                                                        <div class="pricing-item">
                                                             <h3>1er VICEPRESIDENTE </h3>
                                                             <h4>Lic. Aud. Marco A. Zambrana Bascopé</h4>
                                                         </div>
                                                     </div><!-- End Pricing Item -->
                                                     <div class="col-lg-12">
-                                                        <div class="pricing-item d-flex justify-content-between">
+                                                        <div class="pricing-item">
                                                             <h3>2do VICEPRESIDENTE </h3>
                                                             <h4>Lic. Aud. Rosmery Villacorta Guzmán</h4>
                                                         </div>
                                                     </div><!-- End Pricing Item -->
                                                     <div class="col-lg-12">
-                                                        <div class="pricing-item d-flex justify-content-between">
+                                                        <div class="pricing-item">
                                                             <h3>SECRETARIO GENERAL </h3>
                                                             <h4>Lic. Aud. Gonzalo Molina Chávez</h4>
                                                         </div>
                                                     </div><!-- End Pricing Item -->
                                                     <div class="col-lg-12">
-                                                        <div class="pricing-item d-flex justify-content-between">
+                                                        <div class="pricing-item">
                                                             <h3>SECRETARIA DE FINANZAS </h3>
                                                             <h4>Lic. Aud. Roxana S. Baldelomar Rosales</h4>
                                                         </div>
                                                     </div><!-- End Pricing Item -->
                                                     <div class="col-lg-12">
-                                                        <div class="pricing-item d-flex justify-content-between">
+                                                        <div class="pricing-item">
                                                             <h3>SECRETARIA DE ACTAS </h3>
                                                             <h4>Lic. Aud. Marion Rojas Soto</h4>
                                                         </div>
                                                     </div><!-- End Pricing Item -->
                                                     <div class="col-lg-12">
-                                                        <div class="pricing-item d-flex justify-content-between">
+                                                        <div class="pricing-item">
                                                             <h3>SECRETARIA DE CAPACITACIÓN </h3>
                                                             <h4>Lic. Aud. Jeanette M. Chipana Wariste</h4>
                                                         </div>
                                                     </div><!-- End Pricing Item -->
                                                     <div class="col-lg-12">
-                                                        <div class="pricing-item d-flex justify-content-between">
+                                                        <div class="pricing-item">
                                                             <h3>SECRETARIO DE RELACIONES PÚBLICAS </h3>
                                                             <h4>Lic. Aud. Erick M. Cardenas Cabero</h4>
                                                         </div>
                                                     </div><!-- End Pricing Item -->
                                                     <div class="col-lg-12">
-                                                        <div class="pricing-item d-flex justify-content-between">
+                                                        <div class="pricing-item">
                                                             <h3>SECRETARIO DE DEPORTES </h3>
                                                             <h4>Lic. Aud. Ramiro A. Escobar Antezna</h4>
                                                         </div>
                                                     </div><!-- End Pricing Item -->
                                                     <div class="col-lg-12">
-                                                        <div class="pricing-item d-flex justify-content-between">
+                                                        <div class="pricing-item">
                                                             <h3>PRIMER VOCAL </h3>
                                                             <h4>Lic. Aud. Juan Carlos Quiroga Saravia</h4>
                                                         </div>
                                                     </div><!-- End Pricing Item -->
                                                     <div class="col-lg-12">
-                                                        <div class="pricing-item d-flex justify-content-between">
+                                                        <div class="pricing-item">
                                                             <h3>SEGUNDO VOCAL</h3>
                                                             <h4>Lic. Aud. Wilson Omar Guizada</h4>
                                                         </div>
                                                     </div><!-- End Pricing Item -->
                                                     <div class="col-lg-12">
-                                                        <div class="pricing-item d-flex justify-content-between">
+                                                        <div class="pricing-item">
                                                             <h3>TERCER VOCAL</h3>
                                                             <h4>Lic. Aud. Lenin A. Sánchez Tastaca</h4>
                                                         </div>

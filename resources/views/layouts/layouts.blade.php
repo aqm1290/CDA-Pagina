@@ -41,7 +41,8 @@
         <div class="container d-flex justify-content-between align-items-center">
 
         <div class="logo">
-            <h1><a href="/"><img src="{{asset('img/Logo HD.fw.png')}}" alt="" class="img-fluid">  CDA</a></h1>
+            <h1><a href="/" ><img src="{{asset('img/Logo HD.fw.png')}}" alt="" class="img-fluid">  <span class="mostrar"> CDA</span> <span class="ocultar">COLEGIO DE AUDITORES</span></a></h1>
+            
         </div>
 
         <nav id="navbar" class="navbar">
@@ -64,10 +65,10 @@
                 </ul>
             </li>
             
-            <li class="dropdown nav-link scrollto"><a href="#departments"><span>Deportes A.D.A.</span> <i class="bi bi-chevron-down"></i></a>
+            <li class="dropdown nav-link scrollto"><a href="#"><span>Deportes A.D.A.</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
                 <li><a href="historia">HISTORIA</a></li>
-                <li><a href="historia">DIRECTORIO</a></li>
+                <li><a href="directoriaADA">DIRECTORIO</a></li>
                 <li><a href="historia">INSCRIPCIONES</a></li>
                 <li><a href="historia">CLUBES </i></a></li>
                 </ul>

@@ -52,32 +52,32 @@
                                             </div>
                                             <div class="row gy-4 gx-lg-5">
                                                 <div class="col-lg-12">
-                                                    <div class="pricing-item  ">
+                                                    <div class="pricing-item">
                                                         
                                                         <h3>PRESIDENTE </h3>
                                                         <h4>Lic. Aud. José Antonio Mendoza Crespo</h4>
                                                     </div>
                                                 </div><!-- End Pricing Item -->
                                                 <div class="col-lg-12">
-                                                    <div class="pricing-item ">
+                                                    <div class="pricing-item">
                                                         <h3>SECRETARIO GENERAL</h3>
                                                         <h4>Lic. Aud. René Mora López</h4>
                                                     </div>
                                                 </div><!-- End Pricing Item -->
                                                 <div class="col-lg-12">
-                                                    <div class="pricing-item ">
+                                                    <div class="pricing-item">
                                                         <h3>SECRETARIA DE ACTAS</h3>
                                                         <h4>Lic. Aud. Elvira Veizaga Aduviri</h4>
                                                     </div>
                                                 </div><!-- End Pricing Item -->
                                                 <div class="col-lg-12">
-                                                    <div class="pricing-item ">
+                                                    <div class="pricing-item">
                                                         <h3>VOCAL</h3>
                                                         <h4>Lic. Aud. Geovanna Mendoza Encinas</h4>
                                                     </div>
                                                 </div><!-- End Pricing Item -->
                                                 <div class="col-lg-12">
-                                                    <div class="pricing-item  ">
+                                                    <div class="pricing-item">
                                                         <h3>VOCAL </h3>
                                                         <h4>Lic. Aud. Marco Antonio Sanchez Villarte</h4>
                                                     </div>

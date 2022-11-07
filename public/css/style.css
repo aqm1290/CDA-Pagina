@@ -249,6 +249,7 @@ section {
     border: 0;
     padding: 15px;
   }
+  
 
   .departments .nav-link.active {
     color: #fff;
@@ -303,12 +304,12 @@ section {
   padding: 50px;
   background: linear-gradient(-45deg, #1391a5, #274685);
   color: #fff;
-  padding-bottom: 12rem !important;
+  padding-bottom: 2.5rem !important;
   position: relative;
-  border-radius: 4px;
+  border-radius: 8px;
   color: #000000;
   background: #fff;
-  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.452);
 }
 
 .pricing h3 {
@@ -375,6 +376,19 @@ section {
   display: flex;
   justify-content: space-between;
 } 
+@media screen and (max-width: 768px) {
+  
+  .pricing .imgCT{
+    width: 80%;
+    height: 10%;
+    padding-bottom: 20px;
+    margin: 10px;
+  }
+  .pricing .pricing-item {
+    display:block ;
+    justify-content: space-between;
+  }
+}
 
 
 
@@ -411,7 +425,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 120px;
+  height: 150px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
@@ -419,14 +433,13 @@ section {
 
 #header.header-scrolled {
   background: rgba(1, 31, 90, 0.8);
-  height: 70px;
+  height: 85px;
 }
 
 #header .logo h1 {
   font-size: 28px;
   margin: 2px;
   padding: 0px 0;
- 
   line-height: 1;
   font-weight: 500;
 }
@@ -552,8 +565,12 @@ section {
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
+    
   }
- 
+  .ocultar{
+    visibility: hidden;
+    display: none;
+  }
 
   .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
@@ -576,8 +593,16 @@ section {
   .mobile-nav-toggle {
     display: block;
     }
-
   .navbar ul {
+    display: none;
+  }
+  .ocultar{
+    visibility: visible;
+    display: inline-block;
+    font-size: 18px;
+  }
+  .mostrar{
+    visibility: hidden;
     display: none;
   }
 }
@@ -1759,7 +1784,7 @@ section {
 
 @media screen and (max-width: 992px) {
   .hero-section.inner-page .hero-text {
-    margin-top: -80px;
+    margin-top: -210px;
   }
 }
 
