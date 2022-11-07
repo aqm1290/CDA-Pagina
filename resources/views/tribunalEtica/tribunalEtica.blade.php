@@ -31,7 +31,6 @@
     </div>
 </section>
 <main id="main">
-    <!-- Our Values Section -->
     <section id="our-values" class="our-values">
         <div class="container">
             <div class="row">
@@ -112,7 +111,6 @@
             </div>
         </div>
     </section>
-    <!-- End Our Values Section -->
 </main>
 
 @endsection

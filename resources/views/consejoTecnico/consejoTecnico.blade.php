@@ -31,146 +31,70 @@
     </div>
 </section>
 <main id="main">
-    <section id="tabs" class="tabs">
-        <div class="container" data-aos="fade-up">
-
-            <ul class="nav nav-tabs row d-flex">
-                <li class="nav-item col-4">
-                    <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
-                        
-                        <h4 class="d-none d-lg-block" id="h4">CONSEJO TÉCNICO DE AUDITORIA Y CONTABILIDAD</h4>
-                    </a>
-                    </li>
-                <li class="nav-item col-4">
-                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
-                    
-                    <h4 class="d-none d-lg-block" id="h4">Sistemas Informáticos 2da Feria Tecnológica</h4>
-                    </a>
-                </li>
-                <li class="nav-item col-4">
-                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
-                    
-                    <h4 class="d-none d-lg-block" id="h4">Sistemas Informáticos 2da Feria Tecnológica</h4>
-                    </a>
-                </li>
-            </ul>
-            <div class="tab-content">
-                <div class="tab-pane active show" id="tab-1">
-                    <div class="row">
-                        <div class="tab-content">
-                            <section id="cta1" class="cta1">
-                                <div class="container" data-aos="zoom-out">
-                                    <div class="row g-5">
-                                        <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
-                                            <h3> <em>CONSEJO TÉCNICO</em> DE AUTORIDAD Y CONTABILIDAD </h3>
-                                            <p>En fecha 16 de octubre de 2021, dados los resultados de la elección por voto directo en segunda vuelta de fecha 09 de octubre de 2021, tomó posesión el actual Directorio del Consejo Técnico de Auditoria y Contabilidad  por la Gestión 2021 – 2023 en su calidad de frente ganador bajo la sigla  CPA de acuerdo al siguiente detalle de carteras:</p>
-                                            <div class="">
-                                                <h5><b>PRESIDENTE</b>.......................Lic. Aud. José Antonio Mendoza Crespo
-                                                </h5>
-                                                <h5><b>SECRETARIO GENERAL</b>..............................Lic. Aud. René Mora López
-                                                </h5>
-                                                <h5><b>SECRETARIA DE ACTAS</b>...................Lic. Aud. Elvira Veizaga Aduviri
-                                                </h5>
-                                                <h5><b>VOCAL</b>.....................................Lic. Aud. Geovanna Mendoza Encinas
-                                                </h5>
-                                                <h5><b>VOCAL</b>...............................Lic. Aud. Marco Antonio Sanchez Villarte
-                                                </h5>
+  <section id="our-values" class="our-values">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-body">  
+                        <section id="faq" data-aos="flip-left" class="faq section-bg">
+                            <div class="container" >
+                                <div class="section-title">
+                                    <h2 class="card-title">CONSEJO TÉCNICO DE AUDITORIA Y CONTABILIDAD</h2>
+                                    <p class="card-text parrafo">
+                                      En fecha 16 de octubre de 2021, dados los resultados de la elección por voto directo en segunda vuelta de fecha 09 de octubre de 2021, tomó posesión el actual Directorio del Consejo Técnico de Auditoria y Contabilidad  por la Gestión 2021 – 2023 en su calidad de frente ganador bajo la sigla  CPA de acuerdo al siguiente detalle de carteras:                                    
+                                    </p>
+                                    <section id="pricing" class="pricing">
+                                        <div class="container">
+                                            <div class="section-header">
+                                                <img src="{{asset('img/JK0VzE5D.jpg')}}" alt="" class="imgCT img-fluid">
+                                                <br>
+                                            </div>
+                                            <div class="row gy-4 gx-lg-5">
+                                                <div class="col-lg-12">
+                                                    <div class="pricing-item  ">
+                                                        
+                                                        <h3>PRESIDENTE </h3>
+                                                        <h4>Lic. Aud. José Antonio Mendoza Crespo</h4>
+                                                    </div>
+                                                </div><!-- End Pricing Item -->
+                                                <div class="col-lg-12">
+                                                    <div class="pricing-item ">
+                                                        <h3>SECRETARIO GENERAL</h3>
+                                                        <h4>Lic. Aud. René Mora López</h4>
+                                                    </div>
+                                                </div><!-- End Pricing Item -->
+                                                <div class="col-lg-12">
+                                                    <div class="pricing-item ">
+                                                        <h3>SECRETARIA DE ACTAS</h3>
+                                                        <h4>Lic. Aud. Elvira Veizaga Aduviri</h4>
+                                                    </div>
+                                                </div><!-- End Pricing Item -->
+                                                <div class="col-lg-12">
+                                                    <div class="pricing-item ">
+                                                        <h3>VOCAL</h3>
+                                                        <h4>Lic. Aud. Geovanna Mendoza Encinas</h4>
+                                                    </div>
+                                                </div><!-- End Pricing Item -->
+                                                <div class="col-lg-12">
+                                                    <div class="pricing-item  ">
+                                                        <h3>VOCAL </h3>
+                                                        <h4>Lic. Aud. Marco Antonio Sanchez Villarte</h4>
+                                                    </div>
+                                                </div><!-- End Pricing Item -->
                                             </div>
                                         </div>
-                                        <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
-                                            <div class="img">
-                                                <img src="{{asset('img/JK0VzE5D.jpg')}}" alt="" class="img-fluid">
-                                            </div>
-                                        </div>
-                                    </div>
+                                    </section><!-- End Pricing Section -->
                                 </div>
-                            </section><!-- End Call To Action Section -->
-                        </div>
-                        
-                    </div>
-                </div>
-
-
-
-
-                <div class="tab-pane" id="tab-2">
-                    <div class="row">
-                        <section id="services" class="services pt-0">
-                            <div class="container" data-aos="fade-up">
-
-                              <div class="row gy-4">
-                      
-                                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                                  <div class="card1">
-                                    <div class="card1-img">
-                                      <img src="assets/img/storage-service.jpg" alt="" class="img-fluid">
-                                    </div>
-                                    <h3><a href="service-details.html" class="stretched-link">Sistema SnapQuick
-                                    </a></h3>
-                                    <p>Cumque eos in qui numquam. Aut aspernatur perferendis sed atque quia voluptas quisquam repellendus temporibus itaqueofficiis odit</p>
-                                  </div>
-                                </div><!-- End card1 Item -->
-                      
-                                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                                  <div class="card1">
-                                    <div class="card1-img">
-                                      <img src="assets/img/logistics-service.jpg" alt="" class="img-fluid">
-                                    </div>
-                                    <h3><a href="service-details.html" class="stretched-link">Software de Auditoría Caseware IDEA</a></h3>
-                                    <p>Asperiores provident dolor accusamus pariatur dolore nam id audantium ut et iure incidunt molestiae dolor ipsam ducimus occaecati nisi</p>
-                                  </div>
-                                </div><!-- End card1 Item -->
-                      
-                                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                                  <div class="card1">
-                                    <div class="card1-img">
-                                      <img src="assets/img/cargo-service.jpg" alt="" class="img-fluid">
-                                    </div>
-                                    <h3><a href="service-details.html" class="stretched-link">Sistema Contable Integrado Mercury</a></h3>
-                                    <p>Dicta quam similique quia architecto eos nisi aut ratione aut ipsum reiciendis sit doloremque oluptatem aut et molestiae ut et nihil</p>
-                                  </div>
-                                </div><!-- End card1 Item -->
-                      
-                                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-                                  <div class="card1">
-                                    <div class="card1-img">
-                                      <img src="assets/img/trucking-service.jpg" alt="" class="img-fluid">
-                                    </div>
-                                    <h3><a href="service-details.html" class="stretched-link">Sistema Contable Inteligente iContab</a></h3>
-                                    <p>Dicta quam similique quia architecto eos nisi aut ratione aut ipsum reiciendis sit doloremque oluptatem aut et molestiae ut et nihil</p>
-                                  </div>
-                                </div><!-- End card1 Item -->
-                      
-                                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-                                  <div class="card1">
-                                    <div class="card1-img">
-                                      <img src="assets/img/packaging-service.jpg" alt="" class="img-fluid">
-                                    </div>
-                                    <h3><a href="service-details.html" class="stretched-link">Oficina Virtual Privada - TI Software SRL</a></h3>
-                                    <p>Illo consequuntur quisquam delectus praesentium modi dignissimos facere vel cum onsequuntur maiores beatae consequatur magni voluptates</p>
-                                  </div>
-                                </div><!-- End card Item -->
-                      
-                                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-                                  <div class="card1">
-                                    <div class="card1-img">
-                                      <img src="assets/img/warehousing-service.jpg" alt="" class="img-fluid">
-                                    </div>
-                                    <h3><a href="service-details.html" class="stretched-link">Warehousing</a></h3>
-                                    <p>Quas assumenda non occaecati molestiae. In aut earum sed natus eatae in vero. Ab modi quisquam aut nostrum unde et qui est non quo nulla</p>
-                                  </div>
-                                </div><!-- End card1 Item -->
-                      
-                              </div>
-                      
                             </div>
-                          </section><!-- End Services Section -->
-                      
+                        </section>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+    
     <!-- End Tabs Section -->
 </main>
 

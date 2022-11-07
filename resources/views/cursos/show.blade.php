@@ -31,7 +31,6 @@
     </div>
 </section>
 <main id="main">
-    
     <!-- ======= curso1 Details Section ======= -->
     <section id="curso1-details" class="curso1-details">
         <div class="container" data-aos="fade-up">
@@ -45,7 +44,6 @@
                     <p>{{$cursos->Precio}}</p>
                     <p>{{$cursos->Expositor}}</p>
                     <p>{{$cursos->TextoAdicional}}</p>
-
                 </div>
                 <div class="col-lg-8">
                     <img src="/Imagen/{{$cursos->Imagen}}"   alt="" class="img-fluid cursos1-img">
@@ -79,6 +77,9 @@
     
 </main>
 
+
+
+@endsection
 <script>
     (function () {
 'use strict'
@@ -107,5 +108,3 @@ Array.prototype.slice.call(forms)
     })
 })()
 </script>
-
-@endsection

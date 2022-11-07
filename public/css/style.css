@@ -330,6 +330,14 @@ section {
 .pricing ul li {
   margin-bottom: 10px;
 }
+.pricing .imgCT{
+  width: 80%;
+  height: 10%;
+  margin-left: 60px;
+  margin-right: 60px;
+
+  padding-bottom: 20px;
+}
 
 .pricing .btn-white {
   background: #fff;
@@ -363,6 +371,12 @@ section {
 .pricing.popular .btn-white {
   border: 2px solid #2d71a1;
 }
+.pricing .pricing-item{
+  display: flex;
+  justify-content: space-between;
+} 
+
+
 
 /* CTA2 Section */
 .cta2-section {
