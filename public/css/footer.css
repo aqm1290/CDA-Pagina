@@ -23,6 +23,7 @@
 
 .footer .copyright {
   margin-bottom: 0px;
+  text-align: center;
 }
 
 .footer .copyright,
@@ -59,6 +60,16 @@
 .social a i {
   line-height: 0;
 }
+@media only screen and (max-width: 540px){
+  .social{
+    text-align: center;
+  }
+  .footer h3{
+    text-align: center;
+  }
+}
+
+
 
 .btn-flotante {
 	font-size: 10px; /* Cambiar el tamaño de la tipografia */
@@ -76,17 +87,16 @@
 }
 .btn-flotante:hover {
 	background-color: #00a545; /* Color de fondo al pasar el cursor */
-	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
 	transform: translateY(-7px);
 }
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 540px) {
 .btn-flotante {
 		font-size: 14px;
 		padding: 12px 20px;
 		bottom: 20px;
 		right: 20px;
 	}
-} 
+}  */
 .wpp{
   height: 35px;
   

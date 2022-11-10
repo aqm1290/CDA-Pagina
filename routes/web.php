@@ -41,6 +41,9 @@ Route::get('/tribunalEtica', [App\Http\Controllers\TribunalEticaController::clas
 Route::get('/consejoTecnico', [App\Http\Controllers\ConsejoTecnicoController::class, 'index'])->name('consejo');
 Route::get('/historia', [App\Http\Controllers\HistoriaController::class, 'index'])->name('historia');
 Route::get('/directoriaADA', [App\Http\Controllers\DirectorioAdaController::class, 'index'])->name('directoriaADA');
+Route::get('/convenios', [App\Http\Controllers\ConvenioController::class, 'index'])->name('convenios');
+Route::get('/convenios/create', [App\Http\Controllers\ConvenioController::class, 'create'])->name('servicios.createConvenios');
+Route::post('/convenios', [App\Http\Controllers\ConvenioController::class, 'store'])->name('servicios.store');
 
 
 

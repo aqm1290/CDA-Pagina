@@ -379,3 +379,89 @@ text-align:justify ;
   margin-left: 15px;
 }
 
+
+
+/*--------------------------------------------------------------
+# convenios Section
+--------------------------------------------------------------*/
+.convenios .img {
+  
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.convenios .img img {
+  width: 100%;
+  height: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 29px;
+  transition: 0.6s;
+  
+}
+
+.convenios .details {
+  padding: 10px 30px;
+  margin: -100px 30px 0 30px;
+  transition: all ease-in-out 0.3s;
+  background: rgb(247, 247, 247);
+  position: relative;
+  background: rgba(#00b3b9, 0.9);
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 0 25px rgba(#003a69, 0.1);
+}
+
+/* .convenios .details .icon {
+  margin: 0;
+  width: 72px;
+  height: 72px;
+  background: rgb(0, 44, 138);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  transition: ease-in-out 0.3s;
+  position: absolute;
+  top: -36px;
+  left: calc(50% - 36px);
+  border: 6px solid #fff;
+}
+ */
+.convenios .details h3 {
+  color: rgb(0, 78, 92);
+  font-weight: 700;
+  margin: 10px 0 15px 0;
+  font-size: 22px;
+  transition: ease-in-out 0.3s;
+}
+
+.convenios .details p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.convenios .convenio-item:hover .details h3 {
+  color: rgb(0, 173, 165);
+}
+.convenios .details:hover {
+  color: rgb(0, 0, 0);
+}
+
+
+/* .convenios .convenio-item:hover .details .icon {
+  background: #fff;
+  border: 2px solid rgb(33, 0, 221);
+} */
+
+/* .convenios .convenio-item:hover .details .icon i {
+  color: rgb(33, 0, 221);
+} */
+
+.convenios .convenio-item:hover .img img {
+  transform: scale(1.2);
+}

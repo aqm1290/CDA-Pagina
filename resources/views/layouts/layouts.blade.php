@@ -104,7 +104,6 @@
                 <p><i class="bi bi-telephone-fill"></i> Teléfono: (+591) 4509208</p>
                 <p><i class="bi bi-newspaper"></i> Fax: (+591) 4256331</p>
                 <p><i class="bi bi-phone"></i> Celular: (+591) 79797679</p>
-
                 <p class="social">
                     <a href="#"><span class="bi bi-twitter"></span></a>
                     <a href="https://www.facebook.com/cdauditores" target="_blank"><span class="bi bi-facebook"></span></a>
@@ -118,8 +117,8 @@
                         <h3>PAGINAS DE INTERES</h3>
                         <ul class="list-unstyled">
                             <li><a href="https://www.impuestos.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i> SERVICIO DE IMPUESTOS NACIONALES</a></li>
-                            <li><a href="https://fundempresa.org.bo/" target="_blank"><i class="bi bi-chevron-right"></i> FUNDEMPRESA</a></li>
-                            <li><a href="https://auditorescontadoresbolivia.org/" target="_blank"><i class="bi bi-chevron-right"></i> COLEGIO DEPARTAMENTAL DE BOLIVIA</a></li>
+                            <li><a href="https://fundempresa.org.bo/" target="_blank"><i class="bi bi-chevron-right"></i> SEPREC</a></li>
+                            <li><a href="https://auditorescontadoresbolivia.org/" target="_blank"><i class="bi bi-chevron-right"></i> COLEGIO DE AUDITORES DE BOLIVIA</a></li>
                             <li><a href="https://www.ait.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i> AUTORIDAD DE IMPUGNACION TRIBUTARIA</a></li>
                         </ul>
                     </div>  
@@ -128,7 +127,7 @@
         </div>
 
         <div class="row justify-content-center text-center">
-            <div class="col-md-7">
+            <div class="paracenter col-md-7">
             <p class="copyright">Copyright &copy;<script>document.write(new Date().getFullYear())</script><b> CDA-CBBA</b></p>
             <p class="copyright"><b>COLEGIO DEPARTAMENTAL DE AUDITORES </b></p>
             
@@ -140,7 +139,7 @@
 
     
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-    <div class="btn-flotante" data-aos="fade-up" data-aos-delay="100">    
+    <div class="btn-flotante sm" data-aos="fade-up" data-aos-delay="100">    
         <a href="https://api.whatsapp.com/send?phone=59179797679" target="_blank"> <img src="{{asset('img/pngwing.com.png')}}" class="wpp" alt="">WHATSAPP</a>
     </div>
     {{-- <div class="btn-flotante1" data-aos="fade-up" data-aos-delay="100">    

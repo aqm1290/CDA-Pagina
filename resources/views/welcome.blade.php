@@ -38,7 +38,7 @@
                 <!-- Slide 3 -->
                 <div class="carousel-item">
                     <div class="carousel-container">
-                        <h2 class="animate__animated animate__fadeInDown">MAS NOTICIAS</h2>
+                        <h2 class="animate__animated animate__fadeInDown">NUESTROS CONVENIOS</h2>
                         <div class="img-car">
                             <img src="{{asset('img/personeriaJuridica.png')}}" alt="" class="img-fluid">
                         </div>
@@ -109,44 +109,7 @@
                 </div>
             </section>
         
-            {{-- <div class="container">
-        
-                <div class="row justify-content-center text-center mb-5">
-                <div class="col-md-9" data-aos="fade-up">
-                    <h2 class="section-heading">NUESTROS AFILIADOS</h2>
-                </div>
-                </div>
-        
-                <div class="row">
-                <div class="col-md-4" data-aos="fade-up" data-aos-delay="">
-                    <div class="feature-1 text-center">
-                    <div class="wrap-icon icon-1">
-                        <i class="bi bi-people"></i>
-                    </div>
-                    <h3 class="mb-3">SOCIOS ACTIVOS</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
-                    </div>
-                </div>
-                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-                    <div class="feature-1 text-center">
-                    <div class="wrap-icon icon-1">
-                        <i class="bi bi-brightness-high"></i>
-                    </div>
-                    <h3 class="mb-3">BENEFICIOS</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
-                    </div>
-                </div>
-                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-                    <div class="feature-1 text-center">
-                    <div class="wrap-icon icon-1">
-                        <i class="bi bi-bar-chart"></i>
-                    </div>
-                    <h3 class="mb-3">CONVENIOS</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
-                    </div>
-                </div>
-                </div>
-            </div> --}}
+            
             </section>
   <!-- ======= Portfolio Section ======= -->
   <section id="portfolio" class="portfolio">
@@ -193,8 +156,8 @@
 
 
 
-            <!-- ======= Departments Section ======= -->
-            <section id="departments" class="departments">
+            <!-- ======= equiposADA Section ======= -->
+            <section id="equiposADA" class="equiposADA">
                 <div class="container">
         
                     <div class="row justify-content-center text-center mb-5">
@@ -368,7 +331,7 @@
                 </div>
                 </div>
             </div>
-            </section><!-- End Departments Section -->
+            </section><!-- End equiposADA Section -->
             
             <section class="section">
                 <div class="container">
@@ -379,7 +342,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="step">
+                            <div class="complejo">
                                 <h3>COMPLEJO CDA</h3>
                                 <div class="row justify-content-center text-center">
                                     <div class="col-md-7">
@@ -416,7 +379,7 @@
 
 
                         <div class="col-md-6">
-                            <div class="step">
+                            <div class="complejo">
                                 <div class="col-md-12 me-auto text-center text-md-start mb-3 mb-md-0" data-aos="fade-up" data-aos-delay="300">
                                     <h2>DIRECCION DEL COMPLEJO CDA.</h2>
                                     <div>
@@ -434,20 +397,24 @@
             <!-- ======= Testimonials Section ======= -->
             <section class="section border-top border-bottom">
                 <div class="container">
-                    <div class="row justify-content-center text-center mb-5">
+                    {{-- <div class="row justify-content-center text-center mb-5">
                         <div class="col-md-4">
                             <h2 class="section-heading">SERVICIOS</h2>
                         </div>
-                    </div>
+                    </div> --}}
                     <div class="row justify-content-center text-center">
                         <div class="col-md-7">
                             <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
                                         <div class="review text-center">
-                                            <h3>SERVICIOS</h3>
+                                            <div class="row justify-content-center text-center mb-6">
+                                                <div class="col-md-8">
+                                                    <h2 class="section-heading">SERVICIOS</h2>
+                                                </div>
+                                            </div>
                                             <blockquote>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam
+                                            <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam
                                                 aperiam dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi,
                                                 provident voluptates consectetur maiores quos.</p>
                                             </blockquote>
@@ -461,9 +428,13 @@
                                     </div><!-- End testimonial item -->
                                     <div class="swiper-slide">
                                         <div class="review text-center">
-                                            <h3>BIBLIOTECA</h3>
+                                            <div class="row justify-content-center text-center mb-6">
+                                                <div class="col-md-8">
+                                                    <h2 class="section-heading">BIBLIOTECA</h2>
+                                                </div>
+                                            </div>
                                             <blockquote>
-                                            <p>Adjunto a la presente, ponemos a su disposición las diapositivas de los cursos virtuales, que se llevaron a cabo desde el 07 de abril al 09 de mayo
+                                            <p >Adjunto a la presente, ponemos a su disposición las diapositivas de los cursos virtuales, que se llevaron a cabo desde el 07 de abril al 09 de mayo
                                                 <br>
                                                 Adjunto a la presente, ponemos a su disposición las diapositivas de los cursos virtuales, que se llevaron a cabo desde el 10 de mayo
                                             </p>
@@ -476,7 +447,11 @@
                                     </div><!-- End testimonial item -->
                                     <div class="swiper-slide">
                                         <div class="review text-center">
-                                            <h3>BOLETINES CDA</h3>
+                                            <div class="row justify-content-center text-center mb-6">
+                                                <div class="col-md-8">
+                                                    <h2 class="section-heading">BOLETINES</h2>
+                                                </div>
+                                            </div>
                                             <blockquote>
                                             <p>Boletines Informativos</p>
                                             
@@ -485,6 +460,21 @@
                                                 <img src="{{asset('img/Logo HD.fw.png')}}"alt="Image" class="img-fluid rounded-circle mb-3">
                                                 <span class="d-block">
                                                     <a href="#">BOLETINES INFORMATIVOS</a>
+                                                </span>
+                                            </p>
+                                        </div>
+                                    </div><!-- End testimonial item -->
+                                    <div class="swiper-slide">
+                                        <div class="review text-center">
+                                            <div class="row justify-content-center text-center mb-6">
+                                                <div class="col-md-8">
+                                                    <h2 class="section-heading">CONVENIOS</h2>
+                                                </div>
+                                            </div>
+                                            <p class="review-user">
+                                                <img src="{{asset('img/Logo HD.fw.png')}}"alt="Image" class="img-fluid rounded-circle mb-3">
+                                                <span class="d-block">
+                                                    <a href="convenios">CONVENIOS</a>
                                                 </span>
                                             </p>
                                         </div>
