@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\CursosController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,10 +13,15 @@ use App\Http\Controllers\CursosController;
 |
 */
 
-/* Route::get('/', function () {return view('welcome');})->name('welcome'); */
+Route::get('/biblioteca1', function () {
+    return view('servicios.digital1');
+});
 
-Auth::routes();
-
+/* Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
+ */
+require __DIR__.'/auth.php';    
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('welcome');
 Route::get('/personeriaJuridica', [App\Http\Controllers\PersoneriaController::class, 'index'])->name('personeria');
 Route::get('/estatutoReglamentos', [App\Http\Controllers\EstatutoController::class, 'index'])->name('estatuto');
@@ -44,7 +48,6 @@ Route::get('/directoriaADA', [App\Http\Controllers\DirectorioAdaController::clas
 Route::get('/convenios', [App\Http\Controllers\ConvenioController::class, 'index'])->name('convenios');
 Route::get('/convenios/create', [App\Http\Controllers\ConvenioController::class, 'create'])->name('servicios.createConvenios');
 Route::post('/convenios', [App\Http\Controllers\ConvenioController::class, 'store'])->name('servicios.store');
-
 
 
 

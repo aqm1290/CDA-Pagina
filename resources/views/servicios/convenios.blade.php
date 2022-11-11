@@ -35,7 +35,7 @@
         <div class="row justify-content-center text-center mb-5">
             <div class="col-md-9" data-aos="fade-up">
                 <h2 class="section-heading">CONVENIOS </h2>
-                <a href="{{route('servicios.createConvenios')}}">Crear Curso</a>
+                <a href="{{route('servicios.createConvenios')}}">Crear Convenio</a>
 
             </div>
         </div>
@@ -58,7 +58,15 @@
                                 <a href="#" class="stretched-link">
                                     <h3>{{$convenio->Nombre}}</h3>
                                 </a>
-                                <p></p>
+                                <p>{{$convenio->Info}}</p>
+
+                                
+                            </div>
+                            
+                        </div>
+                        <div class="col-md">
+                            <div class="col-lg-8 download-container text-center">
+                                <a class="download align-middle" href="#">VEALO ACA</a>
                             </div>
                         </div>
                 </div><!-- End convenio Item -->

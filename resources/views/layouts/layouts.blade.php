@@ -27,6 +27,7 @@
     <link href="{!! asset('vendor/swiper/swiper-bundle.min.css')!!}" rel="stylesheet"> 
 {{-- css --}}
     <link href="{!! asset('css/style.css') !!}" rel="stylesheet"/>
+    <link href="{!! asset('css/biblioteca.css') !!}" rel="stylesheet"/>
     <link rel="stylesheet" href="{!!asset('css/portofolio.css')!!}">
     <link href="{!! asset('css/footer.css') !!}" rel="stylesheet"/>
     {{-- js --}}
@@ -53,6 +54,7 @@
                 <li><a href="personeriaJuridica">Personería Juridica</a></li>
                 <li><a href="estatutoReglamentos">Estatuto y Reglamento</a></li>
                 <li><a href="/">Estructura Organica</a></li>
+                <li><a href="/">Nuestra Gestión</a></li>
                 <li><a href="directorioEjecutivo">Directorio Ejecutivo</a></li>
                 </ul>
             </li>

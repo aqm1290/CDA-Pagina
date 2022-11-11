@@ -59,7 +59,7 @@
 
     <main id="main">
     
-    <!-- ======= Home Section ======= -->
+    <!-- ======= Dashboard Section ======= -->
         <section class="section">
             <div class="row justify-content-center text-center mb-5">
                 <div class="col-md-5" data-aos="fade-up">
@@ -115,8 +115,12 @@
   <section id="portfolio" class="portfolio">
     <div class="container">
 
-        <div class="col-md-12" data-aos="fade-up">
-            <h2 class="section-heading">NUESTROS CURSOS Y TALLERES</h2>
+        <div class="row justify-content-center text-center mb-5">
+            <div class="col-md-9" data-aos="fade-up">
+                <h2 class="section-heading">NUESTROS CURSOS Y TALLERES</h2>
+            </div>
+        </div>
+        <div class="col-md-8" data-aos="fade-up">
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="200">
@@ -151,10 +155,6 @@
         {{$cursos->links()}}
     </div>
     </section><!-- End Portfolio Section -->
-
-
-
-
 
             <!-- ======= equiposADA Section ======= -->
             <section id="equiposADA" class="equiposADA">
@@ -394,7 +394,7 @@
             </section>
             
         
-            <!-- ======= Testimonials Section ======= -->
+            <!-- ======= ======= -->
             <section class="section border-top border-bottom">
                 <div class="container">
                     {{-- <div class="row justify-content-center text-center mb-5">
@@ -419,7 +419,7 @@
                                                 provident voluptates consectetur maiores quos.</p>
                                             </blockquote>
                                             <p class="review-user">
-                                            <img src="{{asset('img/Logo HD.fw.png')}}"alt="Image" class="img-fluid rounded-circle mb-3">
+                                            <img src="{{asset('img/Logo HD.fw.png')}}" alt="Image" class="img-fluid rounded-circle mb-3">
                                             <span class="d-block">
                                                 <span class="text-black">Jean Doe</span>, &mdash; App User
                                             </span>
@@ -440,7 +440,7 @@
                                             </p>
                                             </blockquote>
                                             <p class="review-user">
-                                                <a href="#">Material Digital cursos virtuales I CDA</a><br>
+                                                <a href="biblioteca1">Material Digital cursos virtuales I CDA</a><br>
                                                 <a href="#">Material Digital cursos virtuales II CDA</a>
                                             </p>
                                         </div>
