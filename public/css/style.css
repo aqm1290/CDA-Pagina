@@ -1554,7 +1554,7 @@ text-align: center;
   top: 0;
   width: 130%;
   height: 95%;
-  background: linear-gradient(to right, rgba(0, 61, 117, 0.8), rgba(23, 33, 78, 0.6)), url(../img/skyscraper-3122210_1920.jpg)center top no-repeat;
+  background: linear-gradient(to right, rgba(0, 61, 117, 0.8), rgba(23, 33, 78, 0.6)), url(../img/libros/123.png)center top no-repeat;
   z-index: 0;
   /* border-radius: 0 0 50% 50%; */
   transform: translateX(-50%) rotate(0deg);

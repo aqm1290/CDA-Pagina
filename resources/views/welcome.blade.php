@@ -31,7 +31,7 @@
                     <div class="img-car">
                         <img src="{{asset('img/jMO6UESZ.jpg')}}" alt="" class="img-fluid">
                     </div>
-                        <a href="" class="btn-get-started animate__animated animate__fadeInUp">MAS INFORMACION</a>
+                        <a href="directorioEjecutivo" class="btn-get-started animate__animated animate__fadeInUp">MAS INFORMACION</a>
                     </div>
                 </div>
             
@@ -42,7 +42,7 @@
                         <div class="img-car">
                             <img src="{{asset('img/personeriaJuridica.png')}}" alt="" class="img-fluid">
                         </div>
-                            <a href="" class="btn-get-started animate__animated animate__fadeInUp">MAS INFORMACION</a>
+                            <a href="convenios" class="btn-get-started animate__animated animate__fadeInUp">MAS INFORMACION</a>
                     </div>
                 </div>
             
