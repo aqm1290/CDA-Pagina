@@ -46,7 +46,7 @@
                     <p>{{$cursos->TextoAdicional}}</p>
                 </div>
                 <div class="col-lg-8">
-                    <img src="/Imagen/{{$cursos->Imagen}}"   alt="" class="img-fluid cursos1-img">
+                    <img src="/Imagen/{{$cursos->Imagen}}"  alt="" class="img-fluid cursos1-img">
                     <h3>{{$cursos->Nombre}}</h3>
                     <p>{{$cursos->Lugar}}</p>
                     <p>{{$cursos->Fecha}}</p>
@@ -59,7 +59,7 @@
                         <li><i class="bi bi-check-circle"></i> <span>Assumenda et porro nisi nihil nesciunt voluptatibus.</span></li>
                         <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
                     </ul> --}}
-                    <div class="flex justify-center rounded-lg text-lg" role="group">
+                    {{-- <div class="flex justify-center rounded-lg text-lg" role="group">
                         <!-- botón editar -->
                         <a href="{{route('cursos.edit',$cursos->id)}}" class="">Editar</a>
 
@@ -69,7 +69,7 @@
                             @method('DELETE')
                             <button type="submit" class="">Borrar</button>
                         </form>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

@@ -33,7 +33,7 @@ class CursosController extends Controller
             'Precio' => 'required|max:1000000', 
             'Expositor' => 'required|max:1000000', 
             'TextoAdicional' => 'required|max:1000000', 
-            'Imagen' => 'required|image|mimes:jpeg,png,svg|max:1024',
+            'Imagen' => 'image|mimes:jpeg,png,svg,jpg|max:3024',
         ]);
 
         $curso = $request->all();
@@ -53,7 +53,7 @@ class CursosController extends Controller
         return view('cursos.show',compact('cursos'));
         
     }
-    public function edit(Cursos $cursos)
+   /*  public function edit(Cursos $cursos)
     {
         return view('cursos.edit', compact('cursos'));
     }
@@ -88,5 +88,5 @@ class CursosController extends Controller
     {
         $cursos->delete();
         return redirect()->route('cursos.index');
-    }
+    } */
 }

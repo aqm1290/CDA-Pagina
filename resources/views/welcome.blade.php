@@ -20,7 +20,7 @@
                 <div class="carousel-item active">
                     <div class="carousel-container">
                     <h2 class="animate__animated animate__fadeInDown">COLEGIO DEPARTAMENTAL DE<span> AUDITORES</span></h2>
-                    <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                    <p class="animate__animated animate__fadeInUp">Promover la superación y promoción profesional de los auditores y/o contadores Públicos de Cochabamba velando por el prestigio y dignidad profesional</p>
                     </div>
                 </div>
             
@@ -89,30 +89,28 @@
         
             <section class="section">
                 <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6 ms-auto order-2">
-                    <h2 class="mb-2">MISION</h2>
-                    <p class="mb-2">Promover la superación y promoción profesional de los auditores y/o contadores Públicos de Cochabamba velando por el prestigio y dignidad profesional, brindando a la sociedad una orientación en las actividades económicas, 
-                        financieras y administrativas, logrando de esa manera que en sus asociados exista un alto compromiso en pro del interés público y con el desarrollo de la sociedad.</p>
-                    <br><br><br><h2 class="mb-2">VISION</h2>
-                    <p class="mb-4">Promover la superación y promoción profesional de los auditores y/o contadores Públicos de Cochabamba velando por el prestigio y dignidad profesional, brindando a la sociedad una orientación en las actividades económicas, 
-                        financieras y administrativas, logrando de esa manera que en sus asociados exista un alto compromiso en pro del interés público y con el desarrollo de la sociedad.</p>
-                    {{-- <p><a href="#" class="btn btn-primary">Download Now</a></p> --}}
+                    <div class="row align-items-center">
+                        <div class="col-md-6 ms-auto order-2">
+                            <h2 class="mb-2">MISION</h2>
+                            <p class="mb-2">Promover la superación y promoción profesional de los auditores y/o contadores Públicos de Cochabamba velando por el prestigio y dignidad profesional, brindando a la sociedad una orientación en las actividades económicas, 
+                                financieras y administrativas, logrando de esa manera que en sus asociados exista un alto compromiso en pro del interés público y con el desarrollo de la sociedad.</p>
+                            <br><br><br><h2 class="mb-2">VISION</h2>
+                            <p class="mb-4">Consolidarse como una entidad colegiada que promueve la excelencia profesional, manteniendo el liderazgo colectivo e individual de sus miembros para que participen efectivamente en la busca de soluciones más apropiadas en los problemas financieros y socio-económicos del país.</p>
+                            {{-- <p><a href="#" class="btn btn-primary">Download Now</a></p> --}}
+                        </div>
+                        <div class="col-md-6" data-aos="fade-right">
+                            <img src="{{asset('img/MisionCDA.png')}}" alt="Image" class="img-fluid"data-aos-delay="300"> 
+                            <br>
+                            <img src="{{asset('img/VisionCDA.png')}}" alt="Image" class="img-fluid" data-aos-delay="200"> 
+                        </div>
                     </div>
-                    <div class="col-md-6" data-aos="fade-right">
-                    <img src="{{asset('img/MisionCDA.png')}}" alt="Image" class="img-fluid"data-aos-delay="300"> 
-
-                    <br>
-                    <img src="{{asset('img/VisionCDA.png')}}" alt="Image" class="img-fluid" data-aos-delay="200"> 
-                    </div>
-                </div>
                 </div>
             </section>
         
             
             </section>
-  <!-- ======= Portfolio Section ======= -->
-  <section id="portfolio" class="portfolio">
+<!-- ======= Portfolio Section ======= -->
+<section id="portfolio" class="portfolio">
     <div class="container">
 
         <div class="row justify-content-center text-center mb-5">
@@ -149,8 +147,6 @@
                     </div>
                 </div>
             @endforeach 
-
-            
         </div>
         {{$cursos->links()}}
     </div>

@@ -41,7 +41,7 @@
                             <section id="faq" data-aos="flip-left" class="faq section-bg">
                                 <div class="container" >
                                     <div class="section-title">
-                                        <h2 class="card-title">DIRECTORIO EJECUTIVO</h2>
+                                        <h2 class="card-title">actual directorio EJECUTIVO</h2>
                                         <p class="card-text parrafo">
                                             En fecha 16 de octubre de 2021, dados los resultados de la elección por voto directo en segunda vuelta de fecha 09 de octubre de 2021, tomó posesión el actual Directorio del Colegio de Auditores por la Gestión 2021 – 2023 en su calidad de frente ganador bajo la sigla  CPA de acuerdo al siguiente detalle de carteras:
                                         </p>
