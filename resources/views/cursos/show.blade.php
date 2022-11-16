@@ -54,22 +54,18 @@
                     <p>
                         {{$cursos->Descipcion}}
                     </p>
-                    {{-- <ul>
-                        <li><i class="bi bi-check-circle"></i> <span>Aut eum totam accusantium voluptatem.</span></li>
-                        <li><i class="bi bi-check-circle"></i> <span>Assumenda et porro nisi nihil nesciunt voluptatibus.</span></li>
-                        <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
-                    </ul> --}}
-                    {{-- <div class="flex justify-center rounded-lg text-lg" role="group">
+                    <div class="" >
                         <!-- botón editar -->
-                        <a href="{{route('cursos.edit',$cursos->id)}}" class="">Editar</a>
+                        <a href="{{route('cursos.edit', $cursos->id) }}" class="">Editar</a>
 
                         <!-- botón borrar -->
-                        <form action="{{route('cursos.destroy', $cursos->id)}}" method="POST" class="formEliminar">
+                        <form action="{{ route('cursos.destroy', $cursos->id) }}" method="POST" class="formEliminar">
                             @csrf
                             @method('DELETE')
                             <button type="submit" class="">Borrar</button>
                         </form>
-                    </div> --}}
+                    </div>
+                    <br><br><br><br>
                 </div>
             </div>
         </div>

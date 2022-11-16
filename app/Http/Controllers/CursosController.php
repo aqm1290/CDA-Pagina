@@ -10,7 +10,6 @@ class CursosController extends Controller
     public function index()
     {
         $cursos = Cursos::all();
-
         return view('cursos.index',compact('cursos'));
     }
     
@@ -24,16 +23,16 @@ class CursosController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'Nombre' => 'required|max:1000000', 
-            'Descipcion' => 'required|max:1000000',
-            'Lugar' => 'required|max:1000000', 
-            'Fecha' => 'required|max:1000000', 
-            'Hora' => 'required|max:1000000', 
-            'Categoria' => 'required|max:1000000',
-            'Precio' => 'required|max:1000000', 
-            'Expositor' => 'required|max:1000000', 
-            'TextoAdicional' => 'required|max:1000000', 
-            'Imagen' => 'image|mimes:jpeg,png,svg,jpg|max:3024',
+            'Nombre' => 'max:1000000', 
+            'Descipcion' => 'max:1000000',
+            'Lugar' => 'max:1000000', 
+            'Fecha' => 'max:1000000', 
+            'Hora' => 'max:1000000', 
+            'Categoria' => 'max:1000000',
+            'Precio' => 'max:100000000', 
+            'Expositor' => 'max:1000000', 
+            'TextoAdicional' => 'max:1000000', 
+            'Imagen' => 'image|mimes:jpeg,png,svg,jpg|max:3024'
         ]);
 
         $curso = $request->all();
@@ -53,28 +52,30 @@ class CursosController extends Controller
         return view('cursos.show',compact('cursos'));
         
     }
-   /*  public function edit(Cursos $cursos)
+    
+    public function edit(Cursos $cursos)
     {
         return view('cursos.edit', compact('cursos'));
     }
+
     public function update(Request $request, Cursos $cursos)
     {
         $request->validate([
-            'Nombre' => 'required|max:1000000', 
-            'Descipcion' => 'required|max:1000000',
-            'Lugar' => 'required|max:1000000', 
-            'Fecha' => 'required|max:1000000', 
-            'Hora' => 'required|max:1000000', 
-            'Categoria' => 'required|max:1000000',
-            'Precio' => 'required|max:1000000', 
-            'Expositor' => 'required|max:1000000', 
-            'TextoAdicional' => 'required|max:1000000'
+            'Nombre' => 'max:1000000', 
+            'Descipcion' => 'max:1000000',
+            'Lugar' => 'max:1000000', 
+            'Fecha' => 'max:1000000', 
+            'Hora' => 'max:1000000', 
+            'Categoria' => 'max:1000000',
+            'Precio' => 'max:1000000', 
+            'Expositor' => 'max:1000000', 
+            'TextoAdicional' => 'max:1000000', 
+            'Imagen' => 'image|mimes:jpeg,png,svg,jpg|max:3024'
         ]);
-
         $curso = $request->all();
         if($Imagen = $request->file('Imagen')){
             $rutaGuardarImg = 'Imagen/';
-            $imagenCurso = date('YmdHis'). "." . $Imagen->getClientOriginalExtension();
+            $imagenCurso = date('YmdHis') . "." . $Imagen->getClientOriginalExtension(); 
             $Imagen->move($rutaGuardarImg, $imagenCurso);
             $curso['Imagen'] = "$imagenCurso";
         }else{
@@ -87,6 +88,7 @@ class CursosController extends Controller
     public function destroy(Cursos $cursos)
     {
         $cursos->delete();
-        return redirect()->route('cursos.index');
-    } */
+        return view('cursos.index',compact('cursos'));
+    }
 }
+

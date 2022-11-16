@@ -115,6 +115,59 @@
   }
 
 });
+window.addEventListener('load', () => {
+  let galeriaContainer = select('.galeria-container');
+  if (galeriaContainer) {
+    let galeriaIsotope = new Isotope(galeriaContainer, {
+      itemSelector: '.galeria-item',
+      layoutMode: 'fitRows'
+    });
+
+    let galeriaFilters = select('#galeria-flters li', true);
+
+    on('click', '#galeria-flters li', function(e) {
+      e.preventDefault();
+      galeriaFilters.forEach(function(el) {
+        el.classList.remove('filter-active');
+      });
+      this.classList.add('filter-active');
+
+      galeriaIsotope.arrange({
+        filter: this.getAttribute('data-filter')
+      });
+    }, true);
+  }
+});
+/**
+   * Initiate galeria lightbox 
+   */
+ const galeriaLightbox = GLightbox({
+  selector: '.galeria-lightbox'
+});
+
+
+  /**
+   * Hero Slider
+   */
+   var swiper = new Swiper(".sliderFeaturedPosts", {
+    spaceBetween: 0,
+    speed: 500,
+    centeredSlides: true,
+    loop: true,
+    slideToClickedSlide: true,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".custom-swiper-button-next",
+      prevEl: ".custom-swiper-button-prev",
+    },
+  });
   /**
    * Initiate portfolio lightbox 
    */
@@ -137,11 +190,10 @@
         clickable: true
       }
     });
-
   /**
    * Testimonials slider
    */
-  new Swiper('.testimonials-slider', {
+   new Swiper('.testimonials-slider', {
     speed: 600,
     loop: true,
     autoplay: {
@@ -155,6 +207,58 @@
       clickable: true
     }
   }); 
+  new Swiper('.gallery-slider', {
+    speed: 400,
+    loop: true,
+    centeredSlides: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 20
+      },
+      640: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      },
+      992: {
+        slidesPerView: 5,
+        spaceBetween: 20
+      }
+    }
+  });
+/**
+   * Initiate gallery lightbox 
+   */
+ const galleryLightbox = GLightbox({
+  selector: '.gallery-lightbox'
+});
+ /**
+   *  historias slider
+   */
+  new Swiper('.historias-slider', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    }
+  });
   /**
    * Animation on scroll
    */

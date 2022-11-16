@@ -41,6 +41,8 @@ h6,
 .container {
   z-index: 2;
   position: relative;
+
+  max-width: 1320px;
   text-align: justify;
 }
 p{
@@ -1553,9 +1555,9 @@ text-align: center;
   position: absolute;
   left: 50%;
   top: 0;
-  width: 130%;
+  width: 100%;
   height: 95%;
-  background: linear-gradient(to right, rgba(21, 195, 226, 0), rgba(0, 26, 27, 0)), url(../img/libros/1231.png) center top no-repeat;
+  background: linear-gradient(to right, rgba(21, 195, 226, 0), rgba(0, 26, 27, 0)), url(../img/Index/Inicio3.png)  center top no-repeat;
   z-index: 0;
   /* border-radius: 0 0 50% 50%; */
   transform: translateX(-50%) rotate(0deg);
@@ -1651,15 +1653,16 @@ text-align: center;
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #68A4C4;
+  border: 6px solid #070707;
 }
 
 #hero .btn-get-started:hover {
-  background: #68A4C4;
-  color: #fff;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  border: 6px solid  #fff;
   text-decoration: none;
 }
 
@@ -1850,4 +1853,49 @@ text-align: center;
     margin-top: 0px;
     margin-left: 100px;
   }
+}
+
+
+
+
+/* varios Services Section
+--------------------------------*/
+#varios-services {
+  background: linear-gradient(0deg, #0073a0 0%, #002f5c 50%, #00183d 100%);
+}
+
+#varios-services .box {
+  padding: 30px 20px;
+}
+
+#varios-services .box-bg {
+  background-image: linear-gradient(0deg, #00183d 0%, #0073a0 50%, #003566 100%);
+}
+
+#varios-services i {
+  color: #ffffff;
+  font-size: 48px;
+  display: inline-block;
+  line-height: 1;
+}
+
+#varios-services h4 {
+  font-weight: 400;
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+#varios-services h4 {
+  color: rgb(113, 255, 201);
+}
+
+#varios-services h4 a:hover {
+  color: #18d26e;
+}
+
+#varios-services a {
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 0;
 }

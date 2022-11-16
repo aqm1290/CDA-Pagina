@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\cursosController;
+use App\Http\Controllers\FotosController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -30,7 +32,7 @@ Route::get('/directorioEjecutivo', [App\Http\Controllers\directorioController::c
 Route::get('/requisitosInscripcion', [App\Http\Controllers\RequisitosInscripcionController::class, 'index'])->name('inscripcion');
 
 
-Route::resource('/cursos', CursosController::class);
+Route::resource('/cursos', CursosController::class); 
 /* Route::get('/cursos', [App\Http\Controllers\CursosController::class, 'index'])->name('cursos.index');
 Route::get('/cursos/create', [App\Http\Controllers\CursosController::class, 'create'])->name('cursos.create');
 Route::post('/cursos', [App\Http\Controllers\CursosController::class, 'store'])->name('cursos.store');
@@ -38,8 +40,9 @@ Route::get('/cursos/{curso}', [App\Http\Controllers\CursosController::class, 'sh
 Route::get('/cursos/{curso}/edit', [App\Http\Controllers\CursosController::class, 'edit'])->name('cursos.edit');
 Route::put('/cursos/{curso}', [App\Http\Controllers\CursosController::class, 'update'])->name('cursos.update');
 Route::delete('/cursos/{curso}', [App\Http\Controllers\CursosController::class, 'destroy'])->name('cursos.destroy');
-
  */
+
+Route::resource('/fotos', FotosController::class);
 
 
 Route::get('/tribunalEtica', [App\Http\Controllers\TribunalEticaController::class, 'index'])->name('tribunal');
@@ -49,6 +52,12 @@ Route::get('/directoriaADA', [App\Http\Controllers\DirectorioAdaController::clas
 Route::get('/convenios', [App\Http\Controllers\ConvenioController::class, 'index'])->name('convenios');
 Route::get('/convenios/create', [App\Http\Controllers\ConvenioController::class, 'create'])->name('servicios.createConvenios');
 Route::post('/convenios', [App\Http\Controllers\ConvenioController::class, 'store'])->name('servicios.store');
+
+/* Route::get('/fotos', [App\Http\Controllers\FotosController::class, 'index'])->name('fotos.index');
+Route::get('/fotos/create', [App\Http\Controllers\FotosController::class, 'create'])->name('fotos.create');
+Route::post('/fotos', [App\Http\Controllers\FotosController::class, 'store'])->name('fotos.store');
+Route::get('/fotos/{foto}', [App\Http\Controllers\FotosController::class, 'show'])->name('fotos.show'); */
+
 
 
 

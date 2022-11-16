@@ -27,6 +27,7 @@
     <link href="{!! asset('vendor/swiper/swiper-bundle.min.css')!!}" rel="stylesheet"> 
 {{-- css --}}
     <link href="{!! asset('css/style.css') !!}" rel="stylesheet"/>
+    <link href="{!! asset('css/galeria.css') !!}" rel="stylesheet"/>
     <link href="{!! asset('css/biblioteca.css') !!}" rel="stylesheet"/>
     <link rel="stylesheet" href="{!!asset('css/portofolio.css')!!}">
     <link href="{!! asset('css/footer.css') !!}" rel="stylesheet"/>
@@ -79,6 +80,8 @@
             <li><a href="consejoTecnico" class="nav-link scrollto">Consejo Tecnico</a></li>
 
             <li><a href="requisitosInscripcion">Requisitos de Inscripcion</a></li>
+            <li><a href="requisitosInscripcion">Noticias</a></li>
+
             
             {{-- <li><a href="contact.html">Contacto</a></li> --}}
             </ul>
@@ -122,6 +125,10 @@
                             <li><a href="https://fundempresa.org.bo/" target="_blank"><i class="bi bi-chevron-right"></i> SEPREC</a></li>
                             <li><a href="https://auditorescontadoresbolivia.org/" target="_blank"><i class="bi bi-chevron-right"></i> COLEGIO DE AUDITORES DE BOLIVIA</a></li>
                             <li><a href="https://www.ait.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i> AUTORIDAD DE IMPUGNACION TRIBUTARIA</a></li>
+                            <li><a href="https://www.ait.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i> MINISTERIO DE TRABAJO</a></li>
+                            <li><a href="https://www.ait.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i> CAJA NACIONAL DE SALUD</a></li>
+                            <li><a href="https://www.ait.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i> GESTORA</a></li>
+                            <li><a href="https://www.ait.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i>   CONTRALURIA</a></li>
                         </ul>
                     </div>  
                 </div>

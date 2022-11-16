@@ -32,74 +32,88 @@
 </section>
 <main id="main">
     <div class="container">
-    <h2>CREAR NUEVO CURSO O NOTICIA</h2>
-    <form action="{{route('cursos.update',$cursos->id)}}" method="POST" enctype="multipart/form-data">
+    <h2> EDITAR CURSO O NOTICIA</h2>
+    <form action="{{ route('cursos.update',$cursos->id) }}" method="POST" enctype="multipart/form-data"> 
         @csrf
-
-        <label for="">
-            Nombre <br>
-            <input type="text" name="Nombre">
-        </label>
+        @method('PUT')
+        <div class="">
+            <div class="">
+                <label class="">Nombre:</label>
+                <input name="Nombre" value="{{ $cursos->Nombre }}" class="" type="text" required/>
+            </div>
+            <div class="">
+                <label class="">Descripción:</label>
+                <input name="Categoria" value="{{ $cursos->Categoria }}" class="" type="text" required/>
+            </div>
+        </div>
         <br>
-        <div class="grid grid-cols-1 mt-5 mx-7">
-            <img id="imagenSeleccionada" style="max-height: 300px;">           
+
+
+
+
+
+        <div class="">
+            <img src="/Imagen/{{ $cursos->Imagen }}" width="200px" id="imagenSeleccionada">
+        </div>                                    
+        
+        <div class="">
+        <label class="">Subir Imagen</label>
+            <div class=''>
+                <label class=''>
+                    <div class=''>
+                    <svg class="" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                    <p class=''>Seleccione la imagen</p>
+                    </div>
+                <input name="Imagen" id="Imagen" type='file' class="hidden" />
+               
+                </label>
+            </div>
         </div>
 
-        <div>
-            <label>Subir Imagen</label>
-                <div >
-                    <label>
-                        <div>
-                        <p>Seleccione la imagen</p>
-                        </div>
-                    <input name="Imagen" id="Imagen" type='file' class="hidden" />
-                    </label>
-                </div>
+
+
+        <div class="">
+            <div class="">
+                <label class="">Lugar:</label>
+                <input name="Lugar" value="{{ $cursos->Lugar }}" class="" type="text" required/>
+            </div>
+            <div class="">
+                <label class="">Fecha:</label>
+                <input name="Fecha" value="{{ $cursos->Fecha }}" class="" type="text" required/>
+            </div>
         </div>
+
+        <div class="">
+            <div class="">
+                <label class="">Hora:</label>
+                <input name="Hora" value="{{ $cursos->Hora }}" class="" type="text" required/>
+            </div>
+            <div class="">
+                <label class="">Precio:</label>
+                <input name="Precio" value="{{ $cursos->Precio }}" class="" type="text" required/>
+            </div>
+        </div>
+
+        <div class="">
+            <div class="">
+                <label class="">Expositor:</label>
+                <input name="Expositor" value="{{ $cursos->Expositor }}" class="" type="text" required/>
+            </div>
+            <div class="">
+                <label class="">TextoAdicional:</label>
+                <input name="TextoAdicional" value="{{ $cursos->TextoAdicional }}" class="" type="text" required/>
+            </div>
+            <div class="">
+                <label class="">Descipcion:</label>
+                <input name="Descipcion" value="{{ $cursos->Descipcion }}" class="" type="text" required/>
+            </div>
+        </div>
+
         
-        <label for="">
-            Lugar <br>
-            <input type="text" name="Lugar">
-        </label>
-        <br>
-        
-        <label for="">
-            Fecha <br>
-            <input type="text" name="Fecha">
-        </label>
-        <br>
-        
-        <label for="">
-            Hora <br>
-            <input type="text" name="Hora">
-        </label>
-        <br>
-        <label for="">
-            Categoria <br>
-            <input type="text" name="Categoria">
-        </label>
-        <br>
-        <label for="">
-            Precio <br>
-            <input type="text" name="Precio">
-        </label>
-        <br>
-        <label for="">
-            Expositor <br>
-            <input type="text" name="Expositor">
-        </label>
-        <br>
-        <label for="">
-            TextoAdicional <br>
-            <input type="text" name="TextoAdicional">
-        </label>
-        <br>
-        <label for="">
-            Descipcion <br>
-            <textarea name="Descipcion" id="" cols="30" rows="10"></textarea>
-        </label>
-        <br>
-        <button type="submit">Enviar Formulario</button>
+        <div class=''>
+            <a href="{{ route('cursos.index') }}" class=''>Cancelar</a>
+            <button type="submit" class=''>Guardar</button>
+            </div>
 
     </form>
 
@@ -118,4 +132,3 @@
         });
     });
 </script>
-@endsection

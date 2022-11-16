@@ -81,7 +81,58 @@
                     {{-- <p><a href="#" class="btn btn-primary">Download Now</a></p> --}}
                     </div>
                     <div class="col-md-5" data-aos="fade-left">
-                    <img src="{{asset('img/historiaGeneral.png')}}" alt="Image" class="img-fluid">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-md">
+                                <!-- ======= historias Section ======= -->
+                                <section id="historias" class="historias">
+                                    <div class="container position-relative">
+
+                                    <div class="historias-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="swiper-wrapper">
+
+                                        <div class="swiper-slide">
+                                            <div class="historia-item">
+                                            <img src="{{asset('img/VisionCDA.png')}}"class="historia-img" alt="">
+                                            
+                                            </div>
+                                        </div><!-- End historia item -->
+
+                                        <div class="swiper-slide">
+                                            <div class="historia-item">
+                                            <img src="{{asset('img/VisionCDA.png')}}" class="historia-img" alt="">
+                                            
+                                            </div>
+                                        </div><!-- End historia item -->
+
+                                        <div class="swiper-slide">
+                                            <div class="historia-item">
+                                            <img src="{{asset('img/VisionCDA.png')}}" class="historia-img" alt="">
+                                            
+                                            </div>
+                                        </div><!-- End historia item -->
+
+                                        <div class="swiper-slide">
+                                            <div class="historia-item">
+                                            <img src="{{asset('img/VisionCDA.png')}}"class="historia-img" alt="">
+                                            
+                                            </div>
+                                        </div><!-- End historia item -->
+
+                                        <div class="swiper-slide">
+                                            <div class="historia-item">
+                                            <img src="{{asset('img/VisionCDA.png')}}" class="historia-img" alt="">
+                                            
+                                            </div>
+                                        </div><!-- End historia item -->
+
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+
+                                    </div>
+                                </section><!-- End historias Section -->
+                            </div>
+                        </div>
                     </div>
                 </div>
                 </div>
@@ -109,7 +160,7 @@
         
             
             </section>
-<!-- ======= Portfolio Section ======= -->
+<!-- ======= CURSOOOOS Section ======= -->
 <section id="portfolio" class="portfolio">
     <div class="container">
 
@@ -140,17 +191,46 @@
                             <h4>{{$curso->Nombre}}</h4>
                             <p>{{$curso->Precio}}</p>
                             <div class="portfolio-links">
-                                <a href="/Imagen/{{$curso->Imagen}}"data-gallery="portfolioGallery" class="portfolio-lightbox" title="{{$curso->Nombre}}"><i class="bx bx-plus"></i></a>
+                                <a href="/Imagen/{{$curso->Imagen}}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="{{$curso->Nombre}}"><i class="bx bx-plus"></i></a>
                                 <a href="{{route('cursos.index')}}" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="{{$curso->Nombre}}"><i class="bx bx-link"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
             @endforeach 
+            <div>
+                {!! $cursos->links() !!}
+            </div>
         </div>
-        {{$cursos->links()}}
     </div>
     </section><!-- End Portfolio Section -->
+
+        <section id="gallery" class="gallery">
+            <div class="container" data-aos="fade-up">
+    
+                <div class="row justify-content-center text-center mb-5">
+                    <div class="col-md-9" data-aos="fade-up">
+                        <h2 class="section-heading">GALERIA</h2>
+                    </div>
+                </div>
+    
+                <div class="gallery-slider swiper">
+
+                    <div class="swiper-wrapper align-items-center">
+                            @foreach ($fotos as $foto) 
+
+                        <div class="swiper-slide">
+                            <a class="gallery-lightbox" href="/Imagen/{{$foto->Imagen}}"><img src="/Imagen/{{$foto->Imagen}}" class="" alt=""></a>
+                        </div>
+                            @endforeach  
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+
+                </div>
+            </div>
+        </section><!-- End Gallery Section -->
+
 
             <!-- ======= equiposADA Section ======= -->
             <section id="equiposADA" class="equiposADA">
@@ -239,18 +319,6 @@
                         </div>
                         </div>
                     </div>
-                    <div class="tab-pane" id="tab-4">
-                        <div class="row gy-4">
-                        <div class="col-lg-8 details order-2 order-lg-1">
-                            <h3>C.G.R.</h3>
-                            <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p>
-                            <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
-                        </div>
-                        <div class="col-lg-4 text-center order-1 order-lg-2">
-                            <img src="{{asset('img/logosAda/CGR.jpg')}}" alt="" class="img-fluid">
-                        </div>
-                        </div>
-                    </div>
                     <div class="tab-pane" id="tab-5">
                         <div class="row gy-4">
                         <div class="col-lg-8 details order-2 order-lg-1">
@@ -263,6 +331,19 @@
                         </div>
                         </div>
                     </div>
+                    <div class="tab-pane" id="tab-4">
+                        <div class="row gy-4">
+                        <div class="col-lg-8 details order-2 order-lg-1">
+                            <h3>C.G.R.</h3>
+                            <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p>
+                            <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
+                        </div>
+                        <div class="col-lg-4 text-center order-1 order-lg-2">
+                            <img src="{{asset('img/logosAda/CGR.jpg')}}" alt="" class="img-fluid">
+                        </div>
+                        </div>
+                    </div>
+                    
                     <div class="tab-pane" id="tab-6">
                         <div class="row gy-4">
                         <div class="col-lg-8 details order-2 order-lg-1">
@@ -272,6 +353,18 @@
                         </div>
                         <div class="col-lg-4 text-center order-1 order-lg-2">
                             <img src="{{asset('img/logosAda/EFECTIVOS.jpg')}}" alt="" class="img-fluid">
+                        </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab-9">
+                        <div class="row gy-4">
+                        <div class="col-lg-8 details order-2 order-lg-1">
+                            <h3>EXIGIBLES</h3>
+                            <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
+                            <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
+                        </div>
+                        <div class="col-lg-4 text-center order-1 order-lg-2">
+                            <img src="{{asset('img/logosAda/EXIGIELES.jpg')}}" alt="" class="img-fluid">
                         </div>
                         </div>
                     </div>
@@ -299,18 +392,7 @@
                         </div>
                         </div>
                     </div>
-                    <div class="tab-pane" id="tab-9">
-                        <div class="row gy-4">
-                        <div class="col-lg-8 details order-2 order-lg-1">
-                            <h3>EXIGIBLES</h3>
-                            <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
-                            <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
-                        </div>
-                        <div class="col-lg-4 text-center order-1 order-lg-2">
-                            <img src="{{asset('img/logosAda/EXIGIELES.jpg')}}" alt="" class="img-fluid">
-                        </div>
-                        </div>
-                    </div>
+                    
                     <div class="tab-pane" id="tab-10">
                         <div class="row gy-4">
                         <div class="col-lg-8 details order-2 order-lg-1">
@@ -350,20 +432,20 @@
                                                         <img src="{{asset('img/Logo HD.fw.png')}}" alt="Image" class="img-fluid rounded-circle mb-3">
                                                         
                                                     </div>
-                                                </div><!-- End testimonial item -->
+                                                </div>
                                                 <div class="swiper-slide">
                                                     <div class="review text-center">
                                                         <h3>MAS IMAGENES</h3>
                                                         <img src="{{asset('img/Logo HD.fw.png')}}" alt="Image" class="img-fluid rounded-circle mb-3">
                                                         
                                                     </div>
-                                                </div><!-- End testimonial item -->
+                                                </div>
                                                 <div class="swiper-slide">
                                                     <div class="review text-center">
                                                         <h3>COMPLEJO CDA </h3>
                                                         <img src="{{asset('img/Logo HD.fw.png')}}" alt="Image" class="img-fluid rounded-circle mb-3">
                                                     </div>
-                                                </div><!-- End testimonial item -->
+                                                </div>
                                             </div>
                                             <div class="swiper-pagination"></div>
                                         </div>
@@ -387,19 +469,46 @@
                         </div>
                     </div>
                 </div>
+                
             </section>
-            
-        
+            <div class="row justify-content-center text-center mb-5" data-aos="fade">
+                <div class="col-md-8">
+                    <h2 class="section-heading">DE INTERES </h2>
+                </div>
+            </div>
+        <!-- ======= varios Services Section Section ======= -->
+        <section id="varios-services">
+            <div class="container">
+            <div class="row">
+    
+                <div class="col-lg-4 box">
+                <i class="bi bi-briefcase"></i>
+                <h4 class="title"><a href="">SERVICIOS</a></h4>
+                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                </div>
+    
+                <div class="col-lg-4 box box-bg">
+                <i class="bi bi-binoculars"></i>
+                <h4 class="title"><a href="">CONVENIOS</a></h4>
+                <a href="convenios">CONVENIOS VIGENTES CON LA INSTITUCION</a>
+                </div>
+    
+                <div class="col-lg-4 box">
+                <i class="bi bi-card-checklist"></i>
+                <h4 class="title"><a href="">BIBLIOTECA</a></h4>
+                
+                <a href="biblioteca1" class="description"><u> Material Digital cursos virtuales I CDA</u></a><br>
+                    <a href="#">Material Digital cursos virtuales II CDA</a>
+                </div>
+    
+            </div>
+            </div>
+        </section><!-- End varios Services Section -->
             <!-- ======= ======= -->
-            <section class="section border-top border-bottom">
+            {{-- <section class="section border-top border-bottom">
                 <div class="container">
-                    {{-- <div class="row justify-content-center text-center mb-5">
-                        <div class="col-md-4">
-                            <h2 class="section-heading">SERVICIOS</h2>
-                        </div>
-                    </div> --}}
                     <div class="row justify-content-center text-center">
-                        <div class="col-md-7">
+                        <div class="col-md-10">
                             <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
@@ -421,7 +530,7 @@
                                             </span>
                                             </p>
                                         </div>
-                                    </div><!-- End testimonial item -->
+                                    </div>
                                     <div class="swiper-slide">
                                         <div class="review text-center">
                                             <div class="row justify-content-center text-center mb-6">
@@ -440,7 +549,7 @@
                                                 <a href="#">Material Digital cursos virtuales II CDA</a>
                                             </p>
                                         </div>
-                                    </div><!-- End testimonial item -->
+                                    </div>
                                     <div class="swiper-slide">
                                         <div class="review text-center">
                                             <div class="row justify-content-center text-center mb-6">
@@ -459,7 +568,7 @@
                                                 </span>
                                             </p>
                                         </div>
-                                    </div><!-- End testimonial item -->
+                                    </div>
                                     <div class="swiper-slide">
                                         <div class="review text-center">
                                             <div class="row justify-content-center text-center mb-6">
@@ -474,14 +583,14 @@
                                                 </span>
                                             </p>
                                         </div>
-                                    </div><!-- End testimonial item -->
+                                    </div>
                                 </div>
                                 <div class="swiper-pagination"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section><!-- End Testimonials Section -->
+            </section> --}}<!-- End Testimonials Section -->
 
             
             <!-- ======= CTA2 Section ======= -->
