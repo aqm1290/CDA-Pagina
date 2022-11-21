@@ -411,6 +411,50 @@
             </div>
             </section><!-- End equiposADA Section -->
             
+
+
+
+
+
+
+
+            <section id="noticias" class="section-bg">
+                <div class="container" data-aos="fade-up">
+                    <div class="row justify-content-center text-center mb-5">
+                        <div class="col-md-9" data-aos="fade-up">
+                            <h2 class="section-heading">ULTIMAS NOTICIAS</h2>
+                        </div>
+                    </div>
+                    
+                    <div class="row noticias-container" data-aos="fade-up" data-aos-delay="200">
+                        @foreach ($noticias as $noticia) 
+                        <div class="col-lg-4 col-md-6 noticias-item filter-web">
+                            <div class="noticias-wrap">
+                                <figure>
+                                    <img src="/Imagen/{{$noticia->Imagen}}" class="img-fluid" alt="">
+                                    <a href="/Imagen/{{$noticia->Imagen}}" class="link-preview noticias-lightbox" data-gallery="noticiasGallery" ><i class="bi bi-plus"></i></a>
+                                    <a href="noticias-details.html" class="link-details" ><i class="bi bi-link"></i></a>
+                                </figure>
+                                <div class="noticias-info">
+                                    <h4><a href="noticias-details.html">{{$noticia->Nombre}}</a></h4>
+                                    <p>{{$noticia->Info}}</p>
+                                </div>
+                            </div> 
+                        </div>
+                        @endforeach
+                    </div>
+                </div>
+            </section><!-- End noticias Section -->
+
+
+
+
+
+
+
+
+
+
             <section class="section">
                 <div class="container">
                     <div class="row justify-content-center text-center mb-5" data-aos="fade">

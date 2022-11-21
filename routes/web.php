@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\cursosController;
 use App\Http\Controllers\FotosController;
+use App\Http\Controllers\NoticiaController;
 
 
 /*
@@ -43,6 +44,7 @@ Route::delete('/cursos/{curso}', [App\Http\Controllers\CursosController::class, 
  */
 
 Route::resource('/fotos', FotosController::class);
+Route::resource('/noticias', NoticiaController::class);
 
 
 Route::get('/tribunalEtica', [App\Http\Controllers\TribunalEticaController::class, 'index'])->name('tribunal');

@@ -271,6 +271,45 @@ window.addEventListener('load', () => {
     })
   });  
 
+
+
+
+  window.addEventListener('load', () => {
+    let noticiasContainer = select('.noticias-container');
+    if (noticiasContainer) {
+      let noticiasIsotope = new Isotope(noticiasContainer, {
+        itemSelector: '.noticias-item',
+        layoutMode: 'fitRows'
+      });
+
+      let noticiasFilters = select('#noticias-flters li', true);
+
+      on('click', '#noticias-flters li', function(e) {
+        e.preventDefault();
+        noticiasFilters.forEach(function(el) {
+          el.classList.remove('filter-active');
+        });
+        this.classList.add('filter-active');
+
+        noticiasIsotope.arrange({
+          filter: this.getAttribute('data-filter')
+        });
+        noticiasIsotope.on('arrangeComplete', function() {
+          AOS.refresh()
+        });
+      }, true);
+    }
+
+  });
+
+  /**
+   * Initiate noticias lightbox 
+   */
+  const noticiasLightbox = GLightbox({
+    selector: '.noticias-lightbox'
+  });
+
+
 })()
 
 
