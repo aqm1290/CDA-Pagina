@@ -36,7 +36,9 @@
         <div class="row justify-content-center text-center mb-5">
             <div class="col-md-9" data-aos="fade-up">
                 <h2 class="section-heading">CURSOS Y TALLERES </h2>
+                @auth
                 <a href="{{route('cursos.create')}}">Crear Curso</a>
+                @endauth
 
             </div>
         </div>

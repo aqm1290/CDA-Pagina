@@ -36,7 +36,9 @@
         <div class="row justify-content-center text-center mb-5">
             <div class="col-md-9" data-aos="fade-up">
                 <h2 class="section-heading">FOTOS </h2>
+                @auth
                 <a href="{{route('fotos.create')}}">Crear FOTO</a>
+                @endauth
 
             </div>
         </div>
@@ -46,11 +48,7 @@
     <!-- ======= Services Section ======= -->
     <section id="galeria" class="galeria">
         <div class="container">
-            <div class="row justify-content-center text-center mb-5">
-                <div class="col-md-9" data-aos="fade-up">
-                    <h2 class="section-heading">NUESTROS CURSOS Y TALLERES</h2>
-                </div>
-            </div>
+        
         
             <div class="row galeria-container">
                 @foreach ($fotos as $foto)

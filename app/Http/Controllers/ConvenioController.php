@@ -23,7 +23,7 @@ class ConvenioController extends Controller
         $request->validate([
             'Nombre' => 'max:1000000', 
             'Info' => 'max:1000000',
-            'Imagen' => 'image|mimes:jpeg,png,svg|max:1024',
+            'Imagen' => 'image|mimes:jpeg,png,svg|max:6024',
         ]);
 
         $convenio = $request->all();

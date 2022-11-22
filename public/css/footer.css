@@ -10,11 +10,15 @@
 
 .footer h3 {
   font-size: 22px;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 
 .footer ul li {
   margin-bottom: 15px;
+  text-align: left;
+}
+.footer ul li a:hover {
+  color: rgb(0, 230, 218);
 }
 
 .footer a {
@@ -126,4 +130,80 @@
 .wpp1{
   height: 605px;
   opacity: 0.1;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# interes
+--------------------------------------------------------------*/
+.interes .box {
+  padding: 0px;
+  background: #00456d;
+  text-align: center;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.interes .box h3 {
+  font-weight: 400;
+  padding: 15px;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+}
+
+.interes .box ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.interes .box ul li {
+  padding-bottom: 16px;
+  color: #ffffff;
+}
+
+.interes .box ul i {
+  color: #3ae0bc;
+  font-size: 18px;
+  padding-right: 4px;
+}
+
+.interes .box ul .na {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: line-through;
+}
+
+.interes .box .btn-wrap {
+  padding: 15px;
+  text-align: center;
+}
+
+.interes .box .btn-buy {
+  display: inline-block;
+  padding: 10px 40px 12px 40px;
+  border-radius: 4px;
+  color: #fff;
+  transition: none;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.interes .box .btn-buy:hover {
+  border-color: #fff;
+}
+
+.interes .featured {
+  background: #007c7ce3;
+  padding-top: 10px;
 }

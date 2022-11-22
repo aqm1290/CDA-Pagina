@@ -515,13 +515,9 @@
                 </div>
                 
             </section>
-            <div class="row justify-content-center text-center mb-5" data-aos="fade">
-                <div class="col-md-8">
-                    <h2 class="section-heading">DE INTERES </h2>
-                </div>
-            </div>
+            
         <!-- ======= varios Services Section Section ======= -->
-        <section id="varios-services">
+        {{-- <section id="varios-services">
             <div class="container">
             <div class="row">
     
@@ -547,8 +543,65 @@
     
             </div>
             </div>
-        </section><!-- End varios Services Section -->
-            <!-- ======= ======= -->
+        </section> --}}<!-- End varios Services Section -->
+            <!-- ======= interes Section ======= -->
+    <section id="interes" class="interes section-bg">
+        <div class="container" data-aos="fade-up">
+            <div class="row justify-content-center text-center mb-5" data-aos="fade">
+                <div class="col-md-8">
+                    <h2 class="section-heading">DE INTERES </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="box" data-aos="fade-up" data-aos-delay="100">
+                        <h3>SERVICIOS</h3>
+                        
+                        <ul>
+                            <li>Aida dere</li>
+                        </ul>
+                        <div class="btn-wrap">
+                        <a href="#" class="btn-buy">VAMOS</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+                    <div class="box featured" data-aos="fade-up" data-aos-delay="200">
+                        <h3>CONVENIOS</h3>
+                        <ul>
+                            <li>CONVENIOS VIGENTES CON LA INSTITUCION</li>
+                            
+                        </ul>
+                        <div class="btn-wrap">
+                            <a href="convenios" class="btn-buy">VAMOS</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+                    <div class="box" data-aos="fade-up" data-aos-delay="300">
+                        <h3>BIBLIOTECA</h3>
+                        <ul>
+                            <li>Aida dere</li>
+                            
+                        </ul>
+                        <div class="btn-wrap">
+                            <a href="biblioteca1" class="btn-buy">VAMOS</a>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+    
+            </div>
+        </section><!-- End interes Section -->  
+        
+
+
+
+
+
             {{-- <section class="section border-top border-bottom">
                 <div class="container">
                     <div class="row justify-content-center text-center">

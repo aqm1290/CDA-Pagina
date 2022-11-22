@@ -80,10 +80,11 @@
             <li><a href="consejoTecnico" class="nav-link scrollto">Consejo Tecnico</a></li>
 
             <li><a href="requisitosInscripcion">Requisitos de Inscripcion</a></li>
-            <li><a href="requisitosInscripcion">Noticias</a></li>
-
-            
-            {{-- <li><a href="contact.html">Contacto</a></li> --}}
+            <li><a href="noticias">Noticias</a></li>
+            @auth
+            <h6>{{auth()->user()->name}}</h6>
+            <li><a href="{{ route('logout.perform') }}">logout</a></li> 
+            @endauth
             </ul>
             
             <i class="bi bi-list mobile-nav-toggle"></i>
@@ -100,7 +101,7 @@
         <div class="container">
         <div class="row">
             
-            <div class="col-md-6 mb-4 mb-md-0">
+            <div class="col-md-6 mb-6 mb-md-0">
                 <h3><img src="{{asset('img/Logo HD.fw.png')}}" alt="" class="" style="height: 50px;"> COLEGIO DEPARTAMENTAL DE AUDITORES </h3>
                 
                 <p><i class="bi bi-geo-alt"></i> Calle Jordán Nº 224 - Edificio Abugoch Planta Baja Of. 002.</p>
@@ -110,29 +111,42 @@
                 <p><i class="bi bi-newspaper"></i> Fax: (+591) 4256331</p>
                 <p><i class="bi bi-phone"></i> Celular: (+591) 79797679</p>
                 <p class="social">
-                    <a href="#"><span class="bi bi-twitter"></span></a>
+                    {{-- <a href="#"><span class="bi bi-twitter"></span></a> --}}
                     <a href="https://www.facebook.com/cdauditores" target="_blank"><span class="bi bi-facebook"></span></a>
-                    <a href="#"><span class="bi bi-instagram" target="_blank"></span></a>
+                    {{-- <a href="#"><span class="bi bi-instagram" target="_blank"></span></a> --}}
                     <a href="https://www.youtube.com/channel/UCG2YAbiSJqm2aVHcEagUITg/featured"><span class="bi bi-youtube" target="_blank"></span></a>
                 </p>
             </div>
             <div class="col-md-6 ms-auto">
                 <div class="row site-section pt-0">
-                    <div class="col-md-8  mb-md-0">
+                    <div class="col-md-6  mb-md-0">
                         <h3>PAGINAS DE INTERES</h3>
                         <ul class="list-unstyled">
                             <li><a href="https://www.impuestos.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i> SERVICIO DE IMPUESTOS NACIONALES</a></li>
-                            <li><a href="https://fundempresa.org.bo/" target="_blank"><i class="bi bi-chevron-right"></i> SEPREC</a></li>
+                            <li><a href="https://www.fundempresa.org.bo/" target="_blank"><i class="bi bi-chevron-right"></i> SEPREC</a></li>
                             <li><a href="https://auditorescontadoresbolivia.org/" target="_blank"><i class="bi bi-chevron-right"></i> COLEGIO DE AUDITORES DE BOLIVIA</a></li>
                             <li><a href="https://www.ait.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i> AUTORIDAD DE IMPUGNACION TRIBUTARIA</a></li>
-                            <li><a href="https://www.ait.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i> MINISTERIO DE TRABAJO</a></li>
+                            <li><a href="https://www.mintrabajo.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i> MINISTERIO DE TRABAJO</a></li>
+                            <li><a href="https://www.cns.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i> CAJA NACIONAL DE SALUD</a></li>
+                            <li><a href="https://www.gestora.bo/" target="_blank"><i class="bi bi-chevron-right"></i> GESTORA</a></li>
+                            <li><a href="https://www.contraloria.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i> CONTRALORIA</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6  mb-md-0">
+                        <br><br>
+                        <ul class="list-unstyled">
+                            <li><a href="https://www.cps.org.bo/cochabamba" target="_blank"><i class="bi bi-chevron-right"></i> CAJA PETROLERA</a></li>
+                            <li><a href="https://cajacordescba.bo/" target="_blank"><i class="bi bi-chevron-right"></i> CAJA CORDES</a></li>
+                            <li><a href="https://www.aduana.gob.bo/aduana7/" target="_blank"><i class="bi bi-chevron-right"></i> ADUANA NACIONAL</a></li>
+                {{--             <li><a href="https://www.ait.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i> MINISTERIO DE TRABAJO</a></li>
                             <li><a href="https://www.ait.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i> CAJA NACIONAL DE SALUD</a></li>
                             <li><a href="https://www.ait.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i> GESTORA</a></li>
-                            <li><a href="https://www.ait.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i>   CONTRALURIA</a></li>
+                            <li><a href="https://www.ait.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i>   CONTRALURIA</a></li> --}}
                         </ul>
-                    </div>  
+                    </div>   
                 </div>
             </div>
+            
         </div>
 
         <div class="row justify-content-center text-center">
