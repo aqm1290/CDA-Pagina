@@ -20,9 +20,9 @@ use App\Http\Controllers\NoticiaController;
 |
 */
 
-Route::get('/biblioteca1', function () {
-    return view('servicios.digital1');
-});
+
+
+
 
 /* Route::get('/dashboard', function () {
     return view('dashboard');
@@ -84,3 +84,49 @@ Route::get('/convenios', [App\Http\Controllers\ConvenioController::class, 'index
 
 
 
+Route::get('/biblioteca1', function () {
+    return view('servicios.digital1');
+});
+
+Route::get('/clubes', function () {
+    return view('deportesADA.clubes');
+});
+
+Route::get('/clubActivos', function () {
+    return view('deportesADA.clubes.Activos');
+});
+Route::get('/clubAudimilenium', function () {
+    return view('deportesADA.clubes.Audimilenium');
+});
+Route::get('/clubBimonetarios', function () {
+    return view('deportesADA.clubes.Bimonetarios');
+});
+Route::get('/clubCGR', function () {
+    return view('deportesADA.clubes.CGR');
+});
+Route::get('/clubEfetivos', function () {
+    return view('deportesADA.clubes.Efetivos');
+});
+Route::get('/clubExigibles', function () {
+    return view('deportesADA.clubes.Exigibles');
+});
+Route::get('/clubMaster', function () {
+    return view('deportesADA.clubes.Master');
+});
+Route::get('/clubSeniorClub', function () {
+    return view('deportesADA.clubes.SeniorClub');
+});
+Route::get('/clubValorFuturo', function () {
+    return view('deportesADA.clubes.ValorFuturo');
+});
+
+
+Route::get('/normas', function () {
+    return view('normativaLegal.normas.index');
+});
+Route::get('/normasAuditoria', function () {
+    return view('normativaLegal.normas.normasA');
+});
+Route::get('/normasContabilidad', function () {
+    return view('normativaLegal.normas.normasC');
+});

@@ -253,24 +253,26 @@
                             <li class="nav-item">
                                 <a class="nav-link" data-bs-toggle="tab" href="#tab-3">AUDIMILENIUM</a>
                             </li>
+                            
                             <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">C.G.R.</a>
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">BIMONETARIOS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">BIMONETARIOS</a>
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">C.G.R.</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" data-bs-toggle="tab" href="#tab-6">EFECTIVOS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="tab" href="#tab-7">MASTER</a>
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-7">EXIGIBLES</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="tab" href="#tab-8">SENIOR CLUB</a>
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-8">MASTER</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="tab" href="#tab-9">EXIGIBLES</a>
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-9">SENIOR CLUB</a>
                             </li>
+                            
                             <li class="nav-item">
                                 <a class="nav-link" data-bs-toggle="tab" href="#tab-10">VALOR FUTURO</a>
                             </li>
@@ -319,7 +321,7 @@
                         </div>
                         </div>
                     </div>
-                    <div class="tab-pane" id="tab-5">
+                    <div class="tab-pane" id="tab-4">
                         <div class="row gy-4">
                         <div class="col-lg-8 details order-2 order-lg-1">
                             <h3>BIMONETARIOS</h3>
@@ -331,7 +333,7 @@
                         </div>
                         </div>
                     </div>
-                    <div class="tab-pane" id="tab-4">
+                    <div class="tab-pane" id="tab-5">
                         <div class="row gy-4">
                         <div class="col-lg-8 details order-2 order-lg-1">
                             <h3>C.G.R.</h3>
@@ -356,7 +358,7 @@
                         </div>
                         </div>
                     </div>
-                    <div class="tab-pane" id="tab-9">
+                    <div class="tab-pane" id="tab-7">
                         <div class="row gy-4">
                         <div class="col-lg-8 details order-2 order-lg-1">
                             <h3>EXIGIBLES</h3>
@@ -368,7 +370,7 @@
                         </div>
                         </div>
                     </div>
-                    <div class="tab-pane" id="tab-7">
+                    <div class="tab-pane" id="tab-8">
                         <div class="row gy-4">
                         <div class="col-lg-8 details order-2 order-lg-1">
                             <h3>MASTER</h3>
@@ -380,7 +382,7 @@
                         </div>
                         </div>
                     </div>
-                    <div class="tab-pane" id="tab-8">
+                    <div class="tab-pane" id="tab-9">
                         <div class="row gy-4">
                         <div class="col-lg-8 details order-2 order-lg-1">
                             <h3>SENIOR CLUB</h3>
@@ -473,21 +475,21 @@
                                                 <div class="swiper-slide">
                                                     <div class="review text-center">
                                                         <h3>IMAGENES</h3>
-                                                        <img src="{{asset('img/Logo HD.fw.png')}}" alt="Image" class="img-fluid rounded-circle mb-3">
+                                                        <img src="{{asset('img/Logo HD.fw.png')}}" id="iimg" alt="Image" class="img-fluid rounded-circle mb-3">
                                                         
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="review text-center">
                                                         <h3>MAS IMAGENES</h3>
-                                                        <img src="{{asset('img/Logo HD.fw.png')}}" alt="Image" class="img-fluid rounded-circle mb-3">
+                                                        <img src="{{asset('img/Logo HD.fw.png')}}" id="iimg" alt="Image" class="img-fluid rounded-circle mb-3">
                                                         
                                                     </div>
                                                 </div>
                                                 <div class="swiper-slide">
                                                     <div class="review text-center">
                                                         <h3>COMPLEJO CDA </h3>
-                                                        <img src="{{asset('img/Logo HD.fw.png')}}" alt="Image" class="img-fluid rounded-circle mb-3">
+                                                        <img src="{{asset('img/Logo HD.fw.png')}}" id="iimg" alt="Image" class="img-fluid rounded-circle mb-3">
                                                     </div>
                                                 </div>
                                             </div>
@@ -505,7 +507,7 @@
                                 <div class="col-md-12 me-auto text-center text-md-start mb-3 mb-md-0" data-aos="fade-up" data-aos-delay="300">
                                     <h2>DIRECCION DEL COMPLEJO CDA.</h2>
                                     <div>
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15228.737079710781!2d-66.21922507271724!3d-17.40294228932365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93e37366e21f1041%3A0x36954263d87bb9!2sComplejo%20del%20Colegio%20de%20auditores%20-%20Cochabamba!5e0!3m2!1ses!2sbo!4v1666969113649!5m2!1ses!2sbo" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15228.737079710781!2d-66.21922507271724!3d-17.40294228932365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93e37366e21f1041%3A0x36954263d87bb9!2sComplejo%20del%20Colegio%20de%20auditores%20-%20Cochabamba!5e0!3m2!1ses!2sbo!4v1666969113649!5m2!1ses!2sbo" width="500" height="370" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                     </div>
                                 </div>
                             

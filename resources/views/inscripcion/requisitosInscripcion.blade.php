@@ -52,21 +52,30 @@
             <div class="tab-content">
                 <div class="tab-pane active show" id="tab-1">
                     <div class="row">
-                        <div class="col-lg-8 order-2 order-lg-1 mt-3 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
-                            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-                            <p class="fst-italic">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua.
-                            </p>
-                            <ul>
-                                <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                                <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                                <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-                            </ul>
+                        <div class="col-lg-7 order-2 order-lg-1 mt-3 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
+                            <h3> REQUISITOS</h3>
+                            
                             <p>
-                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                culpa qui officia deserunt mollit anim id est laborum
+                                El profesional con grado de Licenciado en Auditoría o Contaduría Pública que desee inscribirse en el Colegio de Auditores de Cochabamba, debe cumplir con varios requisitos y presentarlos en las oficinas del Colegio. Al finalizar su trámite se le entregará el Carnet Profesional del Colegio que lo acredita como socio activo. Asimismo se le hace entrega un carnet que acredita su inscripción al Colegio de Auditores de Bolivia (CAUB).
+                            </p>
+                            <p class="fst-italic">
+                                Requisitos
+                            </p>
+                            <p>
+                                1.- Solicitud de inscripción (con copia) dirigida al Directorio del Colegio de Auditores, especificando el tipo de pago (Contado o crédito) e indicando que la inscripción será a nivel Departamental y Nacional
+                                <br> 2.- Fotocopia simple de la Cédula de Identidad (2 ejemplares)
+                                <br> 3.- Fotocopia legalizada del Diploma Académico Universitario (2 ejemplares)
+                                <br> 4.- Fotocopia legalizada del Título en Provisión Nacional (2 ejemplares)
+                                <br> 5.- Una breve Hoja de Vida sin anexos (2 ejemplares)
+                                <br> 6.- Traer 3 fotos 3 x 4 fondo blanco
+                                <br> 7.- Traer todo en un folder amarillo con nepaco (todo perforado y nepaqueado)
+                            </p>
+                            <p>
+                                Con el visto bueno de la “Secretaría de Actas y Matrícula”(24 horas), se procederá a la inscripción previo pago de la matrícula, de acuerdo a las siguientes modalidades:
+                                <br> - Contado: $us 180.-  (Inscripción al contador) + $us 20.- (Seguro de vida - Único pago) 
+                                <br> - Crédito: $us 200.- A crédito (1º cuota de $us 50.-  y el resto en 5 cuotas de $us. 30.-) + $us 20.- (Seguro de vida - Único pago)
+                                <br> La inscripción incluye el registro  en el Colegio de Auditores de Bolivia.
+                                    En caso de optar por la inscripción solo al Colegio Departamental de Auditores, y no al colegio Nacional,  los requisitos, son los mismos, solo menos un ejemplar en cada uno de los puntos.
                             </p>
                         </div>
                     {{-- <div class="col-lg-8 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">

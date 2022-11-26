@@ -1,0 +1,240 @@
+
+/*--------------------------------------------------------------
+# normas
+--------------------------------------------------------------*/
+.normas .norma-box {
+    box-shadow: 0px 0 30px rgba(1, 42, 112, 0.466);
+    height: 100%;
+    padding: 60px 30px;
+    text-align: center;
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  
+  .normas .norma-box .icon {
+    font-size: 36px;
+    padding: 40px 20px;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 25px;
+    display: inline-block;
+    line-height: 0;
+    transition: 0.3s;
+  }
+  
+  .normas .norma-box h3 {
+    color: #444444;
+    font-weight: 700;
+  }
+  
+  .normas .norma-box .read-more {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px 20px;
+  }
+  
+  .normas .norma-box .read-more i {
+    line-height: 0;
+    margin-left: 5px;
+    font-size: 18px;
+  }
+  
+  .normas .norma-box.blue {
+    border-bottom: 3px solid #00084e;
+  }
+  
+  .normas .norma-box.blue .icon {
+    color: #00084e;
+    background: #dbf3fe;
+  }
+  
+  .normas .norma-box.blue .read-more {
+    color: #00084e;
+  }
+  
+  .normas .norma-box.blue:hover {
+    background: #00084e;
+  }
+  
+  .normas .norma-box.orange {
+    border-bottom: 3px solid #f68c09;
+  }
+  
+  .normas .norma-box.orange .icon {
+    color: #f68c09;
+    background: #fde3c4;
+  }
+  
+  .normas .norma-box.orange .read-more {
+    color: #f68c09;
+  }
+  
+  .normas .norma-box.orange:hover {
+    background: #f68c09;
+  }
+  
+  .normas .norma-box.green {
+    border-bottom: 3px solid #08da4e;
+  }
+  
+  .normas .norma-box.green .icon {
+    color: #08da4e;
+    background: #cffddf;
+  }
+  
+  .normas .norma-box.green .read-more {
+    color: #08da4e;
+  }
+  
+  .normas .norma-box.green:hover {
+    background: #08da4e;
+  }
+  
+  .normas .norma-box.red {
+    border-bottom: 3px solid #970000;
+  }
+  
+  .normas .norma-box.red .icon {
+    color: #970000;
+    background: #fef7f8;
+  }
+  
+  .normas .norma-box.red .read-more {
+    color: #970000;
+  }
+  
+  .normas .norma-box.red:hover {
+    background: #970000;
+  }
+  
+  .normas .norma-box.purple {
+    border-bottom: 3px solid #b50edf;
+  }
+  
+  .normas .norma-box.purple .icon {
+    color: #b50edf;
+    background: #f8e4fd;
+  }
+  
+  .normas .norma-box.purple .read-more {
+    color: #b50edf;
+  }
+  
+  .normas .norma-box.purple:hover {
+    background: #b50edf;
+  }
+  
+  .normas .norma-box.pink {
+    border-bottom: 3px solid #f51f9c;
+  }
+  
+  .normas .norma-box.pink .icon {
+    color: #f51f9c;
+    background: #feecf7;
+  }
+  
+  .normas .norma-box.pink .read-more {
+    color: #f51f9c;
+  }
+  
+  .normas .norma-box.pink:hover {
+    background: #f51f9c;
+  }
+  
+  .normas .norma-box:hover h3,
+  .normas .norma-box:hover p,
+  .normas .norma-box:hover .read-more {
+    color: #fff;
+  }
+  
+  .normas .norma-box:hover .icon {
+    background: #fff;
+  }
+  
+
+
+  /*--------------------------------------------------------------
+# normasCA
+--------------------------------------------------------------*/
+.normasCA .icon-box {
+  text-align: center;
+  border: 1px solid #d5e1ed;
+  padding: 32px 20px;
+  transition: all ease-in-out 0.3s;
+}
+
+.normasCA .icon-box .icon {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  background: #1977cc;
+  border-radius: 5px;
+  transition: all 0.3s ease-out 0s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transform-style: preserve-3d;
+}
+
+
+
+
+.normasCA .icon-box h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-size: 24px;
+}
+
+.normasCA .icon-box h4 a {
+  color: #2c4964;
+}
+
+.normasCA .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.normasCA .icon-box:hover {
+  background: #1977cc;
+  border-color: #1977cc;
+}
+.normasCA #img{
+  
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 50%;
+  border-radius: 50%;
+}
+
+
+
+.normasCA .icon-box:hover h4 a,
+.normasCA .icon-box:hover p {
+  color: #fff;
+}
+.normasCA .icon-box  img {
+  transition: ease-in-out 0.4s;
+  
+}
+.normasCA .icon-box:hover img {
+  transform: scale(1.1);
+}
+
+/* .normasCA .icon-box .pic {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  border-radius: 50%;
+}
+
+
+ */

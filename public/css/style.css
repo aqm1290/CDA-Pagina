@@ -1355,55 +1355,6 @@ text-align: center;
 
 
 
-.services .card1 {
-  border: 1px solid rgba(0, 46, 116, 0.15);
-  background: rgb(238, 238, 238);
-  position: relative;
-  border-radius: 0;
-  height: 100%;
-  margin-bottom: 50px;
-}
-
-.services .card1 .card1-img {
-  padding-left: 60px;
-  width: 70%;
-  overflow: hidden;
-  margin-bottom: 15px;
-  border-radius: 0;
-}
-
-.services .card1 .card1-img img {
-  transition: 0.3s ease-in-out;
-}
-
-.services .card1 h3 {
-  font-weight: 700;
-  font-size: 18px;
-  margin-bottom: 5px;
-  padding: 10px 30px;
-  text-transform: uppercase;
-}
-
-.services .card1 a {
-  color: #0023a0;
-  transition: 0.3;
-}
-
-.services .card1 a:hover {
-  color: #008bad;
-}
-
-.services .card1 p {
-  padding: 0 30px;
-  margin-bottom: 30px;
-  color: #252525;
-  font-size: 15px;
-}
-
-.services .card1:hover .card1-img img {
-  transform: scale(1.1);
-}
-
 
 
 
@@ -1898,3 +1849,94 @@ text-align: center;
   color: #fff;
   margin-bottom: 0;
 }
+
+
+
+/*--------------------------------------------------------------
+# Resume
+--------------------------------------------------------------*/
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #050d18;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #1f5297;
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

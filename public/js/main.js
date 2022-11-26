@@ -85,7 +85,20 @@
       this.nextElementSibling.classList.toggle('dropdown-active')
     }
   }, true);
-/**
+
+
+
+  window.addEventListener('load', () => {
+    if (window.location.hash) {
+      if (select(window.location.hash)) {
+        scrollto(window.location.hash)
+      }
+    }
+  });
+
+  
+
+  /**
    * Porfolio isotope and filter
    */
  window.addEventListener('load', () => {
@@ -259,6 +272,33 @@ window.addEventListener('load', () => {
       clickable: true
     }
   });
+
+
+
+ /**
+   *  club1 slider
+   */
+  new Swiper('.club1-slider', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    }
+  });
+
+
+
+
+
+
+
   /**
    * Animation on scroll
    */
@@ -270,6 +310,59 @@ window.addEventListener('load', () => {
       mirror: false
     })
   });  
+
+
+
+
+
+
+
+
+/**
+   * clubes isotope and filter
+   */
+ window.addEventListener('load', () => {
+  let clubesContainer = select('.clubes-container');
+  if (clubesContainer) {
+    let clubesIsotope = new Isotope(clubesContainer, {
+      itemSelector: '.clubes-item',
+      layoutMode: 'fitRows'
+    });
+
+    let clubesFilters = select('#clubes-flters li', true);
+
+    on('click', '#clubes-flters li', function(e) {
+      e.preventDefault();
+      clubesFilters.forEach(function(el) {
+        el.classList.remove('filter-active');
+      });
+      this.classList.add('filter-active');
+
+      clubesIsotope.arrange({
+        filter: this.getAttribute('data-filter')
+      });
+      clubesIsotope.on('arrangeComplete', function() {
+        AOS.refresh()
+      });
+    }, true);
+  }
+
+});
+
+
+/**
+ * Initiate clubes lightbox 
+ */
+const clubesLightbox = GLightbox({
+  selector: '.clubes-lightbox'
+});
+
+
+
+
+
+
+
 
 
 

@@ -75,9 +75,9 @@
                         <p class="mb-3">El Estatuto Orgánico del Colegio Departamental de Auditores atribuye al Directorio Departamental la responsabilidad de cumplir y hacer cumplir las disposiciones
                             relacionadas con el ejercicio profesional facultando para ello la emisión de otras Resoluciones y Reglamentaciones necesarias para orientar el mejor desenvolvimiento de su institución.</p>
                         <p>
-                                Ver el Decreto Supremo <a href="https://www.auditores.org.bo/static/ftp/files/estatutos/decreto_supremo23396-CDA.pdf" target="_blank">Nº 23396 aqui!!</a> 
+                                Ver el Decreto Supremo <a href="https://www.auditores.org.bo/static/ftp/files/estatutos/decreto_supremo23396-CDA.pdf" target="_blank"> <u>Nº 23396 aqui!! </u></a> 
                                 <br> 
-                                Ver la Resolución Ministerial <a href="https://www.auditores.org.bo/static/ftp/files/estatutos/resol_ministerial-1385-89.pdf" target="_blank">Nº 1384/89 aqui!!</a></p>                    
+                                Ver la Resolución Ministerial <a href="https://www.auditores.org.bo/static/ftp/files/estatutos/resol_ministerial-1385-89.pdf" target="_blank"><u>Nº 1384/89 aqui!!</u></a></p>                    
                     </div>
                 </div>
             </div>

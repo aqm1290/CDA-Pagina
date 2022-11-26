@@ -27,8 +27,10 @@
     <link href="{!! asset('vendor/swiper/swiper-bundle.min.css')!!}" rel="stylesheet"> 
 {{-- css --}}
     <link href="{!! asset('css/style.css') !!}" rel="stylesheet"/>
+    <link href="{!! asset('css/normas.css') !!}" rel="stylesheet"/>
     <link href="{!! asset('css/galeria.css') !!}" rel="stylesheet"/>
     <link href="{!! asset('css/biblioteca.css') !!}" rel="stylesheet"/>
+    <link href="{!! asset('css/clubes.css') !!}" rel="stylesheet"/>
     <link rel="stylesheet" href="{!!asset('css/portofolio.css')!!}">
     <link href="{!! asset('css/footer.css') !!}" rel="stylesheet"/>
     {{-- js --}}
@@ -73,7 +75,7 @@
                 <li><a href="historia">HISTORIA</a></li>
                 <li><a href="directoriaADA">DIRECTORIO</a></li>
                 <li><a href="historia">INSCRIPCIONES</a></li>
-                <li><a href="historia">CLUBES </i></a></li>
+                <li><a href="clubes">CLUBES </i></a></li>
                 </ul>
             </li>
             <li><a href="tribunalEtica" class="nav-link scrollto">Tribunal de Ética</a></li>
@@ -97,69 +99,82 @@
     @yield('content') 
 
 <!-- ======= Footer ======= -->
-    <footer class="footer" role="contentinfo">
-        <div class="container">
+
+
+
+
+
+
+<footer id="footer">
+    <div class="footer-top">
+      <div class="container">
         <div class="row">
-            
-            <div class="col-md-6 mb-6 mb-md-0">
+
+          <div class="col-lg-5 col-md-6">
+            <div class="footer-info">
                 <h3><img src="{{asset('img/Logo HD.fw.png')}}" alt="" class="" style="height: 50px;"> COLEGIO DEPARTAMENTAL DE AUDITORES </h3>
-                
+              
                 <p><i class="bi bi-geo-alt"></i> Calle Jordán Nº 224 - Edificio Abugoch Planta Baja Of. 002.</p>
                 <p><i class="bi bi-globe"></i> Cochabamba, Bolivia.</p>
                 <p><i class="bi bi-envelope"></i> Correo: info@auditores.org.bo</p>
                 <p><i class="bi bi-telephone-fill"></i> Teléfono: (+591) 4509208</p>
                 <p><i class="bi bi-newspaper"></i> Fax: (+591) 4256331</p>
                 <p><i class="bi bi-phone"></i> Celular: (+591) 79797679</p>
+                
+
+              <div class="social-links mt-3">
                 <p class="social">
                     {{-- <a href="#"><span class="bi bi-twitter"></span></a> --}}
                     <a href="https://www.facebook.com/cdauditores" target="_blank"><span class="bi bi-facebook"></span></a>
                     {{-- <a href="#"><span class="bi bi-instagram" target="_blank"></span></a> --}}
                     <a href="https://www.youtube.com/channel/UCG2YAbiSJqm2aVHcEagUITg/featured"><span class="bi bi-youtube" target="_blank"></span></a>
                 </p>
+              </div>
             </div>
-            <div class="col-md-6 ms-auto">
-                <div class="row site-section pt-0">
-                    <div class="col-md-6  mb-md-0">
-                        <h3>PAGINAS DE INTERES</h3>
-                        <ul class="list-unstyled">
-                            <li><a href="https://www.impuestos.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i> SERVICIO DE IMPUESTOS NACIONALES</a></li>
-                            <li><a href="https://www.fundempresa.org.bo/" target="_blank"><i class="bi bi-chevron-right"></i> SEPREC</a></li>
-                            <li><a href="https://auditorescontadoresbolivia.org/" target="_blank"><i class="bi bi-chevron-right"></i> COLEGIO DE AUDITORES DE BOLIVIA</a></li>
-                            <li><a href="https://www.ait.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i> AUTORIDAD DE IMPUGNACION TRIBUTARIA</a></li>
-                            <li><a href="https://www.mintrabajo.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i> MINISTERIO DE TRABAJO</a></li>
-                            <li><a href="https://www.cns.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i> CAJA NACIONAL DE SALUD</a></li>
-                            <li><a href="https://www.gestora.bo/" target="_blank"><i class="bi bi-chevron-right"></i> GESTORA</a></li>
-                            <li><a href="https://www.contraloria.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i> CONTRALORIA</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6  mb-md-0">
-                        <br><br>
-                        <ul class="list-unstyled">
-                            <li><a href="https://www.cps.org.bo/cochabamba" target="_blank"><i class="bi bi-chevron-right"></i> CAJA PETROLERA</a></li>
-                            <li><a href="https://cajacordescba.bo/" target="_blank"><i class="bi bi-chevron-right"></i> CAJA CORDES</a></li>
-                            <li><a href="https://www.aduana.gob.bo/aduana7/" target="_blank"><i class="bi bi-chevron-right"></i> ADUANA NACIONAL</a></li>
-                {{--             <li><a href="https://www.ait.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i> MINISTERIO DE TRABAJO</a></li>
-                            <li><a href="https://www.ait.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i> CAJA NACIONAL DE SALUD</a></li>
-                            <li><a href="https://www.ait.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i> GESTORA</a></li>
-                            <li><a href="https://www.ait.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i>   CONTRALURIA</a></li> --}}
-                        </ul>
-                    </div>   
-                </div>
-            </div>
-            
-        </div>
+          </div>
 
-        <div class="row justify-content-center text-center">
-            <div class="paracenter col-md-7">
-            <p class="copyright">Copyright &copy;<script>document.write(new Date().getFullYear())</script><b> CDA-CBBA</b></p>
-            <p class="copyright"><b>COLEGIO DEPARTAMENTAL DE AUDITORES </b></p>
-            
-            </div>
-        </div>
+          <div class="col-lg-4 col-md-6 footer-links">
+            <h4>PAGINAS DE INTERES</h4>
+            <ul class="list-unstyled">
+                <li><a href="https://www.impuestos.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i> SERVICIO DE IMPUESTOS NACIONALES</a></li>
+                <li><a href="https://www.fundempresa.org.bo/" target="_blank"><i class="bi bi-chevron-right"></i> SEPREC</a></li>
+                <li><a href="https://auditorescontadoresbolivia.org/" target="_blank"><i class="bi bi-chevron-right"></i> COLEGIO DE AUDITORES DE BOLIVIA</a></li>
+                <li><a href="https://www.ait.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i> AUTORIDAD DE IMPUGNACION TRIBUTARIA</a></li>
+                <li><a href="https://www.mintrabajo.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i> MINISTERIO DE TRABAJO</a></li>
+                <li><a href="https://www.cns.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i> CAJA NACIONAL DE SALUD</a></li>
+                <li><a href="https://www.gestora.bo/" target="_blank"><i class="bi bi-chevron-right"></i> GESTORA</a></li>
+                <li><a href="https://www.contraloria.gob.bo/" target="_blank"><i class="bi bi-chevron-right"></i> CONTRALORIA</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Otras Paginas</h4>
+            <ul>
+                <li><a href="https://www.cps.org.bo/cochabamba" target="_blank"><i class="bi bi-chevron-right"></i> CAJA PETROLERA</a></li>
+                <li><a href="https://cajacordescba.bo/" target="_blank"><i class="bi bi-chevron-right"></i> CAJA CORDES</a></li>
+                <li><a href="https://www.aduana.gob.bo/aduana7/" target="_blank"><i class="bi bi-chevron-right"></i> ADUANA NACIONAL</a></li>
+            </ul>
+          </div>
 
         </div>
-    </footer>
+      </div>
+    </div>
+    <div class="container">
+      <div class="copyright">
+        Copyright &copy;<script>document.write(new Date().getFullYear())</script><b> CDA-CBBA</b>
+    </div>
+      <div class="credits">
+        <b>COLEGIO DEPARTAMENTAL DE AUDITORES </b>
+    </div>
+    </div>
+  </footer><!-- End Footer -->
 
+
+  
+
+        <div id="preloader">
+            <div class="line"></div>
+        </div>
     
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
     <div class="btn-flotante sm" data-aos="fade-up" data-aos-delay="100">    
@@ -178,6 +193,7 @@
     
     <script src="{!! asset('vendor/swiper/swiper-bundle.min.js') !!}"></script>
     <script src="{!! asset('vendor/bootstrap/js/bootstrap.bundle.min.js')!!}"></script>
+    <script src="{!! asset('js/index.js')!!}"></script>
     
     <script src="{!! asset('js/main.js')!!}"></script>
     
