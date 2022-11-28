@@ -21,7 +21,7 @@
             <div class="col-12">
                 <div class="row justify-content-center">
                     <div class="col-md-9 text-center hero-text">
-                        <h1 data-aos="fade-up" data-aos-delay="100">TRIBUNAL DE ETICA
+                        <h1 data-aos="fade-up" data-aos-delay="100">NORMAS
                         </h1>
                         
                     </div>
@@ -31,8 +31,6 @@
     </div>
 </section>
 <main id="main">
-
-
     <!-- ======= normas Section ======= -->
     <section id="normas" class="normas">
         <div class="container" data-aos="fade-up">
@@ -46,8 +44,10 @@
                     <div class="norma-box blue">
                         <i class="bi bi-journal-bookmark-fill icon"></i>
                         <h3>NORMAS CONTABILIDAD</h3>
-                        <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-                        <a href="normasContabilidad" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                        <p>
+                            
+                        </p>
+                        <a href="normasContabilidad" class="read-more"><span>NORMAS CONTABILIDAD</span> <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
     
@@ -55,8 +55,8 @@
                     <div class="norma-box red">
                         <i class="bi bi-journal-bookmark icon"></i>
                         <h3>NORMAS AUDITORIA</h3>
-                        <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-                        <a href="normasAuditoria" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+                        <p></p>
+                        <a href="normasAuditoria" class="read-more"><span>NORMAS AUDITORIA</span> <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
             </div>

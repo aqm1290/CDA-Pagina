@@ -130,3 +130,7 @@ Route::get('/normasAuditoria', function () {
 Route::get('/normasContabilidad', function () {
     return view('normativaLegal.normas.normasC');
 });
+
+Route::get('/normasContabilidad/NormasdeContabilidadBidFomin', function () {
+    return view('normativaLegal.normas.normasConta.NormasdeContabilidadBidFomin');
+});

@@ -66,7 +66,7 @@
                     <li><a href="#">CPE</a></li>
                     <li><a href="#">LEYES </a></li>
                     <li><a href="#">DECRETOS </a></li>
-                    <li><a href="#">NORMAS </a></li>
+                    <li><a href="normas">NORMAS </a></li>
                 </ul>
             </li>
             

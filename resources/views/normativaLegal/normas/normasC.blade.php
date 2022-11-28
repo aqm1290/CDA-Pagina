@@ -45,19 +45,15 @@
                     <div class="icon-box">
                         <img src="{{asset('img/Normas/Norma5.jpg')}}" id="img" class="img-fluid" alt="">
                         <h4><a href="">Normas de Contabilidad del CTNAC</a></h4>
-                        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                        <p>Para la aplicación de estas normas, favor considerar la resolución 01/2012 del CTNAC sobre vigencia de las normas de Contabilidad Generalmente aceptadas en Bolivia.</p>
                     </div>
                 </div>
     
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
                     <div class="icon-box">
-                        
-                        
-                            <img src="{{asset('img/Normas/Norma4.jpg')}}" id="img" class="img-fluid" alt="">
-                        
-                        
+                        <img src="{{asset('img/Normas/Norma4.jpg')}}" id="img" class="img-fluid" alt="">
                         <h4><a href="">Resolución CTNAC No. 001/2012</a></h4>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                        <p>CONSEJO TÉCNICO NACIONAL DE AUDITORIA Y CONTABILIDAD RESOLUCIÓN CTNAC N° 001/2012 07 DE NOVIEMBRE DE 2012</p>
                     </div>
                 </div>
     
@@ -65,7 +61,7 @@
                     <div class="icon-box">
                         <img src="{{asset('img/Normas/Norma3.jpg')}}" id="img" class="img-fluid" alt="">
                         <h4><a href="">Normas Internacionales de Contabilidad - NIC</a></h4>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                        <p>A continuación ponemos a su disposición para su descarga las Normas Internacionales de Contabilidad - NICNORMAS INTERNACIONALES DE CONTABILIDAD</p>
                     </div>
                 </div>
     
@@ -73,15 +69,15 @@
                     <div class="icon-box">
                         <img src="{{asset('img/Normas/Norma2.jpg')}}" id="img" class="img-fluid" alt="">
                         <h4><a href="">Normas Internacionales de Información Financiera - NIIF</a></h4>
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                        <p>A continuación ponemos a su disposición para su descarga las Normas Internacionales de Información Financiera - NIIFNORMAS INTERNACIONALES DE INFORMACIÓN FINANCIERA</p>
                     </div>
                 </div>
     
                 <div class="col-lg-6 col-md-6 d-flex align-items-stretch mt-4">
                     <div class="icon-box">
                         <img src="{{asset('img/Normas/Norma1.jpg')}}" id="img" class="img-fluid" alt="">
-                        <h4><a href="">Normas de Contabilidad Bid - Fomin</a></h4>
-                        <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+                        <h4><a href="/normasContabilidad/NormasdeContabilidadBidFomin">Normas de Contabilidad Bid - Fomin</a></h4>
+                        <p>A continuación ponemos a su disposición para su descarga las Normas de Contabilidad del Proyecto BID - FOMINRESOLUCIONES DEL CTNAC</p>
                     </div>
                 </div>
     
